@@ -1,0 +1,9 @@
+{
+  "sets": ["tla", "tle"],
+  "language": "en",
+  "recordCount": 524,
+  "fetchedAt": "2026-07-15",
+  "sourceFile": "source-data/scryfall/avatar-cards.raw.json",
+  "generatedBy": "scryfall_json_export.py",
+  "notes": "Zbiór źródłowy kart używany w Avatar MTG Guide."
+}

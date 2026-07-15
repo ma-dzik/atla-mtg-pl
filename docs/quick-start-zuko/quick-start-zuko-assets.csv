@@ -1,0 +1,16 @@
+﻿asset_id,file_name,source_page,used_in_steps,description,status,notes
+zuko-qsg-hand,zuko-qsg-hand.png,4,zuko-step-005,"Początkowa ręka: Warship Scout, Capital Guard i pięć Mountain.",ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-anatomy,zuko-qsg-anatomy.png,4,zuko-step-006,Schemat budowy karty Magic.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-tap-untap,zuko-qsg-tap-untap.png,5,zuko-step-007,Schemat tapowania i odtapowania karty.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-recap-turn-1,zuko-qsg-recap-turn-1.png,7,zuko-step-012,Stan pola po pierwszej turze Zuko.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-scout-damage,zuko-qsg-scout-damage.png,9,zuko-step-016,Warship Scout zadaje przeciwnikowi 2 obrażenia.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-block-trade,zuko-qsg-block-trade.png,11,zuko-step-019|zuko-step-020,Blok Capital Guard i wymiana z Wolf Cove Villager.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-turn-3-combat,zuko-qsg-turn-3-combat.png,12,zuko-step-025|zuko-step-026,Walka Warship Scout i Fire Nation Soldier z Tundra Wall.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-destroy-wall,zuko-qsg-destroy-wall.png,14,zuko-step-032,Zuko's Offense dobija Tundra Wall po walce.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-momo-soldier,zuko-qsg-momo-soldier.png,15,zuko-step-034,Zdolność wejścia Momo niszczy Fire Nation Soldier.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-iroh-sokka,zuko-qsg-iroh-sokka.png,16,zuko-step-040|zuko-step-041,"Sokka blokuje Iroh, a Aang's Defense wzmacnia Sokkę.",ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-momo-flying,zuko-qsg-momo-flying.png,17,zuko-step-044|zuko-step-045,Momo atakuje dzięki lataniu i zadaje 2 obrażenia.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-zhao-double-block,zuko-qsg-zhao-double-block.png,18,zuko-step-049|zuko-step-050,Podwójny blok Zhao przez Sokkę i Katarę.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-final-combat,zuko-qsg-final-combat.png,21,zuko-step-058|zuko-step-059,Walka Aanga z Zuko oraz podwójny blok Katary.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-trample,zuko-qsg-trample.png,21,zuko-step-061|zuko-step-062|zuko-step-063,Fire Nation's Conquest i dwa warianty bloku Komodo Rhino z tratowaniem.,ready,Crop from user-provided Zuko Quick Start Guide
+zuko-qsg-recap-turn-8,zuko-qsg-recap-turn-8.png,22,zuko-step-064|zuko-step-065,Stan pola po ósmej turze Zuko.,ready,Crop from user-provided Zuko Quick Start Guide

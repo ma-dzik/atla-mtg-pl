@@ -1,0 +1,116 @@
+﻿term_id,english_term,polish_term,source_pages,source_sections,category,priority,used_in_quick_start,definition_status,notes
+ability,Ability,zdolność,9,rr-sec-018,ability,must,yes,source-located,Termin nadrzędny dla zdolności aktywowanych i wyzwalanych.
+activated-ability,Activated ability,zdolność aktywowana,8|20,rr-sec-016|rr-sec-018,ability,must,yes,source-located,Quick Start: Sledding Otter-Penguin.
+airbend,Airbend,airbend / technika powietrza,10,rr-sec-021,keyword,should,no,source-located,Termin z zestawu Avatar.
+ally,Ally,Sojusznik,3|10,rr-sec-002|rr-sec-021,card-type,should,no,source-located,Podtyp stworzenia.
+artifact,Artifact,artefakt,4|5,rr-sec-006|rr-sec-007,card-type,should,no,source-located,
+attack,Attack,atakować,4|8,rr-sec-005|rr-sec-016,combat,must,yes,source-located,
+aura,Aura,Aura,5,rr-sec-007,card-type,should,no,source-located,
+battlefield,Battlefield,pole bitwy,4|6,rr-sec-003|rr-sec-009,zone,must,yes,source-located,
+beginning-phase,Beginning phase,faza początkowa,7,rr-sec-012|rr-sec-013,turn-structure,should,no,source-located,
+block,Block,blokować,4|8,rr-sec-005|rr-sec-016,combat,must,yes,source-located,
+card,Card,karta,10,rr-sec-021,other,must,yes,source-located,
+card-name,Card name,nazwa karty,3,rr-sec-002,other,must,yes,source-located,
+card-text,Card text / Text box,tekst karty / pole tekstowe,3|9,rr-sec-002|rr-sec-017,other,must,yes,source-located,
+cast,Cast,rzucić czar,5|9|10,rr-sec-008|rr-sec-018|rr-sec-021,game-action,must,yes,source-located,
+cleanup-step,Cleanup step,krok porządkowy,8,rr-sec-015,turn-structure,should,no,source-located,
+colored-mana,Colored mana,kolorowa mana,3|9,rr-sec-002|rr-sec-018,resource,must,yes,source-located,
+combat,Combat,walka,8,rr-sec-016,combat,must,yes,source-located,
+combat-damage,Combat damage,obrażenia bojowe,8,rr-sec-016,combat,must,yes,source-located,
+combat-phase,Combat phase,faza walki,7|8,rr-sec-012|rr-sec-016,turn-structure,should,no,source-located,
+counter-permanent,Counter on a permanent,znacznik na permanencie,10,rr-sec-021,status,must,yes,source-located,Quick Start wykorzystuje znaczniki +1/+1.
+counter-spell,Counter a spell or ability,skontrować czar lub zdolność,10,rr-sec-020|rr-sec-021,game-action,should,no,source-located,Nie mylić ze znacznikiem.
+create-token,Create a token,stworzyć token,10,rr-sec-021,game-action,must,yes,source-located,
+creature,Creature,stwór,4,rr-sec-005,card-type,must,yes,source-located,
+damage,Damage,obrażenia,4|8,rr-sec-005|rr-sec-015|rr-sec-016,combat,must,yes,source-located,
+damage-assignment,Assign combat damage,przydzielić obrażenia bojowe,8,rr-sec-016,combat,must,yes,source-located,Quick Start: podwójne blokowanie.
+deathtouch,Deathtouch,dotyk śmierci,10|11,rr-sec-021|rr-sec-022,keyword,should,no,source-located,
+defender,Defender,obrońca,11,rr-sec-022,keyword,must,yes,source-located,Quick Start: Tundra Wall.
+destroy,Destroy,zniszczyć,11,rr-sec-022,game-action,must,yes,source-located,
+discard,Discard,odrzucić kartę,8|11,rr-sec-015|rr-sec-022,game-action,should,no,source-located,
+double-block,Double block / Multiple blockers,podwójny blok / wielu blokujących,8,rr-sec-016,combat,must,yes,source-located,
+double-strike,Double strike,podwójny cios,11,rr-sec-022,keyword,should,no,source-located,
+draw,Draw,dobrać kartę,7,rr-sec-013,game-action,must,yes,source-located,
+draw-step,Draw step,krok dobierania,7,rr-sec-013,turn-structure,should,no,source-located,
+earthbend,Earthbend,earthbend / technika ziemi,11,rr-sec-022,keyword,should,no,source-located,Termin z zestawu Avatar.
+enchant,Enchant,oczarować / enchant,11,rr-sec-022,keyword,should,no,source-located,
+enchantment,Enchantment,enchantment / zaklęcie stałe,5,rr-sec-007,card-type,must,yes,source-located,Quick Start: Fire Nation's Conquest.
+end-step,End step,krok końcowy,8,rr-sec-015,turn-structure,should,no,source-located,
+ending-phase,Ending phase,faza końcowa,7|8,rr-sec-012|rr-sec-015,turn-structure,should,no,source-located,
+enters,Enters the battlefield,wchodzi na pole bitwy,4|9,rr-sec-003|rr-sec-018,game-action,must,yes,source-located,Quick Start używa zdolności 'enters'.
+equip,Equip,wyposażyć,11,rr-sec-022,keyword,should,no,source-located,
+equipment,Equipment,ekwipunek,5,rr-sec-007,card-type,should,no,source-located,
+exhaust,Exhaust,wyczerpanie,11,rr-sec-022,keyword,should,no,source-located,Termin z zestawu.
+exile,Exile,wygnanie,6|11,rr-sec-009|rr-sec-022,zone,should,yes,source-located,Strefa widoczna na diagramach Quick Start.
+expansion-symbol,Expansion symbol,symbol dodatku,3,rr-sec-002,other,should,yes,source-located,
+fight,Fight,walczyć (efekt karty),11,rr-sec-022,game-action,should,no,source-located,Nie jest to combat.
+firebend,Firebend / Firebending,firebend / technika ognia,11,rr-sec-022,keyword,should,no,source-located,"Rules Reference używa formy FIREBEND, JSON zawiera Firebending."
+first-player,First player,pierwszy gracz,7,rr-sec-010,other,must,yes,source-located,
+first-strike,First strike,pierwszy cios,11,rr-sec-022,keyword,should,no,source-located,
+flash,Flash,flash / błysk,11,rr-sec-022,keyword,should,no,source-located,
+forestcycling,Forestcycling,wyszukiwanie Forest przez cycling,11,rr-sec-022,keyword,later,no,source-located,Odsyła do landcycling.
+flying,Flying,latanie,11,rr-sec-022,keyword,must,yes,source-located,
+generic-mana,Generic mana,mana generyczna,3|9,rr-sec-002|rr-sec-018,resource,must,yes,source-located,
+golden-rule,Golden Rule,złota zasada,9,rr-sec-017,other,should,no,source-located,Tekst karty może zmieniać zasady ogólne.
+graveyard,Graveyard,cmentarz,6,rr-sec-009,zone,must,yes,source-located,
+hand,Hand,ręka,6,rr-sec-009,zone,must,yes,source-located,
+haste,Haste,pośpiech,11,rr-sec-022,keyword,must,yes,source-located,
+hexproof,Hexproof,hexproof / odporność na wskazywanie przez przeciwnika,12,rr-sec-023,keyword,should,no,source-located,Robocza nazwa polska do późniejszej decyzji.
+hybrid-mana,Hybrid mana,mana hybrydowa,3|12,rr-sec-002|rr-sec-023,resource,should,no,source-located,
+illegal-target,Illegal target,nielegalny cel,10,rr-sec-020,game-action,should,no,source-located,
+indestructible,Indestructible,niezniszczalność,12,rr-sec-023,keyword,should,no,source-located,
+instant,Instant,instant / czar natychmiastowy,5,rr-sec-008,card-type,must,yes,source-located,Quick Start: Aang's Defense.
+islandcycling,Islandcycling,wyszukiwanie Island przez cycling,12,rr-sec-023,keyword,later,no,source-located,
+keyword,Keyword,słowo kluczowe,2|10,rr-sec-001|rr-sec-021,other,must,yes,source-located,
+land,Land,ląd,4,rr-sec-004,card-type,must,yes,source-located,
+landcycling,Landcycling,wyszukiwanie lądu przez cycling,12,rr-sec-023,keyword,should,no,source-located,
+landfall,Landfall,landfall / wejście lądu,12,rr-sec-023,keyword,should,no,source-located,
+lesson,Lesson,Lesson / lekcja,12,rr-sec-023,card-type,should,no,source-located,Podtyp instant lub sorcery.
+library,Library,biblioteka / talia,6,rr-sec-009,zone,must,yes,source-located,
+life-total,Life total,liczba punktów życia,5|7,rr-sec-010,resource,must,yes,source-located,
+lifelink,Lifelink,więź życia,12,rr-sec-023,keyword,must,yes,source-located,
+main-phase,Main phase,faza główna,7|8,rr-sec-012|rr-sec-014,turn-structure,should,no,source-located,
+mana,Mana,mana,3|9|12,rr-sec-002|rr-sec-018|rr-sec-023,resource,must,yes,source-located,
+mana-cost,Mana cost,koszt many,3,rr-sec-002,resource,must,yes,source-located,
+mana-value,Mana value,wartość many,12,rr-sec-023,resource,should,no,source-located,
+menace,Menace,groźba / menace,12,rr-sec-023,keyword,must,yes,source-located,
+mill,Mill,przemielić,12,rr-sec-023,game-action,should,no,source-located,
+mountaincycling,Mountaincycling,wyszukiwanie Mountain przez cycling,12,rr-sec-023,keyword,later,no,source-located,
+mulligan,Mulligan,mulligan / wymiana ręki początkowej,7,rr-sec-011,game-action,should,no,source-located,
+opening-hand,Opening hand,ręka początkowa,7,rr-sec-010|rr-sec-011,zone,must,yes,source-located,
+permanent,Permanent,permanent,4|12,rr-sec-003|rr-sec-023,other,must,yes,source-located,
+plainscycling,Plainscycling,wyszukiwanie Plains przez cycling,12,rr-sec-023,keyword,later,no,source-located,
+play,Play a card,zagrać kartę,12,rr-sec-023,game-action,must,yes,source-located,Rozróżnić zagranie lądu i rzucenie czaru.
+power,Power,atak / siła,3|4,rr-sec-002|rr-sec-005,resource,must,yes,source-located,Do ustalenia finalna etykieta UI: Atak czy Siła.
+prowess,Prowess,biegłość,12,rr-sec-023,keyword,should,no,source-located,
+raid,Raid,najazd,12,rr-sec-023,keyword,should,no,source-located,
+reach,Reach,zasięg,12,rr-sec-023,keyword,must,yes,source-located,
+red-spell,Red spell,czerwony czar,9,rr-sec-018,other,must,yes,source-located,Quick Start: zdolność Zuko.
+resolve,Resolve,rozpatrzyć,9,rr-sec-018|rr-sec-019,game-action,must,yes,source-located,
+respond,Respond,odpowiedzieć na czar lub zdolność,9,rr-sec-019,game-action,must,yes,source-located,
+sacrifice,Sacrifice,poświęcić,12,rr-sec-023,game-action,should,no,source-located,
+scry,Scry,scry / wróżenie,12,rr-sec-023,keyword,should,no,source-located,
+shuffle,Shuffle,tasować,7,rr-sec-010,game-action,must,yes,source-located,Quick Start: zakaz tasowania talii treningowej.
+sorcery,Sorcery,sorcery / czar główny,5,rr-sec-008,card-type,must,yes,source-located,Quick Start: Zuko's Offense.
+spell,Spell,czar,9,rr-sec-018,other,must,yes,source-located,
+stack,Stack,stos,9|10,rr-sec-019|rr-sec-020,zone,must,yes,source-located,Quick Start pokazuje odpowiedź instantem.
+summoning-sickness,Summoning sickness,choroba przywołania,4,rr-sec-005,status,must,yes,source-located,
+surveil,Surveil,surveil / obserwacja,13,rr-sec-024,keyword,should,no,source-located,
+swampcycling,Swampcycling,wyszukiwanie Swamp przez cycling,13,rr-sec-024,keyword,later,no,source-located,
+tap,Tap,tapować / obrócić kartę,5|9,rr-sec-018,status,must,yes,source-located,
+target,Target,wskazany cel,9,rr-sec-018,game-action,must,yes,source-located,
+text-box,Text box,pole tekstowe,3,rr-sec-002,other,must,yes,source-located,
+token,Token,token / żeton stworzenia,10,rr-sec-021,other,must,yes,source-located,
+toughness,Toughness,obrona / wytrzymałość,3|4,rr-sec-002|rr-sec-005,resource,must,yes,source-located,Do ustalenia finalna etykieta UI.
+trade,Trade,wymiana stworów,11,rr-sec-016,combat,must,yes,source-located,Termin używany w Quick Start.
+trample,Trample,tratowanie,13,rr-sec-024,keyword,must,yes,source-located,
+triggered-ability,Triggered ability,zdolność wyzwalana,9,rr-sec-018,ability,must,yes,source-located,
+turn,Turn,tura,7,rr-sec-012,turn-structure,must,yes,source-located,
+type-line,Type line,linia typu,3,rr-sec-002,other,must,yes,source-located,
+untap,Untap,odtapować,5|7,rr-sec-013,status,must,yes,source-located,
+untap-step,Untap step,krok odtapowania,7,rr-sec-013,turn-structure,should,no,source-located,
+upkeep-step,Upkeep step,krok utrzymania,7,rr-sec-013,turn-structure,should,no,source-located,
+vigilance,Vigilance,czujność,13,rr-sec-024,keyword,must,yes,source-located,
+waterbend,Waterbend,waterbend / technika wody,13,rr-sec-024,keyword,should,no,source-located,Termin z zestawu Avatar.
+win-condition,Win condition,warunek zwycięstwa,5|7,rr-sec-010,other,must,yes,source-located,
+x-cost,X,wartość X,13,rr-sec-024,resource,should,no,source-located,

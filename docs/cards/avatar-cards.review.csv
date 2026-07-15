@@ -1,0 +1,525 @@
+﻿print_key,name,set_code,collector_number,layout,face_count,type_line_source,type_line_pl,has_rules_text,rules_translation_status,explanation_status
+tla:1,Aang's Journey,TLA,1,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:2,Energybending,TLA,2,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:3,Zuko's Exile,TLA,3,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:4,"Aang, the Last Airbender",TLA,4,normal,1,Legendary Creature — Human Avatar Ally,Legendarne Stworzenie — Człowiek Avatar Sojusznik,yes,not-started,not-started
+tla:5,Aang's Iceberg,TLA,5,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:6,Airbender Ascension,TLA,6,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:7,Airbender's Reversal,TLA,7,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:8,Airbending Lesson,TLA,8,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:9,"Appa, Loyal Sky Bison",TLA,9,normal,1,Legendary Creature — Bison Ally,Legendarne Stworzenie — Bizon Sojusznik,yes,not-started,not-started
+tla:10,"Appa, Steadfast Guardian",TLA,10,normal,1,Legendary Creature — Bison Ally,Legendarne Stworzenie — Bizon Sojusznik,yes,not-started,not-started
+tla:11,Avatar Enthusiasts,TLA,11,normal,1,Creature — Human Peasant Ally,Stworzenie — Człowiek Chłop Sojusznik,yes,not-started,not-started
+tla:12,Avatar's Wrath,TLA,12,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:13,Compassionate Healer,TLA,13,normal,1,Creature — Human Cleric Ally,Stworzenie — Człowiek Kleryk Sojusznik,yes,not-started,not-started
+tla:14,Curious Farm Animals,TLA,14,normal,1,Creature — Boar Elk Bird Ox,Stworzenie — Dzik Jeleń Ptak Wół,yes,not-started,not-started
+tla:15,Destined Confrontation,TLA,15,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:16,Earth Kingdom Jailer,TLA,16,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:17,Earth Kingdom Protectors,TLA,17,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:18,Enter the Avatar State,TLA,18,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:19,Fancy Footwork,TLA,19,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:20,Gather the White Lotus,TLA,20,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:21,Glider Kids,TLA,21,normal,1,Creature — Human Pilot Ally,Stworzenie — Człowiek Pilot Sojusznik,yes,not-started,not-started
+tla:22,Glider Staff,TLA,22,normal,1,Artifact — Equipment,Artefakt — Ekwipunek,yes,not-started,not-started
+tla:23,"Hakoda, Selfless Commander",TLA,23,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:24,Invasion Reinforcements,TLA,24,normal,1,Creature — Human Warrior Ally,Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:25,Jeong Jeong's Deserters,TLA,25,normal,1,Creature — Human Rebel Ally,Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tla:26,Kyoshi Warriors,TLA,26,normal,1,Creature — Human Warrior Ally,Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:27,The Legend of Yangchen // Avatar Yangchen,TLA,27,transform,2,Enchantment — Saga // Legendary Creature — Avatar,Urok — Saga // Legendarne Stworzenie — Avatar,yes,not-started,not-started
+tla:28,Master Piandao,TLA,28,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:29,"Momo, Friendly Flier",TLA,29,normal,1,Legendary Creature — Lemur Bat Ally,Legendarne Stworzenie — Lemur Nietoperz Sojusznik,yes,not-started,not-started
+tla:30,"Momo, Playful Pet",TLA,30,normal,1,Legendary Creature — Lemur Bat Ally,Legendarne Stworzenie — Lemur Nietoperz Sojusznik,yes,not-started,not-started
+tla:31,Path to Redemption,TLA,31,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tla:32,Rabaroo Troop,TLA,32,normal,1,Creature — Rabbit Kangaroo,Stworzenie — Królik Kangur,yes,not-started,not-started
+tla:33,Razor Rings,TLA,33,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:34,Sandbenders' Storm,TLA,34,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:35,South Pole Voyager,TLA,35,normal,1,Creature — Human Scout Ally,Stworzenie — Człowiek Zwiadowca Sojusznik,yes,not-started,not-started
+tla:36,Southern Air Temple,TLA,36,normal,1,Legendary Enchantment — Shrine,Legendarne Urok — Sanktuarium,yes,not-started,not-started
+tla:37,"Suki, Courageous Rescuer",TLA,37,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:38,Team Avatar,TLA,38,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:39,United Front,TLA,39,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:40,Vengeful Villagers,TLA,40,normal,1,Creature — Human Citizen,Stworzenie — Człowiek Obywatel,yes,not-started,not-started
+tla:41,Water Tribe Captain,TLA,41,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:42,Water Tribe Rallier,TLA,42,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:43,Yip Yip!,TLA,43,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:44,Accumulate Wisdom,TLA,44,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:45,Benevolent River Spirit,TLA,45,normal,1,Creature — Spirit,Stworzenie — Duch,yes,not-started,not-started
+tla:46,Boomerang Basics,TLA,46,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:47,Crashing Wave,TLA,47,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:48,Ember Island Production,TLA,48,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:49,First-Time Flyer,TLA,49,normal,1,Creature — Human Pilot Ally,Stworzenie — Człowiek Pilot Sojusznik,yes,not-started,not-started
+tla:50,Flexible Waterbender,TLA,50,normal,1,Creature — Human Warrior Ally,Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:51,Forecasting Fortune Teller,TLA,51,normal,1,Creature — Human Advisor Ally,Stworzenie — Człowiek Doradca Sojusznik,yes,not-started,not-started
+tla:52,Geyser Leaper,TLA,52,normal,1,Creature — Human Warrior Ally,Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:53,Giant Koi,TLA,53,normal,1,Creature — Fish,Stworzenie — Ryba,yes,not-started,not-started
+tla:54,Gran-Gran,TLA,54,normal,1,Legendary Creature — Human Peasant Ally,Legendarne Stworzenie — Człowiek Chłop Sojusznik,yes,not-started,not-started
+tla:55,Honest Work,TLA,55,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tla:56,Iguana Parrot,TLA,56,normal,1,Creature — Lizard Bird Pirate,Stworzenie — Jaszczurka Ptak Pirat,yes,not-started,not-started
+tla:57,Invasion Submersible,TLA,57,normal,1,Artifact — Vehicle,Artefakt — Pojazd,yes,not-started,not-started
+tla:58,It'll Quench Ya!,TLA,58,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:59,"Katara, Bending Prodigy",TLA,59,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:60,Knowledge Seeker,TLA,60,normal,1,Creature — Fox Spirit,Stworzenie — Lis Duch,yes,not-started,not-started
+tla:61,The Legend of Kuruk // Avatar Kuruk,TLA,61,transform,2,Enchantment — Saga // Legendary Creature — Avatar,Urok — Saga // Legendarne Stworzenie — Avatar,yes,not-started,not-started
+tla:62,Lost Days,TLA,62,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:63,Master Pakku,TLA,63,normal,1,Legendary Creature — Human Advisor Ally,Legendarne Stworzenie — Człowiek Doradca Sojusznik,yes,not-started,not-started
+tla:64,"The Mechanist, Aerial Artisan",TLA,64,normal,1,Legendary Creature — Human Artificer Ally,Legendarne Stworzenie — Człowiek Rzemieślnik Sojusznik,yes,not-started,not-started
+tla:65,North Pole Patrol,TLA,65,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:66,Octopus Form,TLA,66,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:67,Otter-Penguin,TLA,67,normal,1,Creature — Otter Bird,Stworzenie — Wydra Ptak,yes,not-started,not-started
+tla:68,Rowdy Snowballers,TLA,68,normal,1,Creature — Human Peasant Ally,Stworzenie — Człowiek Chłop Sojusznik,yes,not-started,not-started
+tla:69,Secret of Bloodbending,TLA,69,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:70,Serpent of the Pass,TLA,70,normal,1,Creature — Serpent,Stworzenie — Wąż morski,yes,not-started,not-started
+tla:71,Sokka's Haiku,TLA,71,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:72,The Spirit Oasis,TLA,72,normal,1,Legendary Enchantment — Shrine,Legendarne Urok — Sanktuarium,yes,not-started,not-started
+tla:73,Spirit Water Revival,TLA,73,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:74,"Teo, Spirited Glider",TLA,74,normal,1,Legendary Creature — Human Pilot Ally,Legendarne Stworzenie — Człowiek Pilot Sojusznik,yes,not-started,not-started
+tla:75,Tiger-Seal,TLA,75,normal,1,Creature — Cat Seal,Stworzenie — Kot Foka,yes,not-started,not-started
+tla:76,"Ty Lee, Chi Blocker",TLA,76,normal,1,Legendary Creature — Human Performer Ally,Legendarne Stworzenie — Człowiek Artysta Sojusznik,yes,not-started,not-started
+tla:77,The Unagi of Kyoshi Island,TLA,77,normal,1,Legendary Creature — Serpent,Legendarne Stworzenie — Wąż morski,yes,not-started,not-started
+tla:78,"Wan Shi Tong, Librarian",TLA,78,normal,1,Legendary Creature — Bird Spirit,Legendarne Stworzenie — Ptak Duch,yes,not-started,not-started
+tla:79,Waterbender Ascension,TLA,79,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:80,Waterbending Lesson,TLA,80,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:81,Waterbending Scroll,TLA,81,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tla:82,Watery Grasp,TLA,82,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tla:83,"Yue, the Moon Spirit",TLA,83,normal,1,Legendary Creature — Spirit Ally,Legendarne Stworzenie — Duch Sojusznik,yes,not-started,not-started
+tla:84,Azula Always Lies,TLA,84,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:85,"Azula, On the Hunt",TLA,85,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tla:86,Beetle-Headed Merchants,TLA,86,normal,1,Creature — Human Citizen,Stworzenie — Człowiek Obywatel,yes,not-started,not-started
+tla:87,Boiling Rock Rioter,TLA,87,normal,1,Creature — Human Rogue Ally,Stworzenie — Człowiek Łotr Sojusznik,yes,not-started,not-started
+tla:88,Buzzard-Wasp Colony,TLA,88,normal,1,Creature — Bird Insect,Stworzenie — Ptak Owad,yes,not-started,not-started
+tla:89,Callous Inspector,TLA,89,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:90,Canyon Crawler,TLA,90,normal,1,Creature — Spider Beast,Stworzenie — Pająk Bestia,yes,not-started,not-started
+tla:91,Cat-Gator,TLA,91,normal,1,Creature — Fish Crocodile,Stworzenie — Ryba Krokodyl,yes,not-started,not-started
+tla:92,Corrupt Court Official,TLA,92,normal,1,Creature — Human Advisor,Stworzenie — Człowiek Doradca,yes,not-started,not-started
+tla:93,Dai Li Indoctrination,TLA,93,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:94,Day of Black Sun,TLA,94,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:95,Deadly Precision,TLA,95,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:96,Epic Downfall,TLA,96,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:97,Fatal Fissure,TLA,97,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:98,The Fire Nation Drill,TLA,98,normal,1,Legendary Artifact — Vehicle,Legendarne Artefakt — Pojazd,yes,not-started,not-started
+tla:99,Fire Nation Engineer,TLA,99,normal,1,Creature — Human Artificer,Stworzenie — Człowiek Rzemieślnik,yes,not-started,not-started
+tla:100,Fire Navy Trebuchet,TLA,100,normal,1,Artifact Creature — Wall,Artefakt Stworzenie — Ściana,yes,not-started,not-started
+tla:101,Foggy Swamp Hunters,TLA,101,normal,1,Creature — Human Ranger Ally,Stworzenie — Człowiek Łowca Sojusznik,yes,not-started,not-started
+tla:102,Foggy Swamp Visions,TLA,102,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:103,Heartless Act,TLA,103,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:104,Hog-Monkey,TLA,104,normal,1,Creature — Boar Monkey,Stworzenie — Dzik Małpa,yes,not-started,not-started
+tla:105,"Joo Dee, One of Many",TLA,105,normal,1,Creature — Human Advisor,Stworzenie — Człowiek Doradca,yes,not-started,not-started
+tla:106,"June, Bounty Hunter",TLA,106,normal,1,Legendary Creature — Human Mercenary,Legendarne Stworzenie — Człowiek Najemnik,yes,not-started,not-started
+tla:107,"Koh, the Face Stealer",TLA,107,normal,1,Legendary Creature — Shapeshifter Spirit,Legendarne Stworzenie — Zmiennokształtny Duch,yes,not-started,not-started
+tla:108,"Lo and Li, Twin Tutors",TLA,108,normal,1,Legendary Creature — Human Advisor,Legendarne Stworzenie — Człowiek Doradca,yes,not-started,not-started
+tla:109,"Mai, Scornful Striker",TLA,109,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tla:110,Merchant of Many Hats,TLA,110,normal,1,Creature — Human Peasant Ally,Stworzenie — Człowiek Chłop Sojusznik,yes,not-started,not-started
+tla:111,Northern Air Temple,TLA,111,normal,1,Legendary Enchantment — Shrine,Legendarne Urok — Sanktuarium,yes,not-started,not-started
+tla:112,Obsessive Pursuit,TLA,112,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:113,Ozai's Cruelty,TLA,113,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:114,Phoenix Fleet Airship,TLA,114,normal,1,Artifact — Vehicle,Artefakt — Pojazd,yes,not-started,not-started
+tla:115,Pirate Peddlers,TLA,115,normal,1,Creature — Human Pirate,Stworzenie — Człowiek Pirat,yes,not-started,not-started
+tla:116,Raven Eagle,TLA,116,normal,1,Creature — Bird Assassin,Stworzenie — Ptak Zabójca,yes,not-started,not-started
+tla:117,The Rise of Sozin // Fire Lord Sozin,TLA,117,transform,2,Enchantment — Saga // Legendary Creature — Human Noble,Urok — Saga // Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tla:118,Ruinous Waterbending,TLA,118,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:119,Sold Out,TLA,119,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:120,Swampsnare Trap,TLA,120,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tla:121,Tundra Tank,TLA,121,normal,1,Artifact — Vehicle,Artefakt — Pojazd,yes,not-started,not-started
+tla:122,Wolfbat,TLA,122,normal,1,Creature — Wolf Bat,Stworzenie — Wilk Nietoperz,yes,not-started,not-started
+tla:123,Zuko's Conviction,TLA,123,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:124,Boar-q-pine,TLA,124,normal,1,Creature — Boar Porcupine,Stworzenie — Dzik Jeżozwierz,yes,not-started,not-started
+tla:125,Bumi Bash,TLA,125,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:126,The Cave of Two Lovers,TLA,126,saga,1,Enchantment — Saga,Urok — Saga,yes,not-started,not-started
+tla:127,Combustion Man,TLA,127,normal,1,Legendary Creature — Human Assassin,Legendarne Stworzenie — Człowiek Zabójca,yes,not-started,not-started
+tla:128,Combustion Technique,TLA,128,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:129,Crescent Island Temple,TLA,129,normal,1,Legendary Enchantment — Shrine,Legendarne Urok — Sanktuarium,yes,not-started,not-started
+tla:130,Cunning Maneuver,TLA,130,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:131,Deserter's Disciple,TLA,131,normal,1,Creature — Human Rebel Ally,Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tla:132,Fated Firepower,TLA,132,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:133,Fire Nation Attacks,TLA,133,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:134,Fire Nation Cadets,TLA,134,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:135,Fire Nation Raider,TLA,135,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:136,Fire Sages,TLA,136,normal,1,Creature — Human Cleric,Stworzenie — Człowiek Kleryk,yes,not-started,not-started
+tla:137,Firebender Ascension,TLA,137,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:138,Firebending Lesson,TLA,138,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:139,Firebending Student,TLA,139,normal,1,Creature — Human Monk,Stworzenie — Człowiek Mnich,yes,not-started,not-started
+tla:140,How to Start a Riot,TLA,140,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:141,Iroh's Demonstration,TLA,141,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:142,"Jeong Jeong, the Deserter",TLA,142,normal,1,Legendary Creature — Human Rebel Ally,Legendarne Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tla:143,Jet's Brainwashing,TLA,143,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:144,The Last Agni Kai,TLA,144,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:145,The Legend of Roku // Avatar Roku,TLA,145,transform,2,Enchantment — Saga // Legendary Creature — Avatar,Urok — Saga // Legendarne Stworzenie — Avatar,yes,not-started,not-started
+tla:146,Lightning Strike,TLA,146,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:147,"Mai, Jaded Edge",TLA,147,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tla:148,Mongoose Lizard,TLA,148,normal,1,Creature — Mongoose Lizard,Stworzenie — Mangusta Jaszczurka,yes,not-started,not-started
+tla:149,Price of Freedom,TLA,149,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:150,Ran and Shaw,TLA,150,normal,1,Legendary Creature — Dragon,Legendarne Stworzenie — Smok,yes,not-started,not-started
+tla:151,Redirect Lightning,TLA,151,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:152,Rough Rhino Cavalry,TLA,152,normal,1,Creature — Human Mercenary,Stworzenie — Człowiek Najemnik,yes,not-started,not-started
+tla:153,Solstice Revelations,TLA,153,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:154,Sozin's Comet,TLA,154,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:155,Tiger-Dillo,TLA,155,normal,1,Creature — Cat Armadillo,Stworzenie — Kot Pancernik,yes,not-started,not-started
+tla:156,Treetop Freedom Fighters,TLA,156,normal,1,Creature — Human Rebel Ally,Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tla:157,Twin Blades,TLA,157,normal,1,Artifact — Equipment,Artefakt — Ekwipunek,yes,not-started,not-started
+tla:158,"Ty Lee, Artful Acrobat",TLA,158,normal,1,Legendary Creature — Human Performer,Legendarne Stworzenie — Człowiek Artysta,yes,not-started,not-started
+tla:159,War Balloon,TLA,159,normal,1,Artifact — Vehicle,Artefakt — Pojazd,yes,not-started,not-started
+tla:160,Wartime Protestors,TLA,160,normal,1,Creature — Human Rebel Ally,Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tla:161,Yuyan Archers,TLA,161,normal,1,Creature — Human Archer,Stworzenie — Człowiek Łucznik,yes,not-started,not-started
+tla:162,"Zhao, the Moon Slayer",TLA,162,normal,1,Legendary Creature — Human Soldier,Legendarne Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:163,"Zuko, Exiled Prince",TLA,163,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tla:164,Allies at Last,TLA,164,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:165,Avatar Destiny,TLA,165,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tla:166,Badgermole,TLA,166,normal,1,Creature — Badger Mole,Stworzenie — Borsuk Kret,yes,not-started,not-started
+tla:167,Badgermole Cub,TLA,167,normal,1,Creature — Badger Mole,Stworzenie — Borsuk Kret,yes,not-started,not-started
+tla:168,"The Boulder, Ready to Rumble",TLA,168,normal,1,Legendary Creature — Human Warrior Performer,Legendarne Stworzenie — Człowiek Wojownik Artysta,yes,not-started,not-started
+tla:169,"Bumi, King of Three Trials",TLA,169,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tla:170,Cycle of Renewal,TLA,170,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:171,Diligent Zookeeper,TLA,171,normal,1,Creature — Human Citizen Ally,Stworzenie — Człowiek Obywatel Sojusznik,yes,not-started,not-started
+tla:172,The Earth King,TLA,172,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tla:173,Earth Kingdom General,TLA,173,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:174,Earth Rumble,TLA,174,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tla:175,Earthbender Ascension,TLA,175,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:176,Earthbending Lesson,TLA,176,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:177,Earthen Ally,TLA,177,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:178,Elemental Teachings,TLA,178,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:179,"Flopsie, Bumi's Buddy",TLA,179,normal,1,Legendary Creature — Ape Goat,Legendarne Stworzenie — Małpa Koza,yes,not-started,not-started
+tla:180,Foggy Swamp Vinebender,TLA,180,normal,1,Creature — Human Plant Ally,Stworzenie — Człowiek Roślina Sojusznik,yes,not-started,not-started
+tla:181,Great Divide Guide,TLA,181,normal,1,Creature — Human Scout Ally,Stworzenie — Człowiek Zwiadowca Sojusznik,yes,not-started,not-started
+tla:182,"Haru, Hidden Talent",TLA,182,normal,1,Legendary Creature — Human Peasant Ally,Legendarne Stworzenie — Człowiek Chłop Sojusznik,yes,not-started,not-started
+tla:183,Invasion Tactics,TLA,183,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:184,Kyoshi Island Plaza,TLA,184,normal,1,Legendary Enchantment — Shrine,Legendarne Urok — Sanktuarium,yes,not-started,not-started
+tla:185,Leaves from the Vine,TLA,185,normal,1,Enchantment — Saga,Urok — Saga,yes,not-started,not-started
+tla:186,The Legend of Kyoshi // Avatar Kyoshi,TLA,186,transform,2,Enchantment — Saga // Legendary Creature — Avatar,Urok — Saga // Legendarne Stworzenie — Avatar,yes,not-started,not-started
+tla:187,Origin of Metalbending,TLA,187,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:188,Ostrich-Horse,TLA,188,normal,1,Creature — Bird Horse,Stworzenie — Ptak Koń,yes,not-started,not-started
+tla:189,Pillar Launch,TLA,189,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:190,Raucous Audience,TLA,190,normal,1,Creature — Human Citizen,Stworzenie — Człowiek Obywatel,yes,not-started,not-started
+tla:191,Rebellious Captives,TLA,191,normal,1,Creature — Human Peasant Ally,Stworzenie — Człowiek Chłop Sojusznik,yes,not-started,not-started
+tla:192,Rockalanche,TLA,192,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:193,Rocky Rebuke,TLA,193,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tla:194,Saber-Tooth Moose-Lion,TLA,194,normal,1,Creature — Elk Cat,Stworzenie — Jeleń Kot,yes,not-started,not-started
+tla:195,Seismic Sense,TLA,195,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:196,Shared Roots,TLA,196,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:197,Sparring Dummy,TLA,197,normal,1,Artifact Creature — Scarecrow,Artefakt Stworzenie — Strach na wróble,yes,not-started,not-started
+tla:198,"Toph, the Blind Bandit",TLA,198,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:199,True Ancestry,TLA,199,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tla:200,Turtle-Duck,TLA,200,normal,1,Creature — Turtle Bird,Stworzenie — Żółw Ptak,yes,not-started,not-started
+tla:201,Unlucky Cabbage Merchant,TLA,201,normal,1,Creature — Human Citizen,Stworzenie — Człowiek Obywatel,yes,not-started,not-started
+tla:202,Walltop Sentries,TLA,202,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:203,"Aang, at the Crossroads // Aang, Destined Savior",TLA,203,transform,2,Legendary Creature — Human Avatar Ally // Legendary Creature — Avatar Ally,Legendarne Stworzenie — Człowiek Avatar Sojusznik // Legendarne Stworzenie — Avatar Sojusznik,yes,not-started,not-started
+tla:204,"Aang, Swift Savior // Aang and La, Ocean's Fury",TLA,204,transform,2,Legendary Creature — Human Avatar Ally // Legendary Creature — Avatar Spirit Ally,Legendarne Stworzenie — Człowiek Avatar Sojusznik // Legendarne Stworzenie — Avatar Duch Sojusznik,yes,not-started,not-started
+tla:205,Abandon Attachments,TLA,205,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tla:206,Air Nomad Legacy,TLA,206,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:207,"Avatar Aang // Aang, Master of Elements",TLA,207,transform,2,Legendary Creature — Human Avatar Ally // Legendary Creature — Avatar Ally,Legendarne Stworzenie — Człowiek Avatar Sojusznik // Legendarne Stworzenie — Avatar Sojusznik,yes,not-started,not-started
+tla:208,"Azula, Cunning Usurper",TLA,208,normal,1,Legendary Creature — Human Noble Rogue,Legendarne Stworzenie — Człowiek Szlachcic Łotr,yes,not-started,not-started
+tla:209,Beifong's Bounty Hunters,TLA,209,normal,1,Creature — Human Mercenary,Stworzenie — Człowiek Najemnik,yes,not-started,not-started
+tla:210,Bitter Work,TLA,210,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:211,"Bumi, Unleashed",TLA,211,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tla:212,Cat-Owl,TLA,212,normal,1,Creature — Cat Bird,Stworzenie — Kot Ptak,yes,not-started,not-started
+tla:213,Cruel Administrator,TLA,213,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:214,Dai Li Agents,TLA,214,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:215,Dragonfly Swarm,TLA,215,normal,1,Creature — Dragon Insect,Stworzenie — Smok Owad,yes,not-started,not-started
+tla:216,Earth Kingdom Soldier,TLA,216,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:217,Earth King's Lieutenant,TLA,217,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:218,Earth Rumble Wrestlers,TLA,218,normal,1,Creature — Human Warrior Performer,Stworzenie — Człowiek Wojownik Artysta,yes,not-started,not-started
+tla:219,Earth Village Ruffians,TLA,219,normal,1,Creature — Human Soldier Rogue,Stworzenie — Człowiek Żołnierz Łotr,yes,not-started,not-started
+tla:220,Fire Lord Azula,TLA,220,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tla:221,Fire Lord Zuko,TLA,221,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tla:222,Foggy Swamp Spirit Keeper,TLA,222,normal,1,Creature — Human Druid Ally,Stworzenie — Człowiek Druid Sojusznik,yes,not-started,not-started
+tla:223,Guru Pathik,TLA,223,normal,1,Legendary Creature — Human Monk Ally,Legendarne Stworzenie — Człowiek Mnich Sojusznik,yes,not-started,not-started
+tla:224,"Hama, the Bloodbender",TLA,224,normal,1,Legendary Creature — Human Warlock,Legendarne Stworzenie — Człowiek Czarnoksiężnik,yes,not-started,not-started
+tla:225,"Hei Bai, Spirit of Balance",TLA,225,normal,1,Legendary Creature — Bear Spirit,Legendarne Stworzenie — Niedźwiedź Duch,yes,not-started,not-started
+tla:226,Hermitic Herbalist,TLA,226,normal,1,Creature — Human Druid Ally,Stworzenie — Człowiek Druid Sojusznik,yes,not-started,not-started
+tla:227,"Iroh, Grand Lotus",TLA,227,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tla:228,"Iroh, Tea Master",TLA,228,normal,1,Legendary Creature — Human Citizen Ally,Legendarne Stworzenie — Człowiek Obywatel Sojusznik,yes,not-started,not-started
+tla:229,"Jet, Freedom Fighter",TLA,229,normal,1,Legendary Creature — Human Rebel Ally,Legendarne Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tla:230,"Katara, the Fearless",TLA,230,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:231,"Katara, Water Tribe's Hope",TLA,231,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:232,The Lion-Turtle,TLA,232,normal,1,Legendary Creature — Elder Cat Turtle,Legendarne Stworzenie — Starszy Kot Żółw,yes,not-started,not-started
+tla:233,"Long Feng, Grand Secretariat",TLA,233,normal,1,Legendary Creature — Human Advisor,Legendarne Stworzenie — Człowiek Doradca,yes,not-started,not-started
+tla:234,Messenger Hawk,TLA,234,normal,1,Creature — Bird Scout,Stworzenie — Ptak Zwiadowca,yes,not-started,not-started
+tla:235,"Ozai, the Phoenix King",TLA,235,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tla:236,Platypus-Bear,TLA,236,normal,1,Creature — Platypus Bear,Stworzenie — Dziobak Niedźwiedź,yes,not-started,not-started
+tla:237,Pretending Poxbearers,TLA,237,normal,1,Creature — Human Citizen Ally,Stworzenie — Człowiek Obywatel Sojusznik,yes,not-started,not-started
+tla:238,"Professor Zei, Anthropologist",TLA,238,normal,1,Legendary Creature — Human Advisor Ally,Legendarne Stworzenie — Człowiek Doradca Sojusznik,yes,not-started,not-started
+tla:239,Sandbender Scavengers,TLA,239,normal,1,Creature — Human Rogue,Stworzenie — Człowiek Łotr,yes,not-started,not-started
+tla:240,"Sokka, Bold Boomeranger",TLA,240,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:241,"Sokka, Lateral Strategist",TLA,241,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:242,"Sokka, Tenacious Tactician",TLA,242,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:243,"Suki, Kyoshi Warrior",TLA,243,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:244,Sun Warriors,TLA,244,normal,1,Creature — Human Warrior Ally,Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:245,Tolls of War,TLA,245,normal,1,Enchantment,Urok,yes,not-started,not-started
+tla:246,"Toph, Hardheaded Teacher",TLA,246,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:247,"Toph, the First Metalbender",TLA,247,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tla:248,Uncle Iroh,TLA,248,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tla:249,Vindictive Warden,TLA,249,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:250,Wandering Musicians,TLA,250,normal,1,Creature — Human Bard Ally,Stworzenie — Człowiek Bard Sojusznik,yes,not-started,not-started
+tla:251,White Lotus Reinforcements,TLA,251,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tla:252,"Zhao, Ruthless Admiral",TLA,252,normal,1,Legendary Creature — Human Soldier,Legendarne Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tla:253,"Zuko, Conflicted",TLA,253,normal,1,Legendary Creature — Human Rogue,Legendarne Stworzenie — Człowiek Łotr,yes,not-started,not-started
+tla:254,Barrels of Blasting Jelly,TLA,254,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tla:255,Bender's Waterskin,TLA,255,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tla:256,Fire Nation Warship,TLA,256,normal,1,Artifact — Vehicle,Artefakt — Pojazd,yes,not-started,not-started
+tla:257,Kyoshi Battle Fan,TLA,257,normal,1,Artifact — Equipment,Artefakt — Ekwipunek,yes,not-started,not-started
+tla:258,Meteor Sword,TLA,258,normal,1,Artifact — Equipment,Artefakt — Ekwipunek,yes,not-started,not-started
+tla:259,Planetarium of Wan Shi Tong,TLA,259,normal,1,Legendary Artifact,Legendarne Artefakt,yes,not-started,not-started
+tla:260,Trusty Boomerang,TLA,260,normal,1,Artifact — Equipment,Artefakt — Ekwipunek,yes,not-started,not-started
+tla:261,The Walls of Ba Sing Se,TLA,261,normal,1,Legendary Artifact Creature — Wall,Legendarne Artefakt Stworzenie — Ściana,yes,not-started,not-started
+tla:262,White Lotus Tile,TLA,262,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tla:263,Abandoned Air Temple,TLA,263,normal,1,Land,Ląd,yes,not-started,not-started
+tla:264,Agna Qel'a,TLA,264,normal,1,Land,Ląd,yes,not-started,not-started
+tla:265,Airship Engine Room,TLA,265,normal,1,Land,Ląd,yes,not-started,not-started
+tla:266,Ba Sing Se,TLA,266,normal,1,Land,Ląd,yes,not-started,not-started
+tla:267,Boiling Rock Prison,TLA,267,normal,1,Land,Ląd,yes,not-started,not-started
+tla:268,Fire Nation Palace,TLA,268,normal,1,Land,Ląd,yes,not-started,not-started
+tla:269,Foggy Bottom Swamp,TLA,269,normal,1,Land,Ląd,yes,not-started,not-started
+tla:270,Jasmine Dragon Tea Shop,TLA,270,normal,1,Land,Ląd,yes,not-started,not-started
+tla:271,Kyoshi Village,TLA,271,normal,1,Land,Ląd,yes,not-started,not-started
+tla:272,Meditation Pools,TLA,272,normal,1,Land,Ląd,yes,not-started,not-started
+tla:273,Misty Palms Oasis,TLA,273,normal,1,Land,Ląd,yes,not-started,not-started
+tla:274,North Pole Gates,TLA,274,normal,1,Land,Ląd,yes,not-started,not-started
+tla:275,Omashu City,TLA,275,normal,1,Land,Ląd,yes,not-started,not-started
+tla:276,Realm of Koh,TLA,276,normal,1,Land,Ląd,yes,not-started,not-started
+tla:277,Rumble Arena,TLA,277,normal,1,Land,Ląd,yes,not-started,not-started
+tla:278,Secret Tunnel,TLA,278,normal,1,Land — Cave,Ląd — Jaskinia,yes,not-started,not-started
+tla:279,Serpent's Pass,TLA,279,normal,1,Land,Ląd,yes,not-started,not-started
+tla:280,Sun-Blessed Peak,TLA,280,normal,1,Land,Ląd,yes,not-started,not-started
+tla:281,White Lotus Hideout,TLA,281,normal,1,Land,Ląd,yes,not-started,not-started
+tla:282,Plains,TLA,282,normal,1,Basic Land — Plains,Podstawowy Ląd — Równina,yes,not-started,not-started
+tla:283,Island,TLA,283,normal,1,Basic Land — Island,Podstawowy Ląd — Wyspa,yes,not-started,not-started
+tla:284,Swamp,TLA,284,normal,1,Basic Land — Swamp,Podstawowy Ląd — Bagno,yes,not-started,not-started
+tla:285,Mountain,TLA,285,normal,1,Basic Land — Mountain,Podstawowy Ląd — Góra,yes,not-started,not-started
+tla:286,Forest,TLA,286,normal,1,Basic Land — Forest,Podstawowy Ląd — Las,yes,not-started,not-started
+tle:1,Brought Back,TLE,1,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:2,Drannith Magistrate,TLE,2,normal,1,Creature — Human Wizard,Stworzenie — Człowiek Czarodziej,yes,not-started,not-started
+tle:3,Empty City Ruse,TLE,3,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:4,"Lita, Mechanical Engineer",TLE,4,normal,1,Legendary Artifact Creature — Artificer,Legendarne Artefakt Stworzenie — Rzemieślnik,yes,not-started,not-started
+tle:5,Release to Memory,TLE,5,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:6,Scout's Warning,TLE,6,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:7,Teferi's Protection,TLE,7,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:8,Three Dreams,TLE,8,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:9,Agent of Treachery,TLE,9,normal,1,Creature — Human Rogue,Stworzenie — Człowiek Łotr,yes,not-started,not-started
+tle:10,Bribery,TLE,10,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:11,Clone,TLE,11,normal,1,Creature — Shapeshifter,Stworzenie — Zmiennokształtny,yes,not-started,not-started
+tle:12,Clone Legion,TLE,12,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:13,Force of Negation,TLE,13,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:14,Imprisoned in the Moon,TLE,14,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tle:15,Intruder Alarm,TLE,15,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:16,Mystic Remora,TLE,16,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:17,Prosperity,TLE,17,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:18,Sakashima of a Thousand Faces,TLE,18,normal,1,Legendary Creature — Human Rogue,Legendarne Stworzenie — Człowiek Łotr,yes,not-started,not-started
+tle:19,Standstill,TLE,19,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:20,Training Grounds,TLE,20,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:21,Visions of Beyond,TLE,21,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:22,Black Sun's Zenith,TLE,22,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:23,Bloodchief Ascension,TLE,23,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:24,Cruel Tutor,TLE,24,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:25,Noxious Gearhulk,TLE,25,normal,1,Artifact Creature — Construct,Artefakt Stworzenie — Konstrukt,yes,not-started,not-started
+tle:26,Blasphemous Act,TLE,26,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:27,"Diaochan, Artful Beauty",TLE,27,normal,1,Legendary Creature — Human Advisor,Legendarne Stworzenie — Człowiek Doradca,yes,not-started,not-started
+tle:28,Dockside Extortionist,TLE,28,normal,1,Creature — Goblin Pirate,Stworzenie — Goblin Pirat,yes,not-started,not-started
+tle:29,Fervor,TLE,29,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:30,Humble Defector,TLE,30,normal,1,Creature — Human Rogue,Stworzenie — Człowiek Łotr,yes,not-started,not-started
+tle:31,Insurrection,TLE,31,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:32,Lightning Bolt,TLE,32,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:33,Mirrorwing Dragon,TLE,33,normal,1,Creature — Dragon,Stworzenie — Smok,yes,not-started,not-started
+tle:34,Rending Volley,TLE,34,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:35,Searing Blood,TLE,35,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:36,Shattering Spree,TLE,36,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:37,Volcanic Torrent,TLE,37,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:38,Warstorm Surge,TLE,38,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:39,Beastmaster Ascension,TLE,39,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:40,Elemental Bond,TLE,40,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:41,The Great Henge,TLE,41,normal,1,Legendary Artifact,Legendarne Artefakt,yes,not-started,not-started
+tle:42,Heartbeat of Spring,TLE,42,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:43,Heroic Intervention,TLE,43,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:44,Return of the Wildspeaker,TLE,44,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:45,Rites of Flourishing,TLE,45,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:46,Taunting Challenge,TLE,46,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:47,Captain Sisay,TLE,47,normal,1,Legendary Creature — Human Soldier,Legendarne Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tle:48,Eladamri's Call,TLE,48,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:49,Fevered Visions,TLE,49,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:50,Join the Dance,TLE,50,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:51,"Koma, Cosmos Serpent",TLE,51,normal,1,Legendary Creature — Serpent,Legendarne Stworzenie — Wąż morski,yes,not-started,not-started
+tle:52,Rhys the Redeemed,TLE,52,normal,1,Legendary Creature — Elf Warrior,Legendarne Stworzenie — Elf Wojownik,yes,not-started,not-started
+tle:53,Cityscape Leveler,TLE,53,normal,1,Artifact Creature — Construct,Artefakt Stworzenie — Konstrukt,yes,not-started,not-started
+tle:54,Meteorite,TLE,54,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tle:55,Sundial of the Infinite,TLE,55,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tle:56,Dark Depths,TLE,56,normal,1,Legendary Snow Land,Legendarne Śnieżny Ląd,yes,not-started,not-started
+tle:57,Fabled Passage,TLE,57,normal,1,Land,Ląd,yes,not-started,not-started
+tle:58,Sunbaked Canyon,TLE,58,normal,1,Land,Ląd,yes,not-started,not-started
+tle:59,Tarnished Citadel,TLE,59,normal,1,Land,Ląd,yes,not-started,not-started
+tle:60,Treetop Village,TLE,60,normal,1,Land,Ląd,yes,not-started,not-started
+tle:61,"Valakut, the Molten Pinnacle",TLE,61,normal,1,Land,Ląd,yes,not-started,not-started
+tle:62,"Appa, the Vigilant",TLE,62,normal,1,Legendary Creature — Bison Ally,Legendarne Stworzenie — Bizon Sojusznik,yes,not-started,not-started
+tle:63,Katara's Reversal,TLE,63,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:64,Fire Nation Turret,TLE,64,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tle:65,Swampbenders,TLE,65,normal,1,Creature — Human Druid Ally,Stworzenie — Człowiek Druid Sojusznik,yes,not-started,not-started
+tle:66,Sokka's Charge,TLE,66,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:67,Earthshape,TLE,67,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:68,Mai and Zuko,TLE,68,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tle:69,Aang and Katara,TLE,69,normal,1,Legendary Creature — Human Avatar Ally,Legendarne Stworzenie — Człowiek Avatar Sojusznik,yes,not-started,not-started
+tle:70,"Toph, Greatest Earthbender",TLE,70,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:71,Sokka and Suki,TLE,71,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:72,Momo's Heist,TLE,72,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:73,Uncle's Musings,TLE,73,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:74,"Aang, Airbending Master",TLE,74,normal,1,Legendary Creature — Human Avatar Ally,Legendarne Stworzenie — Człowiek Avatar Sojusznik,yes,not-started,not-started
+tle:75,Air Nomad Student,TLE,75,normal,1,Creature — Human Monk,Stworzenie — Człowiek Mnich,yes,not-started,not-started
+tle:76,"The Duke, Rebel Sentry",TLE,76,normal,1,Legendary Creature — Human Rebel Ally,Legendarne Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tle:77,Inspired Insurgent,TLE,77,normal,1,Creature — Human Peasant Ally,Stworzenie — Człowiek Chłop Sojusznik,yes,not-started,not-started
+tle:78,"Jet, Rebel Leader",TLE,78,normal,1,Legendary Creature — Human Rebel Ally,Legendarne Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tle:79,Kindly Customer,TLE,79,normal,1,Creature — Human Citizen,Stworzenie — Człowiek Obywatel,yes,not-started,not-started
+tle:80,Koala-Sheep,TLE,80,normal,1,Creature — Bear Sheep,Stworzenie — Niedźwiedź Owca,yes,not-started,not-started
+tle:81,Monk Gyatso,TLE,81,normal,1,Legendary Creature — Human Monk,Legendarne Stworzenie — Człowiek Mnich,yes,not-started,not-started
+tle:82,"Pipsqueak, Rebel Strongarm",TLE,82,normal,1,Legendary Creature — Human Rebel Ally,Legendarne Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tle:83,"Sokka, Swordmaster",TLE,83,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:84,Sokka's Sword Training,TLE,84,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tle:85,"Suki, Kyoshi Captain",TLE,85,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:86,Tale of Momo,TLE,86,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:87,That's Rough Buddy,TLE,87,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tle:88,Toucan-Puffin,TLE,88,normal,1,Creature — Bird,Stworzenie — Ptak,yes,not-started,not-started
+tle:89,Baboon Spirit,TLE,89,normal,1,Creature — Monkey Spirit,Stworzenie — Małpa Duch,yes,not-started,not-started
+tle:90,The Blue Spirit,TLE,90,normal,1,Legendary Creature — Human Rogue Ally,Legendarne Stworzenie — Człowiek Łotr Sojusznik,yes,not-started,not-started
+tle:91,Chakra Meditation,TLE,91,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:92,Dutiful Knowledge Seeker,TLE,92,normal,1,Creature — Fox Spirit,Stworzenie — Lis Duch,yes,not-started,not-started
+tle:93,"Katara, Waterbending Master",TLE,93,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:94,Nightmares and Daydreams,TLE,94,saga,1,Enchantment — Saga,Urok — Saga,yes,not-started,not-started
+tle:95,Princess Yue,TLE,95,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tle:96,"Tui and La, Moon and Ocean",TLE,96,normal,1,Legendary Creature — Fish Spirit,Legendarne Stworzenie — Ryba Duch,yes,not-started,not-started
+tle:97,Unagi's Spray,TLE,97,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:98,"Wan Shi Tong, All-Knowing",TLE,98,normal,1,Legendary Creature — Bird Spirit,Legendarne Stworzenie — Ptak Duch,yes,not-started,not-started
+tle:99,Waterbender's Restoration,TLE,99,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tle:100,Whirlwind Technique,TLE,100,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tle:101,"Azula, Ruthless Firebender",TLE,101,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tle:102,Dai Li Censor,TLE,102,normal,1,Creature — Human Soldier Advisor,Stworzenie — Człowiek Żołnierz Doradca,yes,not-started,not-started
+tle:103,Desperate Plea,TLE,103,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tle:104,Fire Lord Ozai,TLE,104,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tle:105,Fire Nation Occupation,TLE,105,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:106,Fire Nation Salvagers,TLE,106,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tle:107,Giant Fly,TLE,107,normal,1,Creature — Insect,Stworzenie — Owad,yes,not-started,not-started
+tle:108,"Lo and Li, Royal Advisors",TLE,108,normal,1,Legendary Creature — Human Advisor,Legendarne Stworzenie — Człowiek Doradca,yes,not-started,not-started
+tle:109,"Nyla, Shirshu Sleuth",TLE,109,normal,1,Legendary Creature — Mole Beast,Legendarne Stworzenie — Kret Bestia,yes,not-started,not-started
+tle:110,Ruthless Waterbender,TLE,110,normal,1,Creature — Human Soldier Ally,Stworzenie — Człowiek Żołnierz Sojusznik,yes,not-started,not-started
+tle:111,Scarring Memories,TLE,111,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tle:112,"Avatar Roku, Firebender",TLE,112,normal,1,Legendary Creature — Human Avatar,Legendarne Stworzenie — Człowiek Avatar,yes,not-started,not-started
+tle:113,"Chong and Lily, Nomads",TLE,113,normal,1,Legendary Creature — Human Bard Ally,Legendarne Stworzenie — Człowiek Bard Sojusznik,yes,not-started,not-started
+tle:114,Deer-Dog,TLE,114,normal,1,Creature — Elk Dog,Stworzenie — Jeleń Pies,yes,not-started,not-started
+tle:115,"Fang, Roku's Companion",TLE,115,normal,1,Legendary Creature — Dragon,Legendarne Stworzenie — Smok,yes,not-started,not-started
+tle:116,Founding of Omashu,TLE,116,saga,1,Enchantment — Saga,Urok — Saga,yes,not-started,not-started
+tle:117,Frantic Confrontation,TLE,117,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:118,Freedom Fighter Recruit,TLE,118,normal,1,Creature — Human Rebel Ally,Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tle:119,"Iroh, Dragon of the West",TLE,119,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tle:120,"Longshot, Rebel Bowman",TLE,120,normal,1,Legendary Creature — Human Rebel Ally,Legendarne Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tle:121,Lost in Memories,TLE,121,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tle:122,"Moku, Meandering Drummer",TLE,122,normal,1,Legendary Creature — Human Bard Ally,Legendarne Stworzenie — Człowiek Bard Sojusznik,yes,not-started,not-started
+tle:123,Overwhelming Victory,TLE,123,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tle:124,Reckless Blaze,TLE,124,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tle:125,"Smellerbee, Rebel Fighter",TLE,125,normal,1,Legendary Creature — Human Rebel Ally,Legendarne Stworzenie — Człowiek Buntownik Sojusznik,yes,not-started,not-started
+tle:126,Storm of Memories,TLE,126,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:127,"Zuko, Firebending Master",TLE,127,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tle:128,Animal Attendant,TLE,128,normal,1,Creature — Human Citizen,Stworzenie — Człowiek Obywatel,yes,not-started,not-started
+tle:129,The Art of Tea,TLE,129,normal,1,Instant — Lesson,Czar natychmiastowy — Lekcja,yes,not-started,not-started
+tle:130,"Avatar Kyoshi, Earthbender",TLE,130,normal,1,Legendary Creature — Human Avatar,Legendarne Stworzenie — Człowiek Avatar,yes,not-started,not-started
+tle:131,Bison Whistle,TLE,131,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tle:132,"Bosco, Just a Bear",TLE,132,normal,1,Legendary Creature — Bear,Legendarne Stworzenie — Niedźwiedź,yes,not-started,not-started
+tle:133,Bumi's Feast Lecture,TLE,133,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tle:134,The Cabbage Merchant,TLE,134,normal,1,Legendary Creature — Human Citizen,Legendarne Stworzenie — Człowiek Obywatel,yes,not-started,not-started
+tle:135,Cracked Earth Technique,TLE,135,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tle:136,Creeping Crystal Coating,TLE,136,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tle:137,Crystalline Armor,TLE,137,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tle:138,Elephant-Mandrill,TLE,138,normal,1,Creature — Elephant Monkey,Stworzenie — Słoń Małpa,yes,not-started,not-started
+tle:139,"Hei Bai, Forest Guardian",TLE,139,normal,1,Legendary Creature — Bear Spirit,Legendarne Stworzenie — Niedźwiedź Duch,yes,not-started,not-started
+tle:140,Kyoshi Warrior Exemplars,TLE,140,normal,1,Creature — Human Warrior Ally,Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:141,Master's Guidance,TLE,141,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:142,Solid Ground,TLE,142,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:143,Tale of Katara and Toph,TLE,143,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:144,Tectonic Split,TLE,144,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:145,"Toph, Earthbending Master",TLE,145,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:146,"Aang, A Lot to Learn",TLE,146,normal,1,Legendary Creature — Human Avatar Ally,Legendarne Stworzenie — Człowiek Avatar Sojusznik,yes,not-started,not-started
+tle:147,Hook Swords,TLE,147,normal,1,Artifact — Equipment,Artefakt — Ekwipunek,yes,not-started,not-started
+tle:148,"Katara, Seeking Revenge",TLE,148,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:149,Stand United,TLE,149,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:150,"Zuko, Seeking Honor",TLE,150,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tle:151,Acrobatic Leap,TLE,151,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:152,Cloudshift,TLE,152,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:153,Duelist's Heritage,TLE,153,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:154,Valorous Stance,TLE,154,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:155,Brainstorm,TLE,155,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:156,Coastal Piracy,TLE,156,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:157,Consider,TLE,157,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:158,Dramatic Reversal,TLE,158,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:159,Frantic Search,TLE,159,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:160,Bastion of Remembrance,TLE,160,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:161,Dark Deal,TLE,161,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:162,Diresight,TLE,162,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:163,Bolt Bend,TLE,163,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:164,Cathartic Reunion,TLE,164,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:165,Fiery Confluence,TLE,165,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:166,Fists of Flame,TLE,166,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:167,Descendants' Path,TLE,167,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:168,Inspiring Call,TLE,168,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:169,Many Partings,TLE,169,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:170,Suspicious Bookcase,TLE,170,normal,1,Artifact Creature — Wall,Artefakt Stworzenie — Ściana,yes,not-started,not-started
+tle:210,"Aang, Air Nomad",TLE,210,normal,1,Legendary Creature — Human Avatar Ally,Legendarne Stworzenie — Człowiek Avatar Sojusznik,yes,not-started,not-started
+tle:211,Aang's Defense,TLE,211,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:212,Aardvark Sloth,TLE,212,normal,1,Creature — Sloth Beast,Stworzenie — Leniwiec Bestia,yes,not-started,not-started
+tle:213,Allied Teamwork,TLE,213,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:214,"Appa, Aang's Companion",TLE,214,normal,1,Legendary Creature — Bison Ally,Legendarne Stworzenie — Bizon Sojusznik,yes,not-started,not-started
+tle:215,"Katara, Heroic Healer",TLE,215,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:216,Kyoshi Warrior Guard,TLE,216,normal,1,Creature — Human Warrior Ally,Stworzenie — Człowiek Wojownik Sojusznik,no,not-required,not-started
+tle:217,"Momo, Rambunctious Rascal",TLE,217,normal,1,Legendary Creature — Lemur Bat Ally,Legendarne Stworzenie — Lemur Nietoperz Sojusznik,yes,not-started,not-started
+tle:218,Sledding Otter-Penguin,TLE,218,normal,1,Creature — Otter Bird,Stworzenie — Wydra Ptak,yes,not-started,not-started
+tle:219,"Sokka, Wolf Cove's Protector",TLE,219,normal,1,Legendary Creature — Human Warrior Ally,Legendarne Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:220,Tundra Wall,TLE,220,normal,1,Creature — Wall,Stworzenie — Ściana,yes,not-started,not-started
+tle:221,Wolf Cove Villager,TLE,221,normal,1,Creature — Human Peasant,Stworzenie — Człowiek Chłop,yes,not-started,not-started
+tle:222,Deny Entry,TLE,222,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:223,Flying Dolphin-Fish,TLE,223,normal,1,Creature — Whale Fish,Stworzenie — Wieloryb Ryba,yes,not-started,not-started
+tle:224,Lost in the Spirit World,TLE,224,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:225,The Terror of Serpent's Pass,TLE,225,normal,1,Legendary Creature — Serpent,Legendarne Stworzenie — Wąż morski,yes,not-started,not-started
+tle:226,Turtle-Seals,TLE,226,normal,1,Creature — Turtle Seal,Stworzenie — Żółw Foka,yes,not-started,not-started
+tle:227,Water Whip,TLE,227,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tle:228,Elephant-Rat,TLE,228,normal,1,Creature — Elephant Rat,Stworzenie — Słoń Szczur,yes,not-started,not-started
+tle:229,Fire Nation Ambushers,TLE,229,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tle:230,Fire Nation Sentinels,TLE,230,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tle:231,Gilacorn,TLE,231,normal,1,Creature — Lizard,Stworzenie — Jaszczurka,yes,not-started,not-started
+tle:232,Lion Vulture,TLE,232,normal,1,Creature — Cat Bird,Stworzenie — Kot Ptak,yes,not-started,not-started
+tle:233,Purple Pentapus,TLE,233,normal,1,Creature — Octopus Starfish,Stworzenie — Ośmiornica Rozgwiazda,yes,not-started,not-started
+tle:234,Capital Guard,TLE,234,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,no,not-required,not-started
+tle:235,Dragon Moose,TLE,235,normal,1,Creature — Dragon Elk,Stworzenie — Smok Jeleń,yes,not-started,not-started
+tle:236,Explosive Shot,TLE,236,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:237,Fire Nation Archers,TLE,237,normal,1,Creature — Human Archer,Stworzenie — Człowiek Łucznik,yes,not-started,not-started
+tle:238,Fire Nation Soldier,TLE,238,normal,1,Creature — Human Soldier,Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tle:239,Fire Nation's Conquest,TLE,239,normal,1,Enchantment,Urok,yes,not-started,not-started
+tle:240,"Iroh, Firebending Instructor",TLE,240,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tle:241,Komodo Rhino,TLE,241,normal,1,Creature — Lizard Rhino,Stworzenie — Jaszczurka Nosorożec,yes,not-started,not-started
+tle:242,Loyal Fire Sage,TLE,242,normal,1,Creature — Human Cleric Ally,Stworzenie — Człowiek Kleryk Sojusznik,yes,not-started,not-started
+tle:243,Roku's Mastery,TLE,243,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:244,Warship Scout,TLE,244,normal,1,Creature — Human Scout,Stworzenie — Człowiek Zwiadowca,no,not-required,not-started
+tle:245,"Zhao, the Seething Flame",TLE,245,normal,1,Legendary Creature — Human Soldier,Legendarne Stworzenie — Człowiek Żołnierz,yes,not-started,not-started
+tle:246,"Zuko, Avatar Hunter",TLE,246,normal,1,Legendary Creature — Human Noble,Legendarne Stworzenie — Człowiek Szlachcic,yes,not-started,not-started
+tle:247,Zuko's Offense,TLE,247,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:248,"Bumi, Eclectic Earthbender",TLE,248,normal,1,Legendary Creature — Human Noble Ally,Legendarne Stworzenie — Człowiek Szlachcic Sojusznik,yes,not-started,not-started
+tle:249,Earthbending Student,TLE,249,normal,1,Creature — Human Warrior Ally,Stworzenie — Człowiek Wojownik Sojusznik,yes,not-started,not-started
+tle:250,Eel-Hounds,TLE,250,normal,1,Creature — Fish Dog,Stworzenie — Ryba Pies,yes,not-started,not-started
+tle:251,Frog-Squirrels,TLE,251,normal,1,Creature — Frog Squirrel,Stworzenie — Żaba Wiewiórka,yes,not-started,not-started
+tle:252,Hippo-Cows,TLE,252,normal,1,Creature — Hippo Ox,Stworzenie — Hipopotam Wół,yes,not-started,not-started
+tle:253,Match the Odds,TLE,253,normal,1,Sorcery — Lesson,Rytuał — Lekcja,yes,not-started,not-started
+tle:254,Seismic Tutelage,TLE,254,normal,1,Enchantment — Aura,Urok — Aura,yes,not-started,not-started
+tle:255,Hog-Monkey Rampage,TLE,255,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:256,Mechanical Glider,TLE,256,normal,1,Artifact — Equipment,Artefakt — Ekwipunek,yes,not-started,not-started
+tle:257,Feed the Swarm,TLE,257,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:258,Run Amok,TLE,258,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:259,Explore,TLE,259,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:260,Thriving Bluff,TLE,260,normal,1,Land,Ląd,yes,not-started,not-started
+tle:261,Thriving Grove,TLE,261,normal,1,Land,Ląd,yes,not-started,not-started
+tle:262,Thriving Heath,TLE,262,normal,1,Land,Ląd,yes,not-started,not-started
+tle:263,Thriving Isle,TLE,263,normal,1,Land,Ląd,yes,not-started,not-started
+tle:264,Thriving Moor,TLE,264,normal,1,Land,Ląd,yes,not-started,not-started
+tle:305,Enlightened Tutor,TLE,305,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:306,Flawless Maneuver,TLE,306,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:307,Fierce Guardianship,TLE,307,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:308,Mystical Tutor,TLE,308,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:309,Deadly Rollick,TLE,309,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:310,Entomb,TLE,310,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:311,Deflecting Swat,TLE,311,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:312,Gamble,TLE,312,normal,1,Sorcery,Rytuał,yes,not-started,not-started
+tle:313,Obscuring Haze,TLE,313,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:314,Worldly Tutor,TLE,314,normal,1,Instant,Czar natychmiastowy,yes,not-started,not-started
+tle:315,Arcane Signet,TLE,315,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tle:316,Sol Ring,TLE,316,normal,1,Artifact,Artefakt,yes,not-started,not-started
+tle:317,Swiftfoot Boots,TLE,317,normal,1,Artifact — Equipment,Artefakt — Ekwipunek,yes,not-started,not-started

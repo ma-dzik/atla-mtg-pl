@@ -1,0 +1,128 @@
+﻿term_id,english_term,polish_term,used_in_quick_start,quick_start_steps,source_pages,status
+ability,Ability,Zdolność,no,,9,ready
+activated-ability,Activated ability,Zdolność aktywowana,yes,zuko-step-056,8|20,ready
+airbend,Airbend,Technika powietrza,no,,10,ready
+ally,Ally,Sojusznik,no,,3|10,ready
+artifact,Artifact,Artefakt,no,,4|5,ready
+damage-assignment,Assign combat damage,Przydzielić obrażenia bojowe,yes,zuko-step-050|zuko-step-059,8,ready
+attack,Attack,Atakować,yes,zuko-step-007|zuko-step-011|zuko-step-015|zuko-step-018|zuko-step-024|zuko-step-029|zuko-step-030|zuko-step-035|zuko-step-039|zuko-step-048|zuko-step-055|zuko-step-057|zuko-step-062|zuko-step-064|zuko-step-065,4|8,ready
+aura,Aura,Aura,no,,5,ready
+battlefield,Battlefield,Pole bitwy,yes,zuko-step-002|zuko-step-004|zuko-step-009|zuko-step-010|zuko-step-033|zuko-step-061,4|6,ready
+beginning-phase,Beginning phase,Faza początkowa,no,,7,ready
+block,Block,Blokować,yes,zuko-step-018|zuko-step-019|zuko-step-025|zuko-step-031|zuko-step-035|zuko-step-040|zuko-step-044|zuko-step-048|zuko-step-049|zuko-step-058|zuko-step-063|zuko-step-064|zuko-step-065,4|8,ready
+card,Card,Karta,no,,10,ready
+card-name,Card name,Nazwa karty,no,,3,ready
+card-text,Card text / Rules text,Tekst zasad karty,yes,zuko-step-006,3|9,ready
+cast,Cast,Rzucić czar,yes,zuko-step-010|zuko-step-014|zuko-step-022|zuko-step-029|zuko-step-038|zuko-step-054|zuko-step-064,5|9|10,ready
+cleanup-step,Cleanup step,Krok porządkowy,yes,zuko-step-026,8,ready
+colored-mana,Colored mana,Kolorowa mana,no,,3|9,ready
+combat,Combat,Walka,no,,8,ready
+combat-damage,Combat damage,Obrażenia bojowe,yes,zuko-step-016|zuko-step-020|zuko-step-026|zuko-step-031|zuko-step-036|zuko-step-041|zuko-step-045|zuko-step-059|zuko-step-064,8,ready
+combat-phase,Combat phase,Faza walki,no,,7|8,ready
+control,Control,Kontrolować,yes,zuko-step-011|zuko-step-015,4|10,ready
+cost,Cost,Koszt,yes,zuko-step-056,3|9,ready
+counter-spell,Counter a spell or ability,Skontrować czar lub zdolność,no,,10,ready
+counter-permanent,Counter on a permanent,Znacznik na permanencie,yes,zuko-step-043|zuko-step-056,10,ready
+create-token,Create a token,Stworzyć żeton,no,,10,ready
+creature,Creature,Stworzenie,yes,zuko-step-006|zuko-step-010,4,ready
+damage,Damage,Obrażenia,yes,zuko-step-032|zuko-step-034,4|8,ready
+deathtouch,Deathtouch,Dotyk śmierci,no,,10|11,ready
+deck,Deck,Talia,yes,zuko-step-001|zuko-step-003,3|6,ready
+defender,Defender,Obrońca,no,,11,ready
+destroy,Destroy,Zniszczyć,yes,zuko-step-020|zuko-step-032|zuko-step-034|zuko-step-041|zuko-step-050|zuko-step-059|zuko-step-063,11,ready
+discard,Discard,Odrzucić kartę,no,,8|11,ready
+double-strike,Double strike,Podwójny cios,no,,11,ready
+draw,Draw,Dobrać kartę,yes,zuko-step-005|zuko-step-013|zuko-step-021|zuko-step-028|zuko-step-037|zuko-step-046|zuko-step-053|zuko-step-060,7,ready
+draw-step,Draw step,Krok dobierania,no,,7,ready
+earthbend,Earthbend,Technika ziemi,no,,11,ready
+effect,Effect,Efekt,yes,zuko-step-056,9,ready
+enchant,Enchant,Oczarować,no,,11,ready
+enchantment,Enchantment,Urok,yes,zuko-step-061,5,ready
+end-step,End step,Krok końcowy,no,,8,ready
+ending-phase,Ending phase,Faza końcowa,no,,7|8,ready
+enters,Enters the battlefield,Wchodzi na pole bitwy,yes,zuko-step-034|zuko-step-043,4|9,ready
+equip,Equip,Wyposażyć,no,,11,ready
+equipment,Equipment,Ekwipunek,no,,5,ready
+excess-damage,Excess damage,Nadmiarowe obrażenia,yes,zuko-step-062|zuko-step-063,13,ready
+exhaust,Exhaust,Wyczerpanie,no,,11,ready
+exile,Exile,Wygnanie,no,,6|11,ready
+expansion-symbol,Expansion symbol,Symbol dodatku,no,,3,ready
+fight,Fight,Walczyć,no,,11,ready
+firebend,Firebend / Firebending,Technika ognia,no,,11,ready
+first-player,First player,Pierwszy gracz,no,,7,ready
+first-strike,First strike,Pierwszy cios,no,,11,ready
+flash,Flash,Błysk,no,,11,ready
+flying,Flying,Latanie,yes,zuko-step-044|zuko-step-047|zuko-step-052|zuko-step-057,11,ready
+forestcycling,Forestcycling,Cykling Lasu,no,,11,ready
+generic-mana,Generic mana,Mana generyczna,yes,zuko-step-014|zuko-step-022,3|9,ready
+golden-rule,Golden Rule,Złota zasada,no,,9,ready
+graveyard,Graveyard,Cmentarz,yes,zuko-step-020|zuko-step-032|zuko-step-034|zuko-step-041|zuko-step-050|zuko-step-059,6,ready
+hand,Hand,Ręka,yes,zuko-step-005|zuko-step-060,6,ready
+haste,Haste,Pośpiech,yes,zuko-step-023|zuko-step-024,11,ready
+hexproof,Hexproof,Odporność na wskazywanie,no,,12,ready
+hybrid-mana,Hybrid mana,Mana hybrydowa,no,,3|12,ready
+illegal-target,Illegal target,Nielegalny cel,no,,10,ready
+indestructible,Indestructible,Niezniszczalność,no,,12,ready
+instant,Instant,Czar natychmiastowy,yes,zuko-step-040,5,ready
+islandcycling,Islandcycling,Cykling Wyspy,no,,12,ready
+keyword,Keyword,Słowo kluczowe,no,,2|10,ready
+land,Land,Ląd,yes,zuko-step-007|zuko-step-009|zuko-step-013|zuko-step-021|zuko-step-028|zuko-step-037|zuko-step-046|zuko-step-064|zuko-step-065,4,ready
+landcycling,Landcycling,Cykling lądu,no,,12,ready
+landfall,Landfall,Wejście lądu,no,,12,ready
+lesson,Lesson,Lekcja,no,,12,ready
+library,Library,Biblioteka,yes,zuko-step-003|zuko-step-004|zuko-step-005|zuko-step-013,6,ready
+life-total,Life total,Punkty życia,yes,zuko-step-002|zuko-step-004|zuko-step-008|zuko-step-016|zuko-step-036|zuko-step-042|zuko-step-045|zuko-step-048|zuko-step-050|zuko-step-051|zuko-step-058|zuko-step-059|zuko-step-063,5|7,ready
+lifelink,Lifelink,Więź życia,yes,zuko-step-050|zuko-step-059,12,ready
+main-phase,Main phase,Faza główna,no,,7|8,ready
+mana,Mana,Mana,yes,zuko-step-007|zuko-step-010|zuko-step-021|zuko-step-028,3|9|12,ready
+mana-cost,Mana cost,Koszt many,yes,zuko-step-006|zuko-step-014|zuko-step-022,3,ready
+mana-value,Mana value,Wartość many,no,,12,ready
+marked-damage,Marked damage,Oznaczone obrażenia,yes,zuko-step-026|zuko-step-031,8,ready
+menace,Menace,Groźba,yes,zuko-step-038|zuko-step-048,12,ready
+mill,Mill,Zmielić,no,,12,ready
+mountaincycling,Mountaincycling,Cykling Góry,no,,12,ready
+mulligan,Mulligan,Mulligan,no,,7,ready
+double-block,Multiple blockers / Double block,Wielokrotny blok,yes,zuko-step-049|zuko-step-050|zuko-step-058,8,ready
+opening-hand,Opening hand,Ręka początkowa,no,,7,ready
+owner,Owner,Właściciel,no,,10,ready
+pass-the-turn,Pass the turn,Przekazać turę,yes,zuko-step-012|zuko-step-017|zuko-step-027|zuko-step-033|zuko-step-042|zuko-step-051|zuko-step-055,6,ready
+permanent,Permanent,Permanent,yes,zuko-step-043|zuko-step-061,4|12,ready
+plainscycling,Plainscycling,Cykling Równiny,no,,12,ready
+play,Play a card,Zagrać kartę,yes,zuko-step-009,12,ready
+power,Power,Atak,yes,zuko-step-006|zuko-step-016|zuko-step-020|zuko-step-036|zuko-step-065,3|4,ready
+power-toughness-modifier,Power/Toughness modifier,Modyfikator ataku i obrony,yes,zuko-step-039|zuko-step-040|zuko-step-061,9,ready
+prowess,Prowess,Biegłość,no,,12,ready
+raid,Raid,Najazd,no,,12,ready
+reach,Reach,Zasięg,yes,zuko-step-044|zuko-step-047|zuko-step-052|zuko-step-055|zuko-step-057,12,ready
+red-mana,Red mana,Czerwona mana,yes,zuko-step-014|zuko-step-022,3|9,ready
+red-spell,Red spell,Czerwony czar,yes,zuko-step-047|zuko-step-054,9,ready
+resolve,Resolve,Rozpatrzyć,yes,zuko-step-032,9,ready
+respond,Respond,Odpowiedzieć,no,,9,ready
+sacrifice,Sacrifice,Poświęcić,no,,12,ready
+scry,Scry,Wróżenie,no,,12,ready
+shuffle,Shuffle,Tasować,yes,zuko-step-001,7,ready
+sorcery,Sorcery,Rytuał,yes,zuko-step-032,5,ready
+spell,Spell,Czar,no,,9,ready
+stack,Stack,Stos,no,,9|10,ready
+summoning-sickness,Summoning sickness,Choroba przywołania,yes,zuko-step-011|zuko-step-023|zuko-step-055,4,ready
+surveil,Surveil,Obserwacja,no,,13,ready
+swampcycling,Swampcycling,Cykling Bagna,no,,13,ready
+tap,Tap,Tapowanie,yes,zuko-step-007|zuko-step-010|zuko-step-014|zuko-step-015|zuko-step-017|zuko-step-023|zuko-step-024|zuko-step-064,5|9,ready
+target,Target,Wskazany cel,yes,zuko-step-032,9,ready
+text-box,Text box,Pole tekstowe,no,,3,ready
+token,Token,Żeton,yes,zuko-step-002|zuko-step-047|zuko-step-054|zuko-step-059,10,ready
+toughness,Toughness,Obrona,yes,zuko-step-006|zuko-step-020|zuko-step-026|zuko-step-065,3|4,ready
+trade,Trade,Wymiana stworzeń,yes,zuko-step-020|zuko-step-030,11,ready
+trample,Trample,Tratowanie,yes,zuko-step-062|zuko-step-063,13,ready
+triggered-ability,Triggered ability,Zdolność wyzwalana,yes,zuko-step-029|zuko-step-034|zuko-step-039|zuko-step-047|zuko-step-054,9,ready
+turn,Turn,Tura,yes,zuko-step-008|zuko-step-012|zuko-step-013|zuko-step-017|zuko-step-027,7,ready
+type-line,Type line,Linia typu,yes,zuko-step-006,3,ready
+unblocked,Unblocked,Niezablokowane,yes,zuko-step-016|zuko-step-025|zuko-step-036|zuko-step-045|zuko-step-058,8,ready
+untap,Untap,Odtapowanie,yes,zuko-step-007|zuko-step-013|zuko-step-018|zuko-step-019|zuko-step-021|zuko-step-028|zuko-step-037|zuko-step-046|zuko-step-053|zuko-step-060|zuko-step-065,5|7,ready
+untap-step,Untap step,Krok odtapowania,no,,7,ready
+until-end-of-turn,Until end of turn,Do końca tury,yes,zuko-step-039|zuko-step-040|zuko-step-041,8,ready
+upkeep-step,Upkeep step,Krok utrzymania,no,,7,ready
+vigilance,Vigilance,Czujność,yes,zuko-step-035|zuko-step-052|zuko-step-057,13,ready
+waterbend,Waterbend,Technika wody,no,,13,ready
+win-condition,Win condition,Warunek zwycięstwa,no,,5|7,ready
+x-cost,X,Wartość X,no,,13,ready
