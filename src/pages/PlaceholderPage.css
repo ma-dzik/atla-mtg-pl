@@ -1,0 +1,30 @@
+.placeholder-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.placeholder-page__info {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-text);
+  line-height: 1.6;
+  margin: 0;
+  background-color: var(--color-beige-light);
+  border-left: 4px solid var(--color-blue);
+  padding: 0.75rem 1rem;
+  border-radius: 0 6px 6px 0;
+}
+
+.placeholder-page__coming-soon {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  text-align: center;
+  padding: 2rem 0;
+  border: 2px dashed var(--color-brown-light);
+  border-radius: 8px;
+  font-style: italic;
+}

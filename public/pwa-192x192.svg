@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="20" fill="#5C3D2E"/>
+  <circle cx="96" cy="96" r="70" fill="none" stroke="#D4A93A" stroke-width="4"/>
+  <text x="96" y="130" font-size="100" text-anchor="middle" fill="#D4A93A">☯</text>
+  <text x="96" y="175" font-size="22" text-anchor="middle" fill="#F5F0E8" font-family="serif">MTG</text>
+</svg>

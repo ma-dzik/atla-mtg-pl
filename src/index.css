@@ -1,0 +1,71 @@
+/* =============================================
+   Avatar MTG – Global Styles & Design Tokens
+   ============================================= */
+
+:root {
+  /* Color palette */
+  --color-beige:       #F5F0E8;
+  --color-beige-light: #FBF8F2;
+  --color-brown-light: #C4A882;
+  --color-brown:       #8B6340;
+  --color-brown-dark:  #5C3D2E;
+  --color-blue:        #3A6E8F;
+  --color-blue-dark:   #1E3F5A;
+  --color-blue-light:  #7BB3CC;
+  --color-gold:        #D4A93A;
+  --color-text:        #3A2E20;
+  --color-text-muted:  #8B7355;
+
+  /* Typography */
+  --font-heading: Georgia, 'Times New Roman', serif;
+  --font-body:    system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --spacing-side: 1rem;
+  --max-width:    480px;
+}
+
+/* ---- Reset ---- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-beige);
+  color: var(--color-text);
+  min-height: 100dvh;
+  min-height: 100vh;
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  min-height: 100dvh;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ---- Focus visible ---- */
+:focus-visible {
+  outline: 3px solid var(--color-blue);
+  outline-offset: 2px;
+}
+
+/* ---- Utility ---- */
+button {
+  cursor: pointer;
+}
