@@ -1,0 +1,13 @@
+{
+  "zukoDeckPhysicalCardCount": 20,
+  "zukoDeckUniqueCardCount": 13,
+  "opponentUniqueCardCount": 8,
+  "totalUniqueQuickStartCardCount": 21,
+  "translatedUniqueCardCount": 21,
+  "allQuickStartCardsTranslated": true,
+  "previouslyMissingCardsAdded": [
+    "Run Amok",
+    "Explosive Shot",
+    "Dragon Moose"
+  ]
+}

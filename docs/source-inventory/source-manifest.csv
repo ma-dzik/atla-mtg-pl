@@ -1,0 +1,6 @@
+source_id,category,file_name_or_source,status,accessed_date,record_count,notes
+BOX-001,box,box-cover-front.jpg,ready,,1,Grecord_count,notes
+BOX-001,box,box-cover-front.jpg,ready,,1,Grafika ekranu startowego
+QSG-001,quick-start,zuko-quick-start.pdf,ready,,1,Zuko Quick Start Guide
+RR-001,rules-reference,rules-reference.pdf,ready,,1,Rules Reference z Beginner Boxa
+SCRY-001,scryfall-json,avatar-cards.raw.json,ready,,524,Karty TLA i TLE

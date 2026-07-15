@@ -1,0 +1,1815 @@
+{
+  "id": "zuko-quick-start",
+  "titlePl": "Pierwsza gra — talia Zuko",
+  "deck": "Zuko",
+  "version": "0.2-verified",
+  "source": "Magic: The Gathering — Avatar: The Last Airbender Beginner Box, Zuko Deck Quick Start Guide",
+  "totalSteps": 65,
+  "steps": [
+    {
+      "id": "zuko-step-001",
+      "order": 1,
+      "sourcePage": 3,
+      "chapter": "Przygotowanie",
+      "actor": "both",
+      "titlePl": "Znajdź talię Zuko",
+      "instructionPl": "Znajdź stos kart z kartą „Zuko Deck / Do Not Shuffle” na wierzchu. Wyjmij go z folii i odłóż kartę „Do Not Shuffle”.",
+      "explanationPl": "Górne 20 kart tworzy talię treningową Zuko. **Nie tasuj jej** — kolejność kart została przygotowana specjalnie na potrzeby pierwszej gry.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "deck",
+        "shuffle"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-002",
+      "order": 2,
+      "sourcePage": 3,
+      "chapter": "Przygotowanie",
+      "actor": "both",
+      "titlePl": "Przygotuj potrzebne elementy",
+      "instructionPl": "Przygotuj talię Zuko, czerwony żeton Soldier 2/2, kostkę dwudziestościenną, matę pola bitwy oraz Rules Reference.",
+      "explanationPl": "Żeton będzie potrzebny później. Kostka posłuży do śledzenia punktów życia.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "token",
+        "life-total",
+        "battlefield"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-003",
+      "order": 3,
+      "sourcePage": 3,
+      "chapter": "Przygotowanie",
+      "actor": "both",
+      "titlePl": "Sprawdź kolejność talii",
+      "instructionPl": "Sprawdź, czy karty znajdują się w kolejności podanej w instrukcji — od Warship Scout na wierzchu do Mountain na spodzie.",
+      "explanationPl": "Ta kolejność gwarantuje, że obaj gracze dobiorą właściwe karty w odpowiednich turach.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "referenced"
+        },
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "library",
+        "deck"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-004",
+      "order": 4,
+      "sourcePage": 4,
+      "chapter": "Przygotowanie",
+      "actor": "both",
+      "titlePl": "Przygotuj pole gry",
+      "instructionPl": "Połóż przed sobą matę. Umieść talię zakrytą w miejscu oznaczonym „Library”. Ustaw kostkę na 10 w miejscu „Life Total”.",
+      "explanationPl": "**Library** to twoja biblioteka, czyli talia, z której dobierasz karty. W tej grze treningowej każdy zaczyna z 10 punktami życia.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "library",
+        "life-total",
+        "battlefield"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-005",
+      "order": 5,
+      "sourcePage": 4,
+      "chapter": "Przygotowanie",
+      "actor": "both",
+      "titlePl": "Dobierz siedem kart",
+      "instructionPl": "Dobierz siedem kart z wierzchu biblioteki.",
+      "explanationPl": "W ręce powinny znajdować się: Warship Scout, Capital Guard i pięć kart Mountain. Jeżeli masz inne karty, ułóż talię ponownie zgodnie z listą.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "in-hand"
+        },
+        {
+          "name": "Capital Guard",
+          "printKey": "tle:234",
+          "role": "in-hand"
+        },
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "in-hand"
+        }
+      ],
+      "glossaryTermIds": [
+        "draw",
+        "hand",
+        "library"
+      ],
+      "checkpoint": true,
+      "assetId": "zuko-qsg-hand"
+    },
+    {
+      "id": "zuko-step-006",
+      "order": 6,
+      "sourcePage": 4,
+      "chapter": "Przygotowanie",
+      "actor": "system",
+      "titlePl": "Jak czytać kartę",
+      "instructionPl": "Znajdź na karcie jej nazwę, koszt many, typ, pole tekstowe oraz — w przypadku stworzenia — atak i obronę.",
+      "explanationPl": "Nazwa znajduje się u góry. Koszt many mówi, ile many trzeba zapłacić. W prawym dolnym rogu stworzenia znajduje się **atak/obrona**, np. 2/1.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "mana-cost",
+        "type-line",
+        "card-text",
+        "power",
+        "toughness",
+        "creature"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-anatomy"
+    },
+    {
+      "id": "zuko-step-007",
+      "order": 7,
+      "sourcePage": 5,
+      "chapter": "Przygotowanie",
+      "actor": "system",
+      "titlePl": "Tapowanie i odtapowanie",
+      "instructionPl": "Aby **tapnąć** kartę, obróć ją bokiem. Aby ją **odtapować**, ustaw ją ponownie pionowo.",
+      "explanationPl": "Lądy tapujesz, aby uzyskać manę, a stworzenia zazwyczaj tapują się podczas ataku. Na początku swojej tury odtapowujesz swoje karty.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "tap",
+        "untap",
+        "land",
+        "mana",
+        "attack"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-tap-untap"
+    },
+    {
+      "id": "zuko-step-008",
+      "order": 8,
+      "sourcePage": 5,
+      "chapter": "Przygotowanie",
+      "actor": "system",
+      "titlePl": "Cel pierwszej gry",
+      "instructionPl": "Zaczynasz jako pierwszy gracz. Obaj gracze mają po 10 punktów życia.",
+      "explanationPl": "Wygrywa osoba, która zmniejszy liczbę punktów życia przeciwnika do 0. W zwykłych przyszłych grach zaczynacie z 20 punktami życia.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "life-total",
+        "turn"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-009",
+      "order": 9,
+      "sourcePage": 6,
+      "chapter": "Pierwsza tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Zagraj pierwszy ląd",
+      "instructionPl": "Weź Mountain z ręki i połóż go na polu bitwy.",
+      "explanationPl": "Mountain jest **lądem**. Standardowo możesz zagrać jeden ląd podczas każdej swojej tury. Lądu nie rzuca się jako czaru.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "played"
+        }
+      ],
+      "glossaryTermIds": [
+        "land",
+        "battlefield",
+        "play"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-010",
+      "order": 10,
+      "sourcePage": 6,
+      "chapter": "Pierwsza tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Warship Scout",
+      "instructionPl": "Tapnij Mountain, aby uzyskać jedną czerwoną manę. Zapłać nią koszt {R} i rzuć Warship Scout.",
+      "explanationPl": "Poinformuj przeciwnika, że rzucasz czar stworzenia, a następnie połóż Warship Scout na polu bitwy nad lądem.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "referenced"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "cast"
+        }
+      ],
+      "glossaryTermIds": [
+        "tap",
+        "mana",
+        "cast",
+        "creature",
+        "battlefield"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-011",
+      "order": 11,
+      "sourcePage": 6,
+      "chapter": "Pierwsza tura Zuko",
+      "actor": "system",
+      "titlePl": "Warship Scout jeszcze nie atakuje",
+      "instructionPl": "Nie atakuj Warship Scout w tej turze.",
+      "explanationPl": "Stworzenie zazwyczaj nie może atakować w turze, w której weszło pod twoją kontrolę. Będzie gotowe do ataku w twojej następnej turze.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "summoning-sickness",
+        "attack",
+        "control"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-012",
+      "order": 12,
+      "sourcePage": 6,
+      "chapter": "Pierwsza tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Przekaż turę",
+      "instructionPl": "Powiedz przeciwnikowi, że kończysz swoją turę.",
+      "explanationPl": "Teraz przeciwnik rozgrywa swoją pierwszą turę. Zaczekaj, aż skończy.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "turn",
+        "pass-the-turn"
+      ],
+      "checkpoint": true,
+      "assetId": "zuko-qsg-recap-turn-1"
+    },
+    {
+      "id": "zuko-step-013",
+      "order": 13,
+      "sourcePage": 8,
+      "chapter": "Druga tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rozpocznij drugą turę",
+      "instructionPl": "Odtapuj swoje karty, dobierz jedną kartę i zagraj kolejny Mountain.",
+      "explanationPl": "Na początku każdej swojej tury odtapowujesz karty i dobierasz kartę. W pierwszej turze nie dobierałeś, ponieważ zaczynałeś grę.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "played"
+        }
+      ],
+      "glossaryTermIds": [
+        "untap",
+        "draw",
+        "library",
+        "land",
+        "turn"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-014",
+      "order": 14,
+      "sourcePage": 8,
+      "chapter": "Druga tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Capital Guard",
+      "instructionPl": "Tapnij dwa Mountain i rzuć Capital Guard za koszt {1}{R}.",
+      "explanationPl": "Symbol {1} oznacza jedną manę dowolnego rodzaju, a {R} wymaga jednej czerwonej many. Dwa Mountain zapewniają łącznie dwie czerwone many, więc możesz zapłacić cały koszt.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "referenced"
+        },
+        {
+          "name": "Capital Guard",
+          "printKey": "tle:234",
+          "role": "cast"
+        }
+      ],
+      "glossaryTermIds": [
+        "tap",
+        "generic-mana",
+        "red-mana",
+        "mana-cost",
+        "cast"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-015",
+      "order": 15,
+      "sourcePage": 8,
+      "chapter": "Druga tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Zaatakuj Warship Scout",
+      "instructionPl": "Powiedz przeciwnikowi, że atakujesz Warship Scout. Przesuń go do przodu i tapnij.",
+      "explanationPl": "Warship Scout był pod twoją kontrolą od początku tury, więc może teraz atakować. Atakujesz przeciwnika, a nie bezpośrednio jego stworzenia.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "tap",
+        "control"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-016",
+      "order": 16,
+      "sourcePage": 9,
+      "chapter": "Druga tura Zuko",
+      "actor": "system",
+      "titlePl": "Zadaj 2 obrażenia",
+      "instructionPl": "Warship Scout nie został zablokowany, więc zadaje przeciwnikowi 2 obrażenia.",
+      "explanationPl": "Atak stworzenia wynosi 2. Przeciwnik zmniejsza swoje punkty życia z 10 do 8.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "combat-damage",
+        "power",
+        "life-total",
+        "unblocked"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-scout-damage"
+    },
+    {
+      "id": "zuko-step-017",
+      "order": 17,
+      "sourcePage": 9,
+      "chapter": "Druga tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Przekaż turę",
+      "instructionPl": "Powiedz przeciwnikowi, że kończysz turę.",
+      "explanationPl": "Twój Warship Scout pozostaje tapnięty do początku twojej następnej tury.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "pass-the-turn",
+        "tap",
+        "turn"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-018",
+      "order": 18,
+      "sourcePage": 10,
+      "chapter": "Druga tura Aanga",
+      "actor": "opponent",
+      "titlePl": "Przeciwnik atakuje",
+      "instructionPl": "Zaczekaj, aż przeciwnik zaatakuje cię Wolf Cove Villager.",
+      "explanationPl": "Masz odtapowanego Capital Guard, więc możesz użyć go do bloku.",
+      "cardRefs": [
+        {
+          "name": "Wolf Cove Villager",
+          "printKey": "tle:221",
+          "role": "attacking"
+        },
+        {
+          "name": "Capital Guard",
+          "printKey": "tle:234",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "block",
+        "untap"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-019",
+      "order": 19,
+      "sourcePage": 11,
+      "chapter": "Druga tura Aanga",
+      "actor": "zuko-player",
+      "titlePl": "Zablokuj Capital Guard",
+      "instructionPl": "Powiedz przeciwnikowi, że blokujesz Wolf Cove Villager za pomocą Capital Guard. Przesuń Capital Guard przed atakujące stworzenie.",
+      "explanationPl": "Tylko odtapowane stworzenie może blokować. Stworzenia nie tapują się podczas blokowania.",
+      "cardRefs": [
+        {
+          "name": "Wolf Cove Villager",
+          "printKey": "tle:221",
+          "role": "attacking"
+        },
+        {
+          "name": "Capital Guard",
+          "printKey": "tle:234",
+          "role": "blocking"
+        }
+      ],
+      "glossaryTermIds": [
+        "block",
+        "untap"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-block-trade"
+    },
+    {
+      "id": "zuko-step-020",
+      "order": 20,
+      "sourcePage": 11,
+      "chapter": "Druga tura Aanga",
+      "actor": "system",
+      "titlePl": "Oba stworzenia zostają zniszczone",
+      "instructionPl": "Wolf Cove Villager i Capital Guard zadają sobie po 2 obrażenia. Umieść Capital Guard w swoim cmentarzu.",
+      "explanationPl": "Każde stworzenie otrzymało obrażenia równe swojej obronie, więc oba zostają zniszczone. Gdy atakujący i blokujący niszczą się nawzajem, gracze często mówią, że stworzenia „wymieniły się”.",
+      "cardRefs": [
+        {
+          "name": "Wolf Cove Villager",
+          "printKey": "tle:221",
+          "role": "destroyed"
+        },
+        {
+          "name": "Capital Guard",
+          "printKey": "tle:234",
+          "role": "destroyed"
+        }
+      ],
+      "glossaryTermIds": [
+        "combat-damage",
+        "power",
+        "toughness",
+        "destroy",
+        "graveyard",
+        "trade"
+      ],
+      "checkpoint": true,
+      "assetId": "zuko-qsg-block-trade"
+    },
+    {
+      "id": "zuko-step-021",
+      "order": 21,
+      "sourcePage": 12,
+      "chapter": "Trzecia tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rozpocznij trzecią turę",
+      "instructionPl": "Odtapuj karty, dobierz kartę i zagraj Mountain.",
+      "explanationPl": "Masz teraz trzy Mountain, więc możesz rzucić czar kosztujący trzy many.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "played"
+        }
+      ],
+      "glossaryTermIds": [
+        "untap",
+        "draw",
+        "land",
+        "mana"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-022",
+      "order": 22,
+      "sourcePage": 12,
+      "chapter": "Trzecia tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Fire Nation Soldier",
+      "instructionPl": "Tapnij trzy Mountain i rzuć Fire Nation Soldier za koszt {2}{R}.",
+      "explanationPl": "Koszt wynosi łącznie trzy many: dwie dowolne i jedną czerwoną.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "referenced"
+        },
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "cast"
+        }
+      ],
+      "glossaryTermIds": [
+        "cast",
+        "mana-cost",
+        "generic-mana",
+        "red-mana"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-023",
+      "order": 23,
+      "sourcePage": 12,
+      "chapter": "Trzecia tura Zuko",
+      "actor": "system",
+      "titlePl": "Poznaj pośpiech",
+      "instructionPl": "Przeczytaj zdolność **Pośpiech (Haste)** na Fire Nation Soldier.",
+      "explanationPl": "Pośpiech pozwala stworzeniu atakować i używać zdolności z symbolem tapnięcia już w turze, w której weszło pod twoją kontrolę.",
+      "cardRefs": [
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "haste",
+        "summoning-sickness",
+        "tap"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-024",
+      "order": 24,
+      "sourcePage": 12,
+      "chapter": "Trzecia tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Zaatakuj dwoma stworzeniami",
+      "instructionPl": "Zaatakuj przeciwnika Warship Scout i Fire Nation Soldier. Przesuń oba stworzenia do przodu i tapnij je.",
+      "explanationPl": "Warship Scout może atakować, bo był już pod twoją kontrolą. Fire Nation Soldier może atakować dzięki pośpiechowi.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        },
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "haste",
+        "tap"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-025",
+      "order": 25,
+      "sourcePage": 12,
+      "chapter": "Trzecia tura Zuko",
+      "actor": "opponent",
+      "titlePl": "Przeciwnik blokuje żołnierza",
+      "instructionPl": "Zaczekaj, aż przeciwnik zablokuje Fire Nation Soldier za pomocą Tundra Wall.",
+      "explanationPl": "Warship Scout pozostaje niezablokowany.",
+      "cardRefs": [
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "attacking"
+        },
+        {
+          "name": "Tundra Wall",
+          "printKey": "tle:220",
+          "role": "blocking"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "block",
+        "unblocked"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-turn-3-combat"
+    },
+    {
+      "id": "zuko-step-026",
+      "order": 26,
+      "sourcePage": 12,
+      "chapter": "Trzecia tura Zuko",
+      "actor": "system",
+      "titlePl": "Rozpatrz obrażenia",
+      "instructionPl": "Warship Scout zadaje przeciwnikowi 2 obrażenia, zmniejszając jego życie z 8 do 6. Fire Nation Soldier zadaje Tundra Wall 3 obrażenia, a ściana zadaje 0.",
+      "explanationPl": "Tundra Wall ma 4 obrony, więc przeżywa. Fire Nation Soldier również przeżywa. Na końcu tury obrażenia oznaczone na stworzeniach zostają usunięte.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        },
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "attacking"
+        },
+        {
+          "name": "Tundra Wall",
+          "printKey": "tle:220",
+          "role": "blocking"
+        }
+      ],
+      "glossaryTermIds": [
+        "combat-damage",
+        "toughness",
+        "cleanup-step",
+        "marked-damage"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-turn-3-combat"
+    },
+    {
+      "id": "zuko-step-027",
+      "order": 27,
+      "sourcePage": 12,
+      "chapter": "Trzecia tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Przekaż turę",
+      "instructionPl": "Powiedz przeciwnikowi, że kończysz swoją trzecią turę.",
+      "explanationPl": "Poczekaj, aż przeciwnik rozegra swoją trzecią turę.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "pass-the-turn",
+        "turn"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-028",
+      "order": 28,
+      "sourcePage": 13,
+      "chapter": "Czwarta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rozpocznij czwartą turę",
+      "instructionPl": "Odtapuj karty, dobierz kartę i zagraj Mountain.",
+      "explanationPl": "Masz teraz cztery lądy, ale nie musisz wydawać całej dostępnej many.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "played"
+        }
+      ],
+      "glossaryTermIds": [
+        "untap",
+        "draw",
+        "land",
+        "mana"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-029",
+      "order": 29,
+      "sourcePage": 13,
+      "chapter": "Czwarta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Iroh, Firebending Instructor",
+      "instructionPl": "Tapnij trzy Mountain i rzuć Iroh, Firebending Instructor.",
+      "explanationPl": "Iroh ma zdolność, która wyzwala się podczas jego ataku. Poznasz ją w następnej turze.",
+      "cardRefs": [
+        {
+          "name": "Iroh, Firebending Instructor",
+          "printKey": "tle:240",
+          "role": "cast"
+        }
+      ],
+      "glossaryTermIds": [
+        "cast",
+        "triggered-ability",
+        "attack"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-030",
+      "order": 30,
+      "sourcePage": 13,
+      "chapter": "Czwarta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Zaatakuj Fire Nation Soldier",
+      "instructionPl": "Zaatakuj wyłącznie Fire Nation Soldier i tapnij go.",
+      "explanationPl": "Warship Scout zginąłby w bloku przez Sokkę, natomiast Fire Nation Soldier może wymienić się z Sokką albo ponownie uderzyć w Tundra Wall.",
+      "cardRefs": [
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "attacking"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "referenced"
+        },
+        {
+          "name": "Sokka, Wolf Cove's Protector",
+          "printKey": "tle:219",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "trade"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-031",
+      "order": 31,
+      "sourcePage": 13,
+      "chapter": "Czwarta tura Zuko",
+      "actor": "opponent",
+      "titlePl": "Tundra Wall blokuje ponownie",
+      "instructionPl": "Zaczekaj, aż przeciwnik zablokuje Fire Nation Soldier za pomocą Tundra Wall.",
+      "explanationPl": "Fire Nation Soldier zadaje ścianie kolejne 3 obrażenia, ale obrażenia z poprzedniej tury zostały już usunięte.",
+      "cardRefs": [
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "attacking"
+        },
+        {
+          "name": "Tundra Wall",
+          "printKey": "tle:220",
+          "role": "blocking"
+        }
+      ],
+      "glossaryTermIds": [
+        "block",
+        "combat-damage",
+        "marked-damage"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-032",
+      "order": 32,
+      "sourcePage": 14,
+      "chapter": "Czwarta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Zuko's Offense po walce",
+      "instructionPl": "Po zakończeniu walki tapnij jeden Mountain i rzuć Zuko's Offense, wskazując Tundra Wall jako cel.",
+      "explanationPl": "Zuko's Offense jest **Rytuałem (Sorcery)**. Zadaje Tundra Wall 2 obrażenia. Ściana otrzymała w tej turze łącznie 5 obrażeń, więc zostaje zniszczona. Po rozpatrzeniu odłóż Zuko's Offense do swojego cmentarza.",
+      "cardRefs": [
+        {
+          "name": "Zuko's Offense",
+          "printKey": "tle:247",
+          "role": "cast"
+        },
+        {
+          "name": "Tundra Wall",
+          "printKey": "tle:220",
+          "role": "destroyed"
+        }
+      ],
+      "glossaryTermIds": [
+        "sorcery",
+        "target",
+        "damage",
+        "destroy",
+        "graveyard",
+        "resolve"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-destroy-wall"
+    },
+    {
+      "id": "zuko-step-033",
+      "order": 33,
+      "sourcePage": 14,
+      "chapter": "Czwarta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Przekaż turę",
+      "instructionPl": "Powiedz przeciwnikowi, że kończysz swoją czwartą turę.",
+      "explanationPl": "Na polu bitwy masz Warship Scout, Fire Nation Soldier i Iroh.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "referenced"
+        },
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "referenced"
+        },
+        {
+          "name": "Iroh, Firebending Instructor",
+          "printKey": "tle:240",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "pass-the-turn",
+        "battlefield"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-034",
+      "order": 34,
+      "sourcePage": 15,
+      "chapter": "Czwarta tura Aanga",
+      "actor": "opponent",
+      "titlePl": "Momo niszczy Fire Nation Soldier",
+      "instructionPl": "Przeciwnik rzuca Momo, Rambunctious Rascal. Umieść Fire Nation Soldier w swoim cmentarzu.",
+      "explanationPl": "Gdy Momo wchodzi na pole bitwy, jego zdolność zadaje 4 obrażenia wskazanemu tapniętemu stworzeniu przeciwnika. Nie jest to atak — to zdolność wyzwalana wejściem na pole bitwy.",
+      "cardRefs": [
+        {
+          "name": "Momo, Rambunctious Rascal",
+          "printKey": "tle:217",
+          "role": "cast"
+        },
+        {
+          "name": "Fire Nation Soldier",
+          "printKey": "tle:238",
+          "role": "destroyed"
+        }
+      ],
+      "glossaryTermIds": [
+        "enters",
+        "triggered-ability",
+        "damage",
+        "destroy",
+        "graveyard"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-momo-soldier"
+    },
+    {
+      "id": "zuko-step-035",
+      "order": 35,
+      "sourcePage": 15,
+      "chapter": "Czwarta tura Aanga",
+      "actor": "opponent",
+      "titlePl": "Sokka atakuje",
+      "instructionPl": "Przeciwnik atakuje Sokką. Powiedz, że nie blokujesz.",
+      "explanationPl": "Sokka ma **Czujność (Vigilance)**, więc nie tapuje się podczas ataku. Warship Scout ani Iroh nie są wystarczająco silni, aby korzystnie go zablokować.",
+      "cardRefs": [
+        {
+          "name": "Sokka, Wolf Cove's Protector",
+          "printKey": "tle:219",
+          "role": "attacking"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "referenced"
+        },
+        {
+          "name": "Iroh, Firebending Instructor",
+          "printKey": "tle:240",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "vigilance",
+        "attack",
+        "block"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-036",
+      "order": 36,
+      "sourcePage": 15,
+      "chapter": "Czwarta tura Aanga",
+      "actor": "system",
+      "titlePl": "Tracisz 3 punkty życia",
+      "instructionPl": "Sokka zadaje ci 3 obrażenia. Zmień liczbę swoich punktów życia z 10 na 7.",
+      "explanationPl": "Niezablokowane stworzenie zadaje graczowi obrażenia równe swojemu atakowi.",
+      "cardRefs": [
+        {
+          "name": "Sokka, Wolf Cove's Protector",
+          "printKey": "tle:219",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "combat-damage",
+        "unblocked",
+        "power",
+        "life-total"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-037",
+      "order": 37,
+      "sourcePage": 15,
+      "chapter": "Piąta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rozpocznij piątą turę",
+      "instructionPl": "Odtapuj karty, dobierz kartę i zagraj Mountain.",
+      "explanationPl": "Masz teraz pięć Mountain.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "played"
+        }
+      ],
+      "glossaryTermIds": [
+        "untap",
+        "draw",
+        "land"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-038",
+      "order": 38,
+      "sourcePage": 15,
+      "chapter": "Piąta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Zhao, the Seething Flame",
+      "instructionPl": "Tapnij pięć Mountain i rzuć Zhao, the Seething Flame.",
+      "explanationPl": "Zhao ma **Groźbę (Menace)**. Poznasz działanie tej zdolności w następnej turze.",
+      "cardRefs": [
+        {
+          "name": "Zhao, the Seething Flame",
+          "printKey": "tle:245",
+          "role": "cast"
+        }
+      ],
+      "glossaryTermIds": [
+        "cast",
+        "menace"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-039",
+      "order": 39,
+      "sourcePage": 15,
+      "chapter": "Piąta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Zaatakuj Warship Scout i Iroh",
+      "instructionPl": "Zaatakuj przeciwnika Warship Scout i Iroh. Tapnij oba stworzenia.",
+      "explanationPl": "Gdy Iroh atakuje, jego zdolność wyzwala się. Do końca tury wszystkie twoje atakujące stworzenia dostają +1/+1. Iroh staje się 3/3, a Warship Scout 3/2.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        },
+        {
+          "name": "Iroh, Firebending Instructor",
+          "printKey": "tle:240",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "triggered-ability",
+        "power-toughness-modifier",
+        "until-end-of-turn"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-040",
+      "order": 40,
+      "sourcePage": 16,
+      "chapter": "Piąta tura Zuko",
+      "actor": "opponent",
+      "titlePl": "Sokka blokuje Iroh",
+      "instructionPl": "Przeciwnik blokuje Iroh za pomocą Sokki, a następnie rzuca Aang's Defense.",
+      "explanationPl": "Aang's Defense jest **Czarem natychmiastowym (Instant)**. Można go rzucać podczas walki i w turze przeciwnika. Sokka dostaje +2/+2 i staje się 5/5 do końca tury.",
+      "cardRefs": [
+        {
+          "name": "Iroh, Firebending Instructor",
+          "printKey": "tle:240",
+          "role": "attacking"
+        },
+        {
+          "name": "Sokka, Wolf Cove's Protector",
+          "printKey": "tle:219",
+          "role": "blocking"
+        },
+        {
+          "name": "Aang's Defense",
+          "printKey": "tle:211",
+          "role": "cast"
+        }
+      ],
+      "glossaryTermIds": [
+        "block",
+        "instant",
+        "until-end-of-turn",
+        "power-toughness-modifier"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-iroh-sokka"
+    },
+    {
+      "id": "zuko-step-041",
+      "order": 41,
+      "sourcePage": 16,
+      "chapter": "Piąta tura Zuko",
+      "actor": "system",
+      "titlePl": "Rozpatrz piątą walkę",
+      "instructionPl": "Warship Scout zadaje przeciwnikowi 3 obrażenia, zmniejszając jego życie z 6 do 3. Sokka zadaje Iroh 5 obrażeń, a Iroh zadaje Sokce 3.",
+      "explanationPl": "Iroh zostaje zniszczony, ale Sokka przeżywa. Umieść Iroh w swoim cmentarzu. Po zakończeniu tury Warship Scout wraca do 2/1.",
+      "cardRefs": [
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        },
+        {
+          "name": "Iroh, Firebending Instructor",
+          "printKey": "tle:240",
+          "role": "destroyed"
+        },
+        {
+          "name": "Sokka, Wolf Cove's Protector",
+          "printKey": "tle:219",
+          "role": "blocking"
+        }
+      ],
+      "glossaryTermIds": [
+        "combat-damage",
+        "destroy",
+        "graveyard",
+        "until-end-of-turn"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-iroh-sokka"
+    },
+    {
+      "id": "zuko-step-042",
+      "order": 42,
+      "sourcePage": 16,
+      "chapter": "Piąta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Przekaż turę",
+      "instructionPl": "Powiedz przeciwnikowi, że kończysz turę.",
+      "explanationPl": "Masz 7 punktów życia. Przeciwnik ma 3.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "pass-the-turn",
+        "life-total"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-043",
+      "order": 43,
+      "sourcePage": 17,
+      "chapter": "Piąta tura Aanga",
+      "actor": "opponent",
+      "titlePl": "Katara wzmacnia stworzenia",
+      "instructionPl": "Przeciwnik rzuca Katara, Heroic Healer i kładzie po jednym znaczniku +1/+1 na Sokce oraz Momo.",
+      "explanationPl": "Znaczniki zwiększają atak i obronę na stałe, dopóki karta pozostaje na polu bitwy. Sokka staje się 4/4, a Momo 2/2.",
+      "cardRefs": [
+        {
+          "name": "Katara, Heroic Healer",
+          "printKey": "tle:215",
+          "role": "cast"
+        },
+        {
+          "name": "Sokka, Wolf Cove's Protector",
+          "printKey": "tle:219",
+          "role": "referenced"
+        },
+        {
+          "name": "Momo, Rambunctious Rascal",
+          "printKey": "tle:217",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "counter-permanent",
+        "enters",
+        "permanent"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-044",
+      "order": 44,
+      "sourcePage": 17,
+      "chapter": "Piąta tura Aanga",
+      "actor": "opponent",
+      "titlePl": "Momo atakuje z lataniem",
+      "instructionPl": "Przeciwnik atakuje Momo. Powiedz, że nie możesz go zablokować.",
+      "explanationPl": "Momo ma **Latanie (Flying)**. Może zostać zablokowany tylko przez stworzenie z lataniem albo zasięgiem. Zhao nie ma żadnej z tych zdolności.",
+      "cardRefs": [
+        {
+          "name": "Momo, Rambunctious Rascal",
+          "printKey": "tle:217",
+          "role": "attacking"
+        },
+        {
+          "name": "Zhao, the Seething Flame",
+          "printKey": "tle:245",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "flying",
+        "reach",
+        "block"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-momo-flying"
+    },
+    {
+      "id": "zuko-step-045",
+      "order": 45,
+      "sourcePage": 17,
+      "chapter": "Piąta tura Aanga",
+      "actor": "system",
+      "titlePl": "Tracisz 2 punkty życia",
+      "instructionPl": "Momo zadaje ci 2 obrażenia. Zmień liczbę punktów życia z 7 na 5.",
+      "explanationPl": "Momo był niezablokowany.",
+      "cardRefs": [
+        {
+          "name": "Momo, Rambunctious Rascal",
+          "printKey": "tle:217",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "combat-damage",
+        "unblocked",
+        "life-total"
+      ],
+      "checkpoint": true,
+      "assetId": "zuko-qsg-momo-flying"
+    },
+    {
+      "id": "zuko-step-046",
+      "order": 46,
+      "sourcePage": 18,
+      "chapter": "Szósta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rozpocznij szóstą turę",
+      "instructionPl": "Odtapuj karty i dobierz kartę. W tej turze nie masz lądu do zagrania.",
+      "explanationPl": "Nie zawsze dobierzesz ląd. Nadal możesz korzystać z pięciu Mountain znajdujących się na polu bitwy.",
+      "cardRefs": [
+        {
+          "name": "Mountain",
+          "printKey": "tla:285",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "untap",
+        "draw",
+        "land"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-047",
+      "order": 47,
+      "sourcePage": 18,
+      "chapter": "Szósta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Zuko, Avatar Hunter",
+      "instructionPl": "Tapnij pięć Mountain i rzuć Zuko, Avatar Hunter.",
+      "explanationPl": "Zuko ma **Zasięg (Reach)**, więc może blokować stworzenia z lataniem. Za każdym razem, gdy rzucasz czerwony czar, tworzy żeton Soldier 2/2 — ale nie wyzwala tej zdolności dla samego siebie, ponieważ nie było go jeszcze na polu bitwy.",
+      "cardRefs": [
+        {
+          "name": "Zuko, Avatar Hunter",
+          "printKey": "tle:246",
+          "role": "cast"
+        }
+      ],
+      "glossaryTermIds": [
+        "reach",
+        "flying",
+        "triggered-ability",
+        "red-spell",
+        "token"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-048",
+      "order": 48,
+      "sourcePage": 18,
+      "chapter": "Szósta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Zaatakuj Zhao i Warship Scout",
+      "instructionPl": "Zaatakuj przeciwnika Zhao, the Seething Flame i Warship Scout. Tapnij oba stworzenia.",
+      "explanationPl": "Zhao ma **Groźbę (Menace)**, więc musi zostać zablokowany przez co najmniej dwa stworzenia. Przeciwnik ma 3 punkty życia i nie może pozwolić, aby Zhao przeszedł bez bloku.",
+      "cardRefs": [
+        {
+          "name": "Zhao, the Seething Flame",
+          "printKey": "tle:245",
+          "role": "attacking"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "menace",
+        "block",
+        "life-total"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-049",
+      "order": 49,
+      "sourcePage": 18,
+      "chapter": "Szósta tura Zuko",
+      "actor": "opponent",
+      "titlePl": "Podwójny blok Zhao",
+      "instructionPl": "Zaczekaj, aż przeciwnik zablokuje Zhao jednocześnie Sokką i Katarą.",
+      "explanationPl": "Blokowanie jednego atakującego kilkoma stworzeniami nazywa się podwójnym lub wielokrotnym blokiem.",
+      "cardRefs": [
+        {
+          "name": "Zhao, the Seething Flame",
+          "printKey": "tle:245",
+          "role": "attacking"
+        },
+        {
+          "name": "Sokka, Wolf Cove's Protector",
+          "printKey": "tle:219",
+          "role": "blocking"
+        },
+        {
+          "name": "Katara, Heroic Healer",
+          "printKey": "tle:215",
+          "role": "blocking"
+        }
+      ],
+      "glossaryTermIds": [
+        "double-block",
+        "block"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-zhao-double-block"
+    },
+    {
+      "id": "zuko-step-050",
+      "order": 50,
+      "sourcePage": 18,
+      "chapter": "Szósta tura Zuko",
+      "actor": "system",
+      "titlePl": "Przydziel obrażenia Zhao",
+      "instructionPl": "Przydziel 4 obrażenia Zhao Sokce i 1 obrażenie Katarze. Warship Scout zadaje przeciwnikowi 2 obrażenia.",
+      "explanationPl": "Sokka i Katara zadają Zhao łącznie 6 obrażeń, więc Zhao zostaje zniszczony. Sokka również zostaje zniszczony. Katara przeżywa i dzięki **Więzi życia (Lifelink)** przywraca przeciwnikowi 2 punkty życia. Przeciwnik pozostaje na 3 punktach życia. Umieść Zhao w cmentarzu.",
+      "cardRefs": [
+        {
+          "name": "Zhao, the Seething Flame",
+          "printKey": "tle:245",
+          "role": "destroyed"
+        },
+        {
+          "name": "Sokka, Wolf Cove's Protector",
+          "printKey": "tle:219",
+          "role": "destroyed"
+        },
+        {
+          "name": "Katara, Heroic Healer",
+          "printKey": "tle:215",
+          "role": "blocking"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "damage-assignment",
+        "double-block",
+        "lifelink",
+        "destroy",
+        "graveyard",
+        "life-total"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-zhao-double-block"
+    },
+    {
+      "id": "zuko-step-051",
+      "order": 51,
+      "sourcePage": 18,
+      "chapter": "Szósta tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Przekaż turę",
+      "instructionPl": "Powiedz przeciwnikowi, że kończysz turę.",
+      "explanationPl": "Masz 5 punktów życia. Przeciwnik ma 3.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "pass-the-turn",
+        "life-total"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-052",
+      "order": 52,
+      "sourcePage": 19,
+      "chapter": "Szósta tura Aanga",
+      "actor": "opponent",
+      "titlePl": "Aang daje czujność całej drużynie",
+      "instructionPl": "Przeciwnik rzuca Aang, Air Nomad.",
+      "explanationPl": "Aang ma latanie i czujność, a także daje czujność pozostałym stworzeniom przeciwnika. Dzięki zasięgowi Zuko przeciwnik nie ma jednak dobrego ataku w tej turze.",
+      "cardRefs": [
+        {
+          "name": "Aang, Air Nomad",
+          "printKey": "tle:210",
+          "role": "cast"
+        },
+        {
+          "name": "Zuko, Avatar Hunter",
+          "printKey": "tle:246",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "flying",
+        "vigilance",
+        "reach"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-053",
+      "order": 53,
+      "sourcePage": 19,
+      "chapter": "Siódma tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rozpocznij siódmą turę",
+      "instructionPl": "Odtapuj karty i dobierz kartę.",
+      "explanationPl": "Nie zagrywasz lądu w tej turze.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "untap",
+        "draw"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-054",
+      "order": 54,
+      "sourcePage": 19,
+      "chapter": "Siódma tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Komodo Rhino",
+      "instructionPl": "Tapnij cztery Mountain i rzuć Komodo Rhino.",
+      "explanationPl": "Komodo Rhino jest czerwonym czarem, więc zdolność Zuko wyzwala się. Połóż na polu bitwy czerwony żeton Soldier 2/2. Żeton działa jak zwykłe stworzenie, ale nie jest kartą z talii.",
+      "cardRefs": [
+        {
+          "name": "Komodo Rhino",
+          "printKey": "tle:241",
+          "role": "cast"
+        },
+        {
+          "name": "Zuko, Avatar Hunter",
+          "printKey": "tle:246",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "cast",
+        "red-spell",
+        "triggered-ability",
+        "token"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-055",
+      "order": 55,
+      "sourcePage": 20,
+      "chapter": "Siódma tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Nie atakuj",
+      "instructionPl": "Nie atakuj w tej turze. Przekaż turę przeciwnikowi.",
+      "explanationPl": "Zuko jest twoim jedynym stworzeniem z zasięgiem. Gdyby zaatakował, nie mógłby zablokować Aanga. Warship Scout jest zbyt mały, aby korzystnie zaatakować, a Komodo Rhino i żeton weszły w tej turze.",
+      "cardRefs": [
+        {
+          "name": "Zuko, Avatar Hunter",
+          "printKey": "tle:246",
+          "role": "referenced"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "referenced"
+        },
+        {
+          "name": "Komodo Rhino",
+          "printKey": "tle:241",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "reach",
+        "summoning-sickness",
+        "pass-the-turn"
+      ],
+      "checkpoint": true,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-056",
+      "order": 56,
+      "sourcePage": 20,
+      "chapter": "Siódma tura Aanga",
+      "actor": "opponent",
+      "titlePl": "Otter-Penguin otrzymuje znacznik",
+      "instructionPl": "Przeciwnik rzuca Sledding Otter-Penguin i aktywuje jego zdolność, płacąc trzy many.",
+      "explanationPl": "Na Sledding Otter-Penguin trafia znacznik +1/+1, więc staje się 3/4. Koszt zdolności znajduje się przed dwukropkiem, a jej efekt po dwukropku.",
+      "cardRefs": [
+        {
+          "name": "Sledding Otter-Penguin",
+          "printKey": "tle:218",
+          "role": "cast"
+        }
+      ],
+      "glossaryTermIds": [
+        "activated-ability",
+        "cost",
+        "effect",
+        "counter-permanent"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-057",
+      "order": 57,
+      "sourcePage": 20,
+      "chapter": "Siódma tura Aanga",
+      "actor": "opponent",
+      "titlePl": "Przeciwnik atakuje trzema stworzeniami",
+      "instructionPl": "Przeciwnik atakuje Aangiem, Katarą i Momo. Dzięki czujności żadne z nich nie tapuje się podczas ataku.",
+      "explanationPl": "Masz 5 punktów życia. Aang i Momo mają latanie, a ty masz tylko jedno stworzenie z zasięgiem — Zuko.",
+      "cardRefs": [
+        {
+          "name": "Aang, Air Nomad",
+          "printKey": "tle:210",
+          "role": "attacking"
+        },
+        {
+          "name": "Katara, Heroic Healer",
+          "printKey": "tle:215",
+          "role": "attacking"
+        },
+        {
+          "name": "Momo, Rambunctious Rascal",
+          "printKey": "tle:217",
+          "role": "attacking"
+        },
+        {
+          "name": "Zuko, Avatar Hunter",
+          "printKey": "tle:246",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "vigilance",
+        "flying",
+        "reach"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-058",
+      "order": 58,
+      "sourcePage": 20,
+      "chapter": "Siódma tura Aanga",
+      "actor": "zuko-player",
+      "titlePl": "Zadeklaruj bloki",
+      "instructionPl": "Zablokuj Aanga za pomocą Zuko. Zablokuj Katarę jednocześnie Warship Scout i żetonem Soldier 2/2. Momo pozostaje niezablokowany.",
+      "explanationPl": "Zuko musi zablokować Aanga, ponieważ inaczej jego 5 obrażeń zakończyłoby grę. Katarę możesz zablokować dwoma stworzeniami.",
+      "cardRefs": [
+        {
+          "name": "Aang, Air Nomad",
+          "printKey": "tle:210",
+          "role": "attacking"
+        },
+        {
+          "name": "Zuko, Avatar Hunter",
+          "printKey": "tle:246",
+          "role": "blocking"
+        },
+        {
+          "name": "Katara, Heroic Healer",
+          "printKey": "tle:215",
+          "role": "attacking"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "blocking"
+        },
+        {
+          "name": "Momo, Rambunctious Rascal",
+          "printKey": "tle:217",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "block",
+        "double-block",
+        "unblocked",
+        "life-total"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-final-combat"
+    },
+    {
+      "id": "zuko-step-059",
+      "order": 59,
+      "sourcePage": 21,
+      "chapter": "Siódma tura Aanga",
+      "actor": "system",
+      "titlePl": "Rozpatrz ostatnią dużą walkę",
+      "instructionPl": "Momo zadaje ci 2 obrażenia, więc spadasz z 5 do 3 punktów życia. Aang i Zuko zadają sobie odpowiednio 5 i 4 obrażenia. Katara przydziela 2 obrażenia żetonowi Soldier.",
+      "explanationPl": "Aang i Zuko zostają zniszczeni. Warship Scout oraz żeton Soldier zadają Katarze łącznie 4 obrażenia, więc Katara i żeton również zostają zniszczeni. Żeton znika zamiast pozostać w cmentarzu. Więź życia Katary zwiększa życie przeciwnika z 3 do 5.",
+      "cardRefs": [
+        {
+          "name": "Aang, Air Nomad",
+          "printKey": "tle:210",
+          "role": "destroyed"
+        },
+        {
+          "name": "Zuko, Avatar Hunter",
+          "printKey": "tle:246",
+          "role": "destroyed"
+        },
+        {
+          "name": "Katara, Heroic Healer",
+          "printKey": "tle:215",
+          "role": "destroyed"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "blocking"
+        },
+        {
+          "name": "Momo, Rambunctious Rascal",
+          "printKey": "tle:217",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "combat-damage",
+        "damage-assignment",
+        "destroy",
+        "token",
+        "graveyard",
+        "lifelink",
+        "life-total"
+      ],
+      "checkpoint": true,
+      "assetId": "zuko-qsg-final-combat"
+    },
+    {
+      "id": "zuko-step-060",
+      "order": 60,
+      "sourcePage": 21,
+      "chapter": "Ósma tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rozpocznij ósmą turę",
+      "instructionPl": "Odtapuj karty i dobierz kartę.",
+      "explanationPl": "W ręce pojawia się Fire Nation's Conquest.",
+      "cardRefs": [
+        {
+          "name": "Fire Nation's Conquest",
+          "printKey": "tle:239",
+          "role": "drawn"
+        }
+      ],
+      "glossaryTermIds": [
+        "untap",
+        "draw",
+        "hand"
+      ],
+      "checkpoint": false,
+      "assetId": null
+    },
+    {
+      "id": "zuko-step-061",
+      "order": 61,
+      "sourcePage": 21,
+      "chapter": "Ósma tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Rzuć Fire Nation's Conquest",
+      "instructionPl": "Tapnij trzy Mountain i rzuć Fire Nation's Conquest. Połóż go na polu bitwy obok swoich stworzeń.",
+      "explanationPl": "To **Urok (Enchantment)**. Pozostaje na polu bitwy i daje wszystkim twoim stworzeniom +1/+0. Warship Scout staje się 3/1, a Komodo Rhino 6/2.",
+      "cardRefs": [
+        {
+          "name": "Fire Nation's Conquest",
+          "printKey": "tle:239",
+          "role": "cast"
+        },
+        {
+          "name": "Warship Scout",
+          "printKey": "tle:244",
+          "role": "referenced"
+        },
+        {
+          "name": "Komodo Rhino",
+          "printKey": "tle:241",
+          "role": "referenced"
+        }
+      ],
+      "glossaryTermIds": [
+        "enchantment",
+        "permanent",
+        "power-toughness-modifier",
+        "battlefield"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-trample"
+    },
+    {
+      "id": "zuko-step-062",
+      "order": 62,
+      "sourcePage": 21,
+      "chapter": "Ósma tura Zuko",
+      "actor": "zuko-player",
+      "titlePl": "Zaatakuj Komodo Rhino",
+      "instructionPl": "Zaatakuj przeciwnika Komodo Rhino i tapnij go.",
+      "explanationPl": "Komodo Rhino ma **Tratowanie (Trample)**. Jeżeli zostanie zablokowany, nadmiar obrażeń ponad obronę blokującego stworzenia może trafić w przeciwnika.",
+      "cardRefs": [
+        {
+          "name": "Komodo Rhino",
+          "printKey": "tle:241",
+          "role": "attacking"
+        }
+      ],
+      "glossaryTermIds": [
+        "attack",
+        "trample",
+        "excess-damage"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-trample"
+    },
+    {
+      "id": "zuko-step-063",
+      "order": 63,
+      "sourcePage": 21,
+      "chapter": "Ósma tura Zuko",
+      "actor": "opponent",
+      "titlePl": "Przeciwnik wybiera blok",
+      "instructionPl": "Przeciwnik wybiera, czym zablokować Komodo Rhino.",
+      "explanationPl": "Jeżeli blokuje Momo 2/2, otrzymuje 4 nadmiarowe obrażenia i spada z 5 do 1 punktu życia. Jeżeli blokuje Sledding Otter-Penguin 3/4, otrzymuje 2 nadmiarowe obrażenia i spada do 3. W obu przypadkach Komodo Rhino oraz blokujące stworzenie zostają zniszczone.",
+      "cardRefs": [
+        {
+          "name": "Komodo Rhino",
+          "printKey": "tle:241",
+          "role": "attacking"
+        },
+        {
+          "name": "Momo, Rambunctious Rascal",
+          "printKey": "tle:217",
+          "role": "blocking"
+        },
+        {
+          "name": "Sledding Otter-Penguin",
+          "printKey": "tle:218",
+          "role": "blocking"
+        }
+      ],
+      "glossaryTermIds": [
+        "block",
+        "trample",
+        "excess-damage",
+        "destroy",
+        "life-total"
+      ],
+      "checkpoint": false,
+      "assetId": "zuko-qsg-trample"
+    },
+    {
+      "id": "zuko-step-064",
+      "order": 64,
+      "sourcePage": 21,
+      "chapter": "Zakończenie",
+      "actor": "system",
+      "titlePl": "Tutorial ukończony",
+      "instructionPl": "Dokończcie grę samodzielnie i sprawdźcie, kto wygra.",
+      "explanationPl": "Znasz już podstawy: zagrywanie lądów, rzucanie czarów, tapowanie, atakowanie, blokowanie, obrażenia oraz najważniejsze zdolności. Gra powinna zakończyć się w ciągu jednej lub dwóch kolejnych tur.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "land",
+        "cast",
+        "tap",
+        "attack",
+        "block",
+        "combat-damage"
+      ],
+      "checkpoint": true,
+      "assetId": "zuko-qsg-recap-turn-8"
+    },
+    {
+      "id": "zuko-step-065",
+      "order": 65,
+      "sourcePage": 22,
+      "chapter": "Zakończenie",
+      "actor": "system",
+      "titlePl": "Kilka wskazówek na kolejne gry",
+      "instructionPl": "Gdy nie rozumiesz karty, otwórz słowniczek. Zagrywaj ląd w każdej turze, gdy możesz, i przed atakiem porównuj atak oraz obronę stworzeń.",
+      "explanationPl": "Pamiętaj, że atakujesz przeciwnika, a nie jego stworzenia. Zastanów się również, czy po ataku pozostaną ci odtapowane stworzenia zdolne do blokowania.",
+      "cardRefs": [],
+      "glossaryTermIds": [
+        "land",
+        "attack",
+        "block",
+        "power",
+        "toughness",
+        "untap"
+      ],
+      "checkpoint": true,
+      "assetId": "zuko-qsg-recap-turn-8"
+    }
+  ],
+  "verification": {
+    "sourcePagesChecked": "3-22",
+    "cardReferencesCheckedAgainst": "avatar.json",
+    "assetCount": 15
+  }
+}

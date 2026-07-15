@@ -1,0 +1,25 @@
+﻿section_id,source_page,title,content_type,summary,glossary_terms,diagram_present,planned_usage,status,notes
+rr-sec-001,2,How to Use This Reference Guide,reference,"Wprowadzenie: najpierw Quick Start, potem zasady podstawowe i bardziej zaawansowane.",quick-start|beginner-box,no,not-used-in-mvp,identified,Treść organizacyjna.
+rr-sec-002,3,Anatomy of a Magic Card,diagram,"Budowa karty: nazwa, typ, tekst, koszt many, symbol dodatku, atak i obrona.",card-name|type-line|text-box|mana-cost|expansion-symbol|power|toughness,yes,glossary,identified,Diagram może wspierać słowniczek.
+rr-sec-003,4,Card Types: Permanents,definition,"Wyjaśnienie permanenta oraz rozróżnienie typów, które pozostają na Battlefield.",permanent|battlefield|land|creature|artifact|enchantment|instant|sorcery,no,glossary,identified,
+rr-sec-004,4,Card Types: Lands,definition,"Lądy nie są rzucane jako czary, zagrywa się zwykle jeden na turę i produkują manę.",land|basic-land|nonbasic-land|mana|play,yes,glossary,identified,
+rr-sec-005,4,Card Types: Creatures,definition,"Stwory atakują i blokują; opis ataku, obrony i summoning sickness.",creature|attack|block|power|toughness|summoning-sickness,yes,glossary,identified,
+rr-sec-006,4,Card Types: Artifacts,definition,Artefakty są permanentami; artefakty-stwory podlegają summoning sickness.,artifact|permanent|activated-ability|summoning-sickness,no,glossary,identified,
+rr-sec-007,5,Equipment and Enchantments,definition,"Equipment dołącza się do stworów; enchantment pozostaje na stole, Aura przyczepia się do obiektu.",equipment|equip|enchantment|aura|enchant|permanent,yes,glossary,identified,
+rr-sec-008,5,Sorceries and Instants,definition,Sorcery zagrywa się w main phase przy pustym stacku; instant można zagrywać w wielu momentach.,sorcery|instant|main-phase|stack|cast|resolve,yes,glossary,identified,
+rr-sec-009,6,Game Zones,diagram,"Strefy gry: Library, Graveyard, Battlefield, Lands, Exile i Hand.",library|graveyard|battlefield|exile|hand|land,yes,glossary,identified,Diagram przydatny w słowniczku.
+rr-sec-010,7,Starting a Game,procedure,"Tasowanie, wybór pierwszego gracza, dobieranie siedmiu kart i warunek zwycięstwa.",shuffle|first-player|opening-hand|life-total|win-condition,no,future-full-guide,identified,Opcja pełnej instrukcji jest wyszarzona w MVP.
+rr-sec-011,7,Opening Hands and Mulligans,procedure,Ocena ręki początkowej i mulligan.,opening-hand|mulligan|library|hand,yes,future-full-guide,identified,
+rr-sec-012,7,Turn Structure: Overview,reference,"Pięć faz tury: beginning, first main, combat, second main, ending.",turn|phase|beginning-phase|main-phase|combat-phase|ending-phase,yes,glossary,identified,
+rr-sec-013,7,Beginning Phase,procedure,"Untap step, upkeep step i draw step.",untap-step|upkeep-step|draw-step|draw,yes,glossary,identified,
+rr-sec-014,8,Main Phases,procedure,Zagrywanie lądu i czarów w pierwszej oraz drugiej main phase.,main-phase|land|cast|mana,no,glossary,identified,
+rr-sec-015,8,Ending Phase,procedure,"End step i cleanup step: triggery, limit ręki, leczenie obrażeń i koniec efektów.",ending-phase|end-step|cleanup-step|discard|damage|until-end-of-turn,yes,glossary,identified,
+rr-sec-016,8,Combat,procedure,"Beginning of combat, declare attackers, declare blockers, combat damage i end of combat.",combat|attack|block|multiple-blockers|combat-damage,yes,glossary,identified,
+rr-sec-017,9,The Golden Rule,rule,Tekst karty może zmieniać zasady ogólne; zachęta do korzystania z kart i instrukcji.,golden-rule|card-text,no,glossary,identified,
+rr-sec-018,9,Common Terms,definition,"Podstawowe pojęcia: spell, resolve, ability, tap, mana i target.",spell|resolve|ability|tap|mana|target,no,glossary,identified,
+rr-sec-019,9,Responding to Spells and Abilities,procedure,Odpowiadanie instantami i zdolnościami; kolejność rozpatrywania na stacku.,respond|instant|ability|stack|resolve,yes,glossary,identified,
+rr-sec-020,10,Spells Failing to Resolve,rule,Czar z nielegalnymi celami może się nie rozpatrzyć; kontrujące czary usuwają obiekt ze stacku.,target|illegal-target|resolve|counter-spell|stack,yes,glossary,identified,
+rr-sec-021,10,Glossary A–D,reference,Hasła od Airbend do Deathtouch.,airbend|ally|card|cast|counter-spell|counter-permanent|create-token|deathtouch,no,glossary,identified,
+rr-sec-022,11,Glossary D–H,reference,Hasła od Defender do Haste.,defender|destroy|discard|double-strike|earthbend|enchant|equip|exhaust|exile|fight|firebend|first-strike|flash|forestcycling|flying|haste,no,glossary,identified,
+rr-sec-023,12,Glossary H–S,reference,Hasła od Hexproof do Scry.,hexproof|indestructible|islandcycling|landcycling|landfall|lesson|lifelink|mana|mana-value|menace|mill|mountaincycling|permanent|plainscycling|play|prowess|raid|reach|sacrifice|scry,no,glossary,identified,
+rr-sec-024,13,Glossary S–X,reference,Hasła od Surveil do X.,surveil|swampcycling|trample|vigilance|waterbend|x-cost,no,glossary,identified,

@@ -1,0 +1,20 @@
+﻿check_id,check_name,result,affected_count,status,examples,notes
+AUD-001,Liczba rekordów,524,524,passed,"Pierwszy rekord: Aang, Airbending Master",
+AUD-002,Rozkład zestawów,TLA: 286; TLE: 238,524,passed,tla / tle,Dane obejmują oba wymagane zestawy.
+AUD-003,Język rekordów,en: 524,524,passed,lang=en,
+AUD-004,Unikalność id,524 unikalne,0 duplikatów,passed,,
+AUD-005,Unikalność oracle_id,524 unikalne,0 duplikatów,passed,,W tym pliku każda karta mechaniczna występuje raz.
+AUD-006,Unikalność name,524 unikalne,0 duplikatów,passed,,
+AUD-007,Unikalność set + collector_number + lang,524 unikalne,0 duplikatów,passed,tle:74; tla:203,Klucz bezpieczny dla obecnego pliku.
+AUD-008,Numery kolekcjonerskie powtarzające się między TLA i TLE,225 numerów,225,expected-exception,"74: TLE Aang, Airbending Master / TLA Teo, Spirited Glider; 296: różne karty w obu zestawach",Sam numer nie jest identyfikatorem.
+AUD-009,Layouty,normal: 513; transform: 8; saga: 3,524,passed,"transform: Aang, at the Crossroads // Aang, Destined Savior; saga: The Cave of Two Lovers",UI musi obsłużyć trzy layouty.
+AUD-010,Rekordy z card_faces,8,8,expected-exception,Wszystkie layout=transform,Dane stron są w card_faces.
+AUD-011,Brak top-level mana_cost,43,43,expected-exception,35 lądów + 8 kart transform,Dla transform koszt pobierany z pierwszej strony.
+AUD-012,Brak top-level oracle_text,11,11,expected-exception,8 transform; Capital Guard; Kyoshi Warrior Guard; Warship Scout,Trzy normalne rekordy to vanilla creatures bez tekstu zasad.
+AUD-013,Brak top-level power/toughness,265 / 265,265,expected-exception,"Czary, lądy, enchantmenty, artefakty oraz transform na poziomie głównym",Pola opcjonalne.
+AUD-014,Brak loyalty i defense,524 / 524,524,expected-exception,,W zbiorze nie ma Planeswalkerów ani Battle wymagających tych pól.
+AUD-015,Puste keywords,267,267,expected-exception,,Nie każda karta ma mechanikę rozpoznaną jako keyword.
+AUD-016,Format collector_number,524 wartości cyfrowe zapisane jako tekst,0 nienumerycznych,passed,1–317,Mimo obecnego formatu pole pozostaje stringiem.
+AUD-017,Zakres numerów kolekcjonerskich,min 1; max 317,299 różnych numerów,passed,,
+AUD-018,Typy kart — wystąpienia,Creature 256; Instant 82; Sorcery 64; Enchantment 61; Land 35; Artifact 33,informacyjne,passed,,Nie jest to podział rozłączny: np. Artifact Creature liczy się w dwóch grupach.
+AUD-019,Grafiki i ceny w raw JSON,obecne,informacyjne,passed,"image_uris, prices, purchase_uris","Zostają w raw JSON, ale zostaną odrzucone z finalnego modelu."

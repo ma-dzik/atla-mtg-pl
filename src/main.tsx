@@ -1,7 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import App from './App'
+import './styles.css'
+
+if (!window.location.hash) window.location.hash = '#/'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

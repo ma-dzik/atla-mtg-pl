@@ -1,97 +1,82 @@
-# Avatar MTG Przewodnik
+# Avatar MTG Guide
 
-Mobilna aplikacja PWA dla Androida – przewodnik po kartach Magic: The Gathering z setu Avatar: The Last Airbender.
+Prywatna, mobilna aplikacja PWA do grania w **Magic: The Gathering — Avatar: The Last Airbender** po polsku.
+
+## Aktualny zakres
+
+- ekran startowy i menu zaakceptowane w MVP-007;
+- Quick Start Zuko: 65 kroków, grafiki i zapis postępu;
+- przycisk „Zacznij od nowa”;
+- wyszukiwanie 524 rekordów kart po angielskiej nazwie, numerze, `printKey` i kodach tutorialowych;
+- poprawne kody talii treningowej, m.in. `C0278`, `TLE 278`, `Zuko Tutorial 19` dla Dragon Moose;
+- szczegóły kart bez obrazów i bez pokazywania angielskiego Oracle Text;
+- 21 unikalnych kart Quick Startu z polskim tekstem i sekcją „Co to znaczy?”;
+- słowniczek 127 pojęć z rozwiniętymi definicjami, przykładami i powiązaniami;
+- instalowalna PWA i cache offline;
+- brak backendu, logowania, analityki i zapytań do API podczas działania.
 
 ## Wymagania
 
-- [Node.js](https://nodejs.org/) w wersji 18 lub nowszej
-- npm (dołączone do Node.js)
+- Node.js 20.19+ albo 22.12+;
+- npm 10+.
 
-## Konfiguracja
+## Uruchomienie
 
 ```bash
-# Sklonuj repozytorium
-git clone https://github.com/ma-dzik/atla-mtg-pl.git
-cd atla-mtg-pl
-
-# Zainstaluj zależności
 npm install
-```
-
-## Lokalne uruchomienie
-
-```bash
 npm run dev
 ```
 
-Aplikacja będzie dostępna pod adresem `http://localhost:5173`.
+Następnie otwórz adres pokazany przez Vite.
 
-## Budowanie
+Do testu na innym urządzeniu w tej samej sieci:
 
 ```bash
-npm run build
+npm run dev -- --host
 ```
 
-Pliki produkcyjne zostaną wygenerowane w katalogu `dist/`.
+Interfejs będzie dostępny po adresie IP komputera. Instalacja PWA i service worker wymagają `localhost` albo połączenia HTTPS.
 
-### Podgląd wersji produkcyjnej
+## Testy i build
 
 ```bash
+npm run validate:data
+npm test
+npm run build
 npm run preview
 ```
 
-## Wdrożenie na GitHub Pages
+Gotowy build trafia do `dist/`.
 
-Upewnij się, że w ustawieniach repozytorium GitHub włączone jest GitHub Pages (Branch: `gh-pages`, folder: `/`).
+## Struktura
 
-```bash
-npm run deploy
+```text
+src/data/                         dane używane przez aplikację
+public/assets/ui/                 motyw i grafiki interfejsu
+public/assets/quick-start-zuko/   grafiki kroków tutorialu
+source-data/scryfall/             niezmienione dane źródłowe
+scripts/                          walidacja i import źródeł
+docs/                             dokumentacja i materiały przeglądowe
 ```
 
-Polecenie zbuduje aplikację i opublikuje zawartość katalogu `dist/` na gałęzi `gh-pages`.
+## Dane kart
 
-Aplikacja będzie dostępna pod adresem:
-`https://ma-dzik.github.io/atla-mtg-pl/`
+`printKey` nadal identyfikuje rekord źródłowy jako `set:collector_number`. Specjalne wydruki Beginner Box mają dodatkową mapę w `src/data/tutorial-prints.json`, dlatego Dragon Moose może używać rekordu zasad `tle:235`, ale w aplikacji jest poprawnie pokazywany i wyszukiwany jako:
 
-## Struktura projektu
-
-```
-src/
-├── components/        # Wielokrotnie używane komponenty UI
-│   ├── BackButton     # Przycisk powrotu do menu głównego
-│   └── PageLayout     # Wspólny układ strony z nagłówkiem
-├── data/              # Lokalne dane JSON (bez backendu)
-│   ├── cards.json     # Dane kart (do uzupełnienia)
-│   ├── glossary.json  # Słowniczek terminów (do uzupełnienia)
-│   └── tutorial.json  # Treść instrukcji (do uzupełnienia)
-├── pages/             # Widoki aplikacji (jeden na trasę)
-│   ├── StartScreen    # Ekran powitalny
-│   ├── MainMenu       # Menu główne
-│   ├── InstrukcjaPage # Przewodnik po zasadach
-│   ├── KartyPage      # Przeglądarka kart
-│   └── SlowniczekPage # Słowniczek MTG
-├── services/          # Warstwa dostępu do danych
-│   └── dataService.ts # Funkcje odczytu danych JSON
-└── types/             # Definicje typów TypeScript
-    └── index.ts
+```text
+Zuko Tutorial 19
+C0278
+TLE 278
 ```
 
-## Technologie
+Analogicznie tutorialowy Mountain jest pokazywany jako `C0289 / TLE 289`.
 
-- **React 19** + **TypeScript** – interfejs użytkownika
-- **Vite** – bundler i serwer deweloperski
-- **React Router DOM** – nawigacja po stronie klienta (HashRouter dla GitHub Pages)
-- **vite-plugin-pwa** – wsparcie PWA (service worker, manifest)
-- **gh-pages** – wdrożenie na GitHub Pages
+## Prywatność
 
-## Lintowanie
+Aplikacja działa lokalnie. Nie wysyła zapytań do Scryfall, nie posiada backendu i nie zbiera danych użytkownika.
 
-```bash
-npm run lint
-```
+## Ograniczenia obecnego MVP
 
-## Uwagi
-
-- Aplikacja jest zoptymalizowana pod pionowe ekrany mobilne (min. 360 px szerokości).
-- Dane kart, słownik i treść instrukcji są placeholderami – należy je uzupełnić w plikach JSON w katalogu `src/data/`.
-- Nie zawiera backendu, API, uwierzytelniania ani zewnętrznej bazy danych.
+- Aang Quick Start oraz ścieżka „Nie gram pierwszy raz” są oznaczone jako „Wkrótce”;
+- pełne polskie teksty zasad są obecnie dostępne dla kart wykorzystywanych w Quick Starcie; inne karty wyświetlają jasny komunikat o braku tłumaczenia;
+- aplikacja jest projektowana i testowana przede wszystkim dla Androida w orientacji pionowej.

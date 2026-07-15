@@ -1,1 +1,3840 @@
-[]
+{
+  "id": "avatar-mtg-glossary",
+  "version": "1.1-rich-mobile",
+  "language": "pl",
+  "displayFormat": "english-polish-definition",
+  "entryCount": 127,
+  "entries": [
+    {
+      "id": "ability",
+      "englishTerm": "Ability",
+      "polishTerm": "Zdolność",
+      "shortDefinitionPl": "Tekst karty określający, co karta może zrobić albo jaki efekt wywołuje.",
+      "fullDefinitionPl": "Zdolność jest częścią zasad zapisanych na karcie. Może działać stale, zostać aktywowana przez opłacenie kosztu albo wyzwolić się, gdy wydarzy się określona sytuacja.",
+      "examplePl": "„Gdy to stworzenie wchodzi na pole bitwy...” rozpoczyna zdolność wyzwalaną.",
+      "aliases": [
+        "Ability",
+        "Zdolność",
+        "zdolnosc",
+        "abilities",
+        "zdolnosci",
+        "umiejętność",
+        "umiejetnosc"
+      ],
+      "relatedTermIds": [
+        "activated-ability",
+        "triggered-ability"
+      ],
+      "category": "ability",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-018"
+      ]
+    },
+    {
+      "id": "activated-ability",
+      "englishTerm": "Activated ability",
+      "polishTerm": "Zdolność aktywowana",
+      "shortDefinitionPl": "Zdolność, którą uruchamiasz przez opłacenie kosztu zapisanego przed dwukropkiem.",
+      "fullDefinitionPl": "Zdolność aktywowana ma zapis „koszt: efekt”. Gracz wybiera moment aktywacji, opłaca koszt, a zdolność trafia na stos i czeka na rozpatrzenie.",
+      "examplePl": "„{2}, {T}: Dobierz kartę” wymaga zapłacenia dwóch many i tapnięcia karty.",
+      "aliases": [
+        "Activated ability",
+        "Zdolność aktywowana",
+        "zdolnosc aktywowana",
+        "activate",
+        "aktywuj",
+        "aktywować",
+        "aktywowac"
+      ],
+      "relatedTermIds": [
+        "ability",
+        "cost",
+        "effect",
+        "stack"
+      ],
+      "category": "ability",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        8,
+        20
+      ],
+      "sourceSections": [
+        "rr-sec-016",
+        "rr-sec-018"
+      ]
+    },
+    {
+      "id": "airbend",
+      "englishTerm": "Airbend",
+      "polishTerm": "Technika powietrza",
+      "shortDefinitionPl": "Wygnaj permanent; jego właściciel może później rzucić kartę za {2} zamiast kosztu many.",
+      "fullDefinitionPl": "Jeśli airbend dotyczy karty, właściciel może ją rzucić z wygnania za {2}, nadal opłacając dodatkowe koszty. Jeśli dotyczy żetonu, żeton po wygnaniu znika.",
+      "examplePl": null,
+      "aliases": [
+        "Airbend",
+        "Technika powietrza",
+        "airbending",
+        "powietrze",
+        "gięcie powietrza",
+        "giecie powietrza"
+      ],
+      "relatedTermIds": [
+        "exile",
+        "cast",
+        "token"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-021"
+      ]
+    },
+    {
+      "id": "ally",
+      "englishTerm": "Ally",
+      "polishTerm": "Sojusznik",
+      "shortDefinitionPl": "Podtyp stworzenia występujący na części kart.",
+      "fullDefinitionPl": "Sojusznik nie ma samodzielnej reguły. Inne karty mogą jednak sprawdzać, czy stworzenie ma podtyp Ally, i zapewniać mu dodatkowe efekty.",
+      "examplePl": null,
+      "aliases": [
+        "Ally",
+        "Sojusznik",
+        "allies",
+        "sojusznicy"
+      ],
+      "relatedTermIds": [
+        "creature",
+        "type-line"
+      ],
+      "category": "card-type",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        3,
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-002",
+        "rr-sec-021"
+      ]
+    },
+    {
+      "id": "artifact",
+      "englishTerm": "Artifact",
+      "polishTerm": "Artefakt",
+      "shortDefinitionPl": "Permanent przedstawiający przedmiot, urządzenie albo relikt.",
+      "fullDefinitionPl": "Artefakt pozostaje na polu bitwy po zagraniu. Niektóre artefakty są również stworzeniami albo Ekwipunkiem.",
+      "examplePl": null,
+      "aliases": [
+        "Artifact",
+        "Artefakt",
+        "artifacts",
+        "artefakty"
+      ],
+      "relatedTermIds": [
+        "permanent",
+        "equipment"
+      ],
+      "category": "card-type",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        4,
+        5
+      ],
+      "sourceSections": [
+        "rr-sec-006",
+        "rr-sec-007"
+      ]
+    },
+    {
+      "id": "damage-assignment",
+      "englishTerm": "Assign combat damage",
+      "polishTerm": "Przydzielić obrażenia bojowe",
+      "shortDefinitionPl": "Określić, ile obrażeń atakujący zada każdemu z blokujących stworzeń.",
+      "fullDefinitionPl": "Przy wielu blokujących atakujący ustala kolejność, a następnie przydziela obrażenia. Zasady tratowania mogą pozwolić przydzielić nadmiar broniącemu się graczowi.",
+      "examplePl": null,
+      "aliases": [
+        "Assign combat damage",
+        "Przydzielić obrażenia bojowe",
+        "przydzielic obrazenia bojowe",
+        "assign damage",
+        "przydział obrażeń",
+        "przydział obrazen",
+        "przydziel obrażenia",
+        "przydziel obrazenia"
+      ],
+      "relatedTermIds": [
+        "double-block",
+        "trample",
+        "combat-damage"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-016"
+      ]
+    },
+    {
+      "id": "attack",
+      "englishTerm": "Attack",
+      "polishTerm": "Atakować",
+      "shortDefinitionPl": "Zadeklarować odtapowane stworzenie jako atakujące gracza albo inny dozwolony cel ataku.",
+      "fullDefinitionPl": "Atakujące stworzenie zwykle zostaje tapnięte. Gracz atakuje przeciwnika, a nie bezpośrednio jego stworzenia.",
+      "examplePl": "Warship Scout atakuje przeciwnika. Przeciwnik może pozostawić go bez bloku albo zablokować własnym stworzeniem.",
+      "aliases": [
+        "Attack",
+        "Atakować",
+        "atakowac",
+        "attacks",
+        "attacking",
+        "atak",
+        "zaatakuj",
+        "atakujące stworzenie",
+        "atakujace stworzenie"
+      ],
+      "relatedTermIds": [
+        "block",
+        "combat",
+        "tap"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4,
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-005",
+        "rr-sec-016"
+      ],
+      "howItWorksPl": "Atakujących deklarujesz podczas fazy walki. Wybierasz odtapowane stworzenia, które mogą atakować, wskazujesz kogo atakuje każde z nich i zwykle tapujesz je. Nie wybierasz stworzenia przeciwnika jako celu ataku — przeciwnik sam decyduje, które stworzenia blokują.",
+      "stepsPl": [
+        "Przejdź do kroku deklarowania atakujących.",
+        "Wybierz legalne odtapowane stworzenia.",
+        "Wskaż atakowanego gracza lub inny dozwolony obiekt.",
+        "Tapnij atakujących, chyba że mają czujność.",
+        "Przeciwnik przechodzi do deklarowania blokujących."
+      ],
+      "tipPl": "Pomyśl, czy po ataku zostaną ci odtapowane stworzenia do obrony."
+    },
+    {
+      "id": "aura",
+      "englishTerm": "Aura",
+      "polishTerm": "Aura",
+      "shortDefinitionPl": "Rodzaj uroku, który zostaje dołączony do obiektu wskazanego przez zdolność Enchant.",
+      "fullDefinitionPl": "Podczas rzucania Aury wybierasz legalny cel. Jeśli Aura nie jest już dołączona do odpowiedniego obiektu, trafia do cmentarza właściciela.",
+      "examplePl": null,
+      "aliases": [
+        "Aura",
+        "aury"
+      ],
+      "relatedTermIds": [
+        "enchantment",
+        "enchant",
+        "target"
+      ],
+      "category": "card-type",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        5
+      ],
+      "sourceSections": [
+        "rr-sec-007"
+      ]
+    },
+    {
+      "id": "battlefield",
+      "englishTerm": "Battlefield",
+      "polishTerm": "Pole bitwy",
+      "shortDefinitionPl": "Wspólna strefa, w której znajdują się permanenty.",
+      "fullDefinitionPl": "Na polu bitwy znajdują się między innymi lądy, stworzenia, artefakty i uroki. To tutaj odbywa się walka i działają zdolności większości permanentów.",
+      "examplePl": null,
+      "aliases": [
+        "Battlefield",
+        "Pole bitwy",
+        "pole gry",
+        "battle field"
+      ],
+      "relatedTermIds": [
+        "permanent",
+        "combat"
+      ],
+      "category": "zone",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4,
+        6
+      ],
+      "sourceSections": [
+        "rr-sec-003",
+        "rr-sec-009"
+      ]
+    },
+    {
+      "id": "beginning-phase",
+      "englishTerm": "Beginning phase",
+      "polishTerm": "Faza początkowa",
+      "shortDefinitionPl": "Pierwsza faza tury: odtapowanie, utrzymanie i dobieranie.",
+      "fullDefinitionPl": "Podczas fazy początkowej gracz odtapowuje permanenty, rozpatruje zdolności utrzymania i zwykle dobiera kartę.",
+      "examplePl": null,
+      "aliases": [
+        "Beginning phase",
+        "Faza początkowa",
+        "faza poczatkowa",
+        "beginning",
+        "początek tury",
+        "poczatek tury"
+      ],
+      "relatedTermIds": [
+        "untap-step",
+        "upkeep-step",
+        "draw-step"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-012",
+        "rr-sec-013"
+      ]
+    },
+    {
+      "id": "block",
+      "englishTerm": "Block",
+      "polishTerm": "Blokować",
+      "shortDefinitionPl": "Wybrać odtapowane stworzenie, które zatrzyma wskazane atakujące stworzenie.",
+      "fullDefinitionPl": "Blokujące stworzenie nie tapuje się z powodu bloku. Atakujący i blokujący zwykle zadają sobie obrażenia podczas kroku obrażeń bojowych.",
+      "examplePl": "Capital Guard 2/2 blokuje Wolf Cove Villager 2/2. Oba stworzenia zadają sobie po 2 obrażenia i zostają zniszczone.",
+      "aliases": [
+        "Block",
+        "Blokować",
+        "blokowac",
+        "blocks",
+        "blocking",
+        "blok",
+        "zablokuj",
+        "blokujące stworzenie",
+        "blokujace stworzenie"
+      ],
+      "relatedTermIds": [
+        "attack",
+        "combat-damage"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4,
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-005",
+        "rr-sec-016"
+      ],
+      "howItWorksPl": "Po zadeklarowaniu atakujących broniący się gracz wybiera odtapowane stworzenia blokujące. Jedno stworzenie może zwykle blokować jednego atakującego, ale kilku blokujących może zablokować tego samego napastnika. Blokowanie nie powoduje tapnięcia.",
+      "stepsPl": [
+        "Sprawdź, które stworzenia przeciwnika atakują.",
+        "Wybierz swoje odtapowane stworzenia zdolne do blokowania.",
+        "Przypisz każdego blokującego do atakującego.",
+        "Po deklaracji bloków gracze mogą rzucać instanty i aktywować zdolności.",
+        "Następnie stworzenia zadają obrażenia bojowe."
+      ],
+      "tipPl": "Tapnięte stworzenie nie może blokować, chyba że szczególny efekt mówi inaczej."
+    },
+    {
+      "id": "card",
+      "englishTerm": "Card",
+      "polishTerm": "Karta",
+      "shortDefinitionPl": "Fizyczny element talii reprezentujący ląd, stworzenie albo inny obiekt gry.",
+      "fullDefinitionPl": "Karty tworzą talię i podczas gry mogą znajdować się w różnych strefach. Żeton nie jest kartą, nawet jeśli reprezentuje go kartonik podobny do karty.",
+      "examplePl": null,
+      "aliases": [
+        "Card",
+        "Karta",
+        "cards",
+        "karty"
+      ],
+      "relatedTermIds": [
+        "deck",
+        "token"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-021"
+      ]
+    },
+    {
+      "id": "card-name",
+      "englishTerm": "Card name",
+      "polishTerm": "Nazwa karty",
+      "shortDefinitionPl": "Angielska nazwa wydrukowana w górnej części karty.",
+      "fullDefinitionPl": "Nazwa identyfikuje kartę. W Avatar MTG Guide nazwy kart pozostają po angielsku, aby odpowiadały fizycznym kartom użytkownika.",
+      "examplePl": null,
+      "aliases": [
+        "Card name",
+        "Nazwa karty",
+        "name",
+        "nazwa"
+      ],
+      "relatedTermIds": [],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3
+      ],
+      "sourceSections": [
+        "rr-sec-002"
+      ]
+    },
+    {
+      "id": "card-text",
+      "englishTerm": "Card text / Rules text",
+      "polishTerm": "Tekst zasad karty",
+      "shortDefinitionPl": "Tekst opisujący zdolności i działanie karty.",
+      "fullDefinitionPl": "Tekst zasad znajduje się w polu tekstowym. W aplikacji jest tłumaczony na polski, a ważne mechaniki są wyróżnione i prowadzą do słowniczka.",
+      "examplePl": null,
+      "aliases": [
+        "Card text / Rules text",
+        "Tekst zasad karty",
+        "rules text",
+        "oracle text",
+        "tekst karty",
+        "tekst zasad",
+        "rules-text"
+      ],
+      "relatedTermIds": [
+        "text-box",
+        "ability",
+        "keyword"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-002",
+        "rr-sec-017"
+      ]
+    },
+    {
+      "id": "cast",
+      "englishTerm": "Cast",
+      "polishTerm": "Rzucić czar",
+      "shortDefinitionPl": "Przenieść kartę na stos, wybrać wymagane cele i opłacić jej koszt.",
+      "fullDefinitionPl": "Po rzuceniu czaru gracze mogą na niego odpowiedzieć. Jeżeli nikt nie odpowiada, czar jest rozpatrywany.",
+      "examplePl": "Tapujesz Mountain, płacisz {R} i rzucasz Warship Scout. Po rozpatrzeniu czaru stworzenie wchodzi na pole bitwy.",
+      "aliases": [
+        "Cast",
+        "Rzucić czar",
+        "rzucic czar",
+        "casting",
+        "rzucać",
+        "rzucac",
+        "rzucic",
+        "zagrać czar",
+        "zagrac czar"
+      ],
+      "relatedTermIds": [
+        "spell",
+        "cost",
+        "stack",
+        "resolve"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        5,
+        9,
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-008",
+        "rr-sec-018",
+        "rr-sec-021"
+      ],
+      "howItWorksPl": "Aby rzucić czar, przenosisz kartę z dozwolonej strefy na stos, dokonujesz wymaganych wyborów, wskazujesz cele i opłacasz wszystkie koszty. Czar nie działa natychmiast. Najpierw przeciwnik może odpowiedzieć. Dopiero później czar zostaje rozpatrzony.",
+      "stepsPl": [
+        "Ogłoś, jaki czar rzucasz.",
+        "Wybierz tryby, wartość X i wymagane cele.",
+        "Ustal ostateczny koszt.",
+        "Aktywuj zdolności many i opłać koszt.",
+        "Umieść czar na stosie i poczekaj na odpowiedzi.",
+        "Jeśli nikt nie odpowiada, rozpatrz czar."
+      ],
+      "tipPl": "Lądu nie rzuca się jako czaru. Zagrywa się go bez używania stosu."
+    },
+    {
+      "id": "cleanup-step",
+      "englishTerm": "Cleanup step",
+      "polishTerm": "Krok porządkowy",
+      "shortDefinitionPl": "Końcowy krok tury, w którym usuwa się obrażenia i kończą się efekty trwające do końca tury.",
+      "fullDefinitionPl": "Aktywny gracz odrzuca nadmiar kart do maksymalnego rozmiaru ręki. Następnie znikają oznaczone obrażenia i efekty „do końca tury”.",
+      "examplePl": null,
+      "aliases": [
+        "Cleanup step",
+        "Krok porządkowy",
+        "krok porzadkowy",
+        "cleanup",
+        "porządkowanie",
+        "porzadkowanie"
+      ],
+      "relatedTermIds": [
+        "marked-damage",
+        "until-end-of-turn",
+        "ending-phase"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-015"
+      ]
+    },
+    {
+      "id": "colored-mana",
+      "englishTerm": "Colored mana",
+      "polishTerm": "Kolorowa mana",
+      "shortDefinitionPl": "Mana jednego z pięciu kolorów: biała, niebieska, czarna, czerwona albo zielona.",
+      "fullDefinitionPl": "Kolorowy symbol w koszcie musi zostać opłacony maną tego koloru. Inne części kosztu mogą pozwalać na użycie many dowolnego rodzaju.",
+      "examplePl": "Symbol {R} wymaga czerwonej many, najczęściej wytworzonej przez Mountain.",
+      "aliases": [
+        "Colored mana",
+        "Kolorowa mana",
+        "white mana",
+        "blue mana",
+        "black mana",
+        "red mana",
+        "green mana",
+        "kolor many"
+      ],
+      "relatedTermIds": [
+        "mana",
+        "generic-mana",
+        "hybrid-mana"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-002",
+        "rr-sec-018"
+      ],
+      "howItWorksPl": "Kolorowa mana występuje w pięciu kolorach: białym, niebieskim, czarnym, czerwonym i zielonym. Kolorowy symbol w koszcie musi zostać opłacony maną dokładnie tego koloru.",
+      "tipPl": "Kolorową maną możesz również opłacać koszty generyczne."
+    },
+    {
+      "id": "combat",
+      "englishTerm": "Combat",
+      "polishTerm": "Walka",
+      "shortDefinitionPl": "Faza tury, podczas której gracz deklaruje atakujących, przeciwnik blokujących, a stworzenia zadają obrażenia.",
+      "fullDefinitionPl": "Walka składa się z kolejnych kroków: początku walki, deklaracji atakujących, deklaracji blokujących, obrażeń bojowych i końca walki.",
+      "examplePl": null,
+      "aliases": [
+        "Combat",
+        "Walka",
+        "combat phase",
+        "walka stworzeń",
+        "walka stworzen"
+      ],
+      "relatedTermIds": [
+        "combat-phase",
+        "attack",
+        "block",
+        "combat-damage"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-016"
+      ]
+    },
+    {
+      "id": "combat-damage",
+      "englishTerm": "Combat damage",
+      "polishTerm": "Obrażenia bojowe",
+      "shortDefinitionPl": "Obrażenia zadawane przez atakujące i blokujące stworzenia podczas walki.",
+      "fullDefinitionPl": "Niezablokowane stworzenie zadaje obrażenia atakowanemu graczowi. Zablokowane stworzenia zadają obrażenia stworzeniom, które je blokują, zgodnie z zasadami przydziału.",
+      "examplePl": "Stworzenie 3/3 zablokowane przez stworzenie 2/2 zadaje mu 3 obrażenia, a otrzymuje 2. Blokujący zostaje zniszczony, a atakujący przeżywa z oznaczonymi 2 obrażeniami do końca tury.",
+      "aliases": [
+        "Combat damage",
+        "Obrażenia bojowe",
+        "obrazenia bojowe",
+        "combat damage step",
+        "obrażenia z walki",
+        "obrazenia z walki"
+      ],
+      "relatedTermIds": [
+        "damage",
+        "power",
+        "damage-assignment"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-016"
+      ],
+      "howItWorksPl": "Podczas kroku obrażeń bojowych każde atakujące i blokujące stworzenie zadaje obrażenia równe swojemu aktualnemu atakowi. Niezablokowany atakujący zadaje obrażenia atakowanemu graczowi. Zablokowane stworzenia zadają obrażenia sobie nawzajem zgodnie z przydziałem.",
+      "tipPl": "Obrażenia nie zmniejszają wydrukowanej obrony. Są oznaczane osobno i usuwane w kroku porządkowym."
+    },
+    {
+      "id": "combat-phase",
+      "englishTerm": "Combat phase",
+      "polishTerm": "Faza walki",
+      "shortDefinitionPl": "Faza przeznaczona na deklarowanie atakujących, blokujących i zadawanie obrażeń bojowych.",
+      "fullDefinitionPl": "Faza walki ma kilka kroków i zawsze przebiega w ustalonej kolejności.",
+      "examplePl": null,
+      "aliases": [
+        "Combat phase",
+        "Faza walki",
+        "combat",
+        "walka",
+        "faza bojowa"
+      ],
+      "relatedTermIds": [
+        "combat",
+        "attack",
+        "block"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-012",
+        "rr-sec-016"
+      ]
+    },
+    {
+      "id": "control",
+      "englishTerm": "Control",
+      "polishTerm": "Kontrolować",
+      "shortDefinitionPl": "Być graczem odpowiedzialnym za permanent, czar albo zdolność.",
+      "fullDefinitionPl": "Zwykle kontrolujesz permanent, który zagrałeś, oraz czary i zdolności, które umieściłeś na stosie. Kontroler nie zawsze jest właścicielem karty.",
+      "examplePl": null,
+      "aliases": [
+        "Control",
+        "Kontrolować",
+        "kontrolowac",
+        "controller",
+        "kontrolujesz",
+        "kontrolowany",
+        "kontroler"
+      ],
+      "relatedTermIds": [
+        "permanent",
+        "owner"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4,
+        10
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "cost",
+      "englishTerm": "Cost",
+      "polishTerm": "Koszt",
+      "shortDefinitionPl": "To, co trzeba zapłacić albo wykonać, aby rzucić czar lub aktywować zdolność.",
+      "fullDefinitionPl": "Kosztem może być mana, tapnięcie permanentu, odrzucenie karty, poświęcenie obiektu albo inna czynność. Koszt opłaca się przed umieszczeniem zdolności na stosie.",
+      "examplePl": null,
+      "aliases": [
+        "Cost",
+        "Koszt",
+        "koszty",
+        "opłać",
+        "opłac",
+        "oplac",
+        "payment"
+      ],
+      "relatedTermIds": [
+        "mana-cost",
+        "activated-ability"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        9
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "counter-spell",
+      "englishTerm": "Counter a spell or ability",
+      "polishTerm": "Skontrować czar lub zdolność",
+      "shortDefinitionPl": "Usunąć czar albo zdolność ze stosu bez wykonywania jej efektu.",
+      "fullDefinitionPl": "Skontrowany czar nie jest rozpatrywany. Karta czaru zwykle trafia do cmentarza właściciela.",
+      "examplePl": null,
+      "aliases": [
+        "Counter a spell or ability",
+        "Skontrować czar lub zdolność",
+        "skontrowac czar lub zdolnosc",
+        "counterspell",
+        "counter target spell",
+        "kontra",
+        "skontrować",
+        "skontrowac"
+      ],
+      "relatedTermIds": [
+        "stack",
+        "resolve"
+      ],
+      "category": "game-action",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-020",
+        "rr-sec-021"
+      ]
+    },
+    {
+      "id": "counter-permanent",
+      "englishTerm": "Counter on a permanent",
+      "polishTerm": "Znacznik na permanencie",
+      "shortDefinitionPl": "Fizyczne oznaczenie pozostające na permanencie i zmieniające go zgodnie z opisem.",
+      "fullDefinitionPl": "Znaczniki mogą zwiększać atak i obronę albo nadawać inne właściwości. Gdy permanent opuszcza pole bitwy, znajdujące się na nim znaczniki przestają istnieć.",
+      "examplePl": null,
+      "aliases": [
+        "Counter on a permanent",
+        "Znacznik na permanencie",
+        "counter",
+        "counters",
+        "znacznik",
+        "znaczniki",
+        "+1/+1 counter"
+      ],
+      "relatedTermIds": [
+        "power",
+        "toughness"
+      ],
+      "category": "status",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-021"
+      ]
+    },
+    {
+      "id": "create-token",
+      "englishTerm": "Create a token",
+      "polishTerm": "Stworzyć żeton",
+      "shortDefinitionPl": "Umieścić na polu bitwy obiekt reprezentujący opisany żeton.",
+      "fullDefinitionPl": "Efekt określa typ, kolor, atak, obronę i zdolności żetonu. Można użyć wydrukowanego żetonu albo innego wyraźnego znacznika.",
+      "examplePl": null,
+      "aliases": [
+        "Create a token",
+        "Stworzyć żeton",
+        "stworzyc zeton",
+        "create tokens",
+        "stwórz żeton",
+        "stworz zeton",
+        "utwórz token",
+        "utworz token"
+      ],
+      "relatedTermIds": [
+        "token",
+        "battlefield"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-021"
+      ]
+    },
+    {
+      "id": "creature",
+      "englishTerm": "Creature",
+      "polishTerm": "Stworzenie",
+      "shortDefinitionPl": "Permanent, który może atakować i blokować.",
+      "fullDefinitionPl": "Stworzenia mają atak i obronę. Zwykle nie mogą atakować ani używać zdolności z symbolem tapnięcia w turze, w której weszły pod kontrolę gracza.",
+      "examplePl": null,
+      "aliases": [
+        "Creature",
+        "Stworzenie",
+        "creatures",
+        "stwór",
+        "stwor",
+        "stworzenia"
+      ],
+      "relatedTermIds": [
+        "power",
+        "toughness",
+        "summoning-sickness"
+      ],
+      "category": "card-type",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4
+      ],
+      "sourceSections": [
+        "rr-sec-005"
+      ]
+    },
+    {
+      "id": "damage",
+      "englishTerm": "Damage",
+      "polishTerm": "Obrażenia",
+      "shortDefinitionPl": "Wartość zmniejszająca życie gracza albo oznaczana na stworzeniu.",
+      "fullDefinitionPl": "Obrażenia zadane graczowi zmniejszają jego punkty życia. Obrażenia na stworzeniu pozostają oznaczone do kroku porządkowego; gdy są co najmniej równe obronie, stworzenie zostaje zniszczone.",
+      "examplePl": null,
+      "aliases": [
+        "Damage",
+        "Obrażenia",
+        "obrazenia",
+        "deal damage",
+        "zadaj obrażenia",
+        "zadaj obrazenia"
+      ],
+      "relatedTermIds": [
+        "life-total",
+        "toughness",
+        "marked-damage"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4,
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-005",
+        "rr-sec-015",
+        "rr-sec-016"
+      ]
+    },
+    {
+      "id": "deathtouch",
+      "englishTerm": "Deathtouch",
+      "polishTerm": "Dotyk śmierci",
+      "shortDefinitionPl": "Dowolna dodatnia ilość obrażeń zadana stworzeniu przez źródło z dotykiem śmierci jest śmiertelna.",
+      "fullDefinitionPl": "Po zadaniu co najmniej 1 obrażenia stworzenie zostaje zniszczone podczas sprawdzania zasad gry, chyba że jest niezniszczalne.",
+      "examplePl": null,
+      "aliases": [
+        "Deathtouch",
+        "Dotyk śmierci",
+        "dotyk smierci",
+        "death touch"
+      ],
+      "relatedTermIds": [
+        "damage",
+        "destroy",
+        "indestructible"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        10,
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-021",
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "deck",
+      "englishTerm": "Deck",
+      "polishTerm": "Talia",
+      "shortDefinitionPl": "Zestaw kart przygotowany do gry.",
+      "fullDefinitionPl": "Przed rozpoczęciem gry karty tworzą talię. Podczas gry zakryty stos, z którego dobierasz karty, nazywa się biblioteką.",
+      "examplePl": null,
+      "aliases": [
+        "Deck",
+        "Talia",
+        "decks",
+        "talia kart"
+      ],
+      "relatedTermIds": [
+        "library",
+        "shuffle"
+      ],
+      "category": "zone",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        6
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "defender",
+      "englishTerm": "Defender",
+      "polishTerm": "Obrońca",
+      "shortDefinitionPl": "Stworzenie z obrońcą nie może atakować.",
+      "fullDefinitionPl": "Nadal może blokować i korzystać ze swoich zdolności. Obrońca nie sprawia automatycznie, że stworzenie ma większą obronę.",
+      "examplePl": null,
+      "aliases": [
+        "Defender",
+        "Obrońca",
+        "obronca",
+        "wall"
+      ],
+      "relatedTermIds": [
+        "attack",
+        "block"
+      ],
+      "category": "keyword",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "destroy",
+      "englishTerm": "Destroy",
+      "polishTerm": "Zniszczyć",
+      "shortDefinitionPl": "Przenieść permanent z pola bitwy do cmentarza właściciela.",
+      "fullDefinitionPl": "Stworzenie zostaje zniszczone między innymi przez śmiertelne obrażenia albo efekt używający słowa destroy. Niezniszczalność chroni przed zniszczeniem, ale nie przed poświęceniem ani wygnaniem.",
+      "examplePl": null,
+      "aliases": [
+        "Destroy",
+        "Zniszczyć",
+        "zniszczyc",
+        "destroyed",
+        "zniszcz",
+        "zniszczony",
+        "zniszczenie"
+      ],
+      "relatedTermIds": [
+        "graveyard",
+        "indestructible",
+        "sacrifice",
+        "exile"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "discard",
+      "englishTerm": "Discard",
+      "polishTerm": "Odrzucić kartę",
+      "shortDefinitionPl": "Przenieść kartę z ręki do swojego cmentarza.",
+      "fullDefinitionPl": "Odrzucenie może być kosztem albo efektem. Nie jest tym samym co zniszczenie, ponieważ zniszczyć można permanent na polu bitwy.",
+      "examplePl": null,
+      "aliases": [
+        "Discard",
+        "Odrzucić kartę",
+        "odrzucic karte",
+        "discarded",
+        "odrzuć",
+        "odrzuc",
+        "odrzucic",
+        "odrzucenie"
+      ],
+      "relatedTermIds": [
+        "hand",
+        "graveyard",
+        "destroy"
+      ],
+      "category": "game-action",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        8,
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-015",
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "double-strike",
+      "englishTerm": "Double strike",
+      "polishTerm": "Podwójny cios",
+      "shortDefinitionPl": "Stworzenie zadaje obrażenia bojowe w kroku pierwszego ciosu i ponownie w zwykłym kroku obrażeń.",
+      "fullDefinitionPl": "Podwójny cios nie oznacza automatycznego podwojenia każdej innej formy obrażeń. Dotyczy obrażeń bojowych podczas walki.",
+      "examplePl": null,
+      "aliases": [
+        "Double strike",
+        "Podwójny cios",
+        "podwojny cios"
+      ],
+      "relatedTermIds": [
+        "first-strike",
+        "combat-damage"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "draw",
+      "englishTerm": "Draw",
+      "polishTerm": "Dobrać kartę",
+      "shortDefinitionPl": "Przenieść wierzchnią kartę biblioteki do ręki.",
+      "fullDefinitionPl": "Podczas kroku dobierania aktywny gracz zwykle dobiera jedną kartę. Inne efekty mogą nakazywać dobrać dodatkowe karty.",
+      "examplePl": null,
+      "aliases": [
+        "Draw",
+        "Dobrać kartę",
+        "dobrac karte",
+        "draw a card",
+        "dobierz",
+        "dobieranie"
+      ],
+      "relatedTermIds": [
+        "library",
+        "hand",
+        "draw-step"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-013"
+      ]
+    },
+    {
+      "id": "draw-step",
+      "englishTerm": "Draw step",
+      "polishTerm": "Krok dobierania",
+      "shortDefinitionPl": "Krok, w którym aktywny gracz zwykle dobiera jedną kartę.",
+      "fullDefinitionPl": "Gracz rozpoczynający grę nie dobiera karty w swoim pierwszym kroku dobierania w zwykłej grze dwuosobowej.",
+      "examplePl": null,
+      "aliases": [
+        "Draw step",
+        "Krok dobierania",
+        "draw phase",
+        "dobieranie"
+      ],
+      "relatedTermIds": [
+        "draw",
+        "beginning-phase"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-013"
+      ]
+    },
+    {
+      "id": "earthbend",
+      "englishTerm": "Earthbend",
+      "polishTerm": "Technika ziemi",
+      "shortDefinitionPl": "Zamień kontrolowany ląd w stworzenie 0/0 i połóż na nim wskazaną liczbę znaczników +1/+1.",
+      "fullDefinitionPl": "Ląd nadal pozostaje lądem, otrzymuje pośpiech i ma atak oraz obronę wynikające ze znaczników. Gdy takie stworzenie umrze albo zostanie wygnane, wraca na pole bitwy tapnięte jako zwykły ląd bez znaczników.",
+      "examplePl": null,
+      "aliases": [
+        "Earthbend",
+        "Technika ziemi",
+        "earthbending",
+        "ziemia",
+        "gięcie ziemi",
+        "giecie ziemi"
+      ],
+      "relatedTermIds": [
+        "land",
+        "counter-permanent",
+        "haste"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "effect",
+      "englishTerm": "Effect",
+      "polishTerm": "Efekt",
+      "shortDefinitionPl": "Rezultat działania czaru, zdolności albo reguły.",
+      "fullDefinitionPl": "Efekt wykonuje instrukcje zapisane w tekście. Może zmieniać wartości, tworzyć żetony, zadawać obrażenia albo przenosić obiekty między strefami.",
+      "examplePl": null,
+      "aliases": [
+        "Effect",
+        "Efekt",
+        "effects",
+        "działanie",
+        "dzialanie",
+        "rezultat"
+      ],
+      "relatedTermIds": [
+        "ability",
+        "resolve"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "enchant",
+      "englishTerm": "Enchant",
+      "polishTerm": "Oczarować",
+      "shortDefinitionPl": "Zdolność Aury określająca, do jakiego obiektu może być dołączona.",
+      "fullDefinitionPl": "Podczas rzucania Aury wybierasz cel zgodny z tekstem Enchant. Aura musi pozostać dołączona do odpowiedniego obiektu.",
+      "examplePl": null,
+      "aliases": [
+        "Enchant",
+        "Oczarować",
+        "oczarowac",
+        "enchanted",
+        "oczaruj",
+        "oczarowany"
+      ],
+      "relatedTermIds": [
+        "aura",
+        "target"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "enchantment",
+      "englishTerm": "Enchantment",
+      "polishTerm": "Urok",
+      "shortDefinitionPl": "Permanent reprezentujący trwały magiczny efekt.",
+      "fullDefinitionPl": "Urok pozostaje na polu bitwy i działa tak długo, jak wskazuje jego tekst. Aura jest szczególnym rodzajem uroku dołączanym do innego obiektu.",
+      "examplePl": null,
+      "aliases": [
+        "Enchantment",
+        "Urok",
+        "enchantments",
+        "zaklęcie stałe",
+        "zaklecie stałe",
+        "zaklecie stale",
+        "uroki"
+      ],
+      "relatedTermIds": [
+        "permanent",
+        "aura"
+      ],
+      "category": "card-type",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        5
+      ],
+      "sourceSections": [
+        "rr-sec-007"
+      ]
+    },
+    {
+      "id": "end-step",
+      "englishTerm": "End step",
+      "polishTerm": "Krok końcowy",
+      "shortDefinitionPl": "Pierwszy krok fazy końcowej.",
+      "fullDefinitionPl": "W tym kroku wyzwalają się zdolności „na początku kroku końcowego”. Gracze mogą też rzucać instanty i aktywować zdolności.",
+      "examplePl": null,
+      "aliases": [
+        "End step",
+        "Krok końcowy",
+        "krok koncowy",
+        "koniec tury"
+      ],
+      "relatedTermIds": [
+        "ending-phase",
+        "triggered-ability"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-015"
+      ]
+    },
+    {
+      "id": "ending-phase",
+      "englishTerm": "Ending phase",
+      "polishTerm": "Faza końcowa",
+      "shortDefinitionPl": "Ostatnia faza tury, obejmująca krok końcowy i krok porządkowy.",
+      "fullDefinitionPl": "W fazie końcowej działają zdolności końca tury, wygasają efekty „do końca tury”, usuwane są obrażenia ze stworzeń i sprawdzany jest limit ręki.",
+      "examplePl": null,
+      "aliases": [
+        "Ending phase",
+        "Faza końcowa",
+        "faza koncowa",
+        "end phase"
+      ],
+      "relatedTermIds": [
+        "end-step",
+        "cleanup-step",
+        "until-end-of-turn"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-012",
+        "rr-sec-015"
+      ]
+    },
+    {
+      "id": "enters",
+      "englishTerm": "Enters the battlefield",
+      "polishTerm": "Wchodzi na pole bitwy",
+      "shortDefinitionPl": "Permanent zostaje umieszczony na polu bitwy.",
+      "fullDefinitionPl": "Permanent może wejść po rozpatrzeniu czaru albo w wyniku efektu. Zdolności zaczynające się od „gdy wchodzi” wyzwalają się po jego pojawieniu się na polu bitwy.",
+      "examplePl": null,
+      "aliases": [
+        "Enters the battlefield",
+        "Wchodzi na pole bitwy",
+        "enters",
+        "etb",
+        "wejście na pole bitwy",
+        "wejscie na pole bitwy"
+      ],
+      "relatedTermIds": [
+        "battlefield",
+        "triggered-ability"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4,
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-003",
+        "rr-sec-018"
+      ]
+    },
+    {
+      "id": "equip",
+      "englishTerm": "Equip",
+      "polishTerm": "Wyposażyć",
+      "shortDefinitionPl": "Zdolność pozwalająca dołączyć Ekwipunek do kontrolowanego stworzenia.",
+      "fullDefinitionPl": "Equip można zwykle aktywować tylko w swojej fazie głównej, gdy stos jest pusty. Opłacasz koszt i wybierasz kontrolowane stworzenie.",
+      "examplePl": null,
+      "aliases": [
+        "Equip",
+        "Wyposażyć",
+        "wyposazyc",
+        "equipped",
+        "wyposaż",
+        "wyposaz",
+        "ekwipuj"
+      ],
+      "relatedTermIds": [
+        "equipment",
+        "activated-ability"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "equipment",
+      "englishTerm": "Equipment",
+      "polishTerm": "Ekwipunek",
+      "shortDefinitionPl": "Rodzaj artefaktu, który można dołączyć do kontrolowanego stworzenia.",
+      "fullDefinitionPl": "Ekwipunek wchodzi na pole bitwy niedołączony. Zdolność Equip pozwala później dołączyć go do stworzenia i zapewnić mu opisane premie lub zdolności.",
+      "examplePl": null,
+      "aliases": [
+        "Equipment",
+        "Ekwipunek",
+        "wyposażenie",
+        "wyposazenie"
+      ],
+      "relatedTermIds": [
+        "artifact",
+        "equip"
+      ],
+      "category": "card-type",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        5
+      ],
+      "sourceSections": [
+        "rr-sec-007"
+      ]
+    },
+    {
+      "id": "excess-damage",
+      "englishTerm": "Excess damage",
+      "polishTerm": "Nadmiarowe obrażenia",
+      "shortDefinitionPl": "Obrażenia przekraczające ilość potrzebną do zadania blokującemu stworzeniu obrażeń śmiertelnych.",
+      "fullDefinitionPl": "Nadmiarowe obrażenia mają znaczenie między innymi przy tratowaniu, które pozwala część z nich zadać broniącemu się graczowi.",
+      "examplePl": null,
+      "aliases": [
+        "Excess damage",
+        "Nadmiarowe obrażenia",
+        "nadmiarowe obrazenia",
+        "excess combat damage",
+        "nadmiar obrażeń",
+        "nadmiar obrazen"
+      ],
+      "relatedTermIds": [
+        "trample",
+        "toughness",
+        "damage-assignment"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        13
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "exhaust",
+      "englishTerm": "Exhaust",
+      "polishTerm": "Wyczerpanie",
+      "shortDefinitionPl": "Zdolność aktywowana, której dany permanent może użyć tylko raz.",
+      "fullDefinitionPl": "Każda zdolność Exhaust ma własny koszt i efekt. Po użyciu nie można aktywować jej ponownie na tym samym permanencie, nawet jeśli karta zostanie odtapowana.",
+      "examplePl": null,
+      "aliases": [
+        "Exhaust",
+        "Wyczerpanie",
+        "wyczerp"
+      ],
+      "relatedTermIds": [
+        "activated-ability"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "exile",
+      "englishTerm": "Exile",
+      "polishTerm": "Wygnanie",
+      "shortDefinitionPl": "Przenieść kartę albo permanent do strefy wygnania.",
+      "fullDefinitionPl": "Wygnanie zwykle usuwa obiekt z pola bitwy lub innej strefy bez umieszczania go w cmentarzu. Niektóre efekty pozwalają później zagrać wygnaną kartę.",
+      "examplePl": null,
+      "aliases": [
+        "Exile",
+        "Wygnanie",
+        "exiled",
+        "wygnaj",
+        "wygnany",
+        "wygnana"
+      ],
+      "relatedTermIds": [],
+      "category": "zone",
+      "priority": "should",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        6,
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-009",
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "expansion-symbol",
+      "englishTerm": "Expansion symbol",
+      "polishTerm": "Symbol dodatku",
+      "shortDefinitionPl": "Symbol wskazujący, z jakiego zestawu pochodzi karta.",
+      "fullDefinitionPl": "Symbol dodatku znajduje się przy linii typu. Jego kolor może także wskazywać rzadkość karty.",
+      "examplePl": null,
+      "aliases": [
+        "Expansion symbol",
+        "Symbol dodatku",
+        "set symbol",
+        "symbol zestawu",
+        "znak dodatku"
+      ],
+      "relatedTermIds": [],
+      "category": "other",
+      "priority": "should",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3
+      ],
+      "sourceSections": [
+        "rr-sec-002"
+      ]
+    },
+    {
+      "id": "fight",
+      "englishTerm": "Fight",
+      "polishTerm": "Walczyć",
+      "shortDefinitionPl": "Dwa wskazane stworzenia zadają sobie nawzajem obrażenia równe swojemu atakowi.",
+      "fullDefinitionPl": "Fight nie jest walką w fazie walki i nie są to obrażenia bojowe. Jeśli któreś stworzenie nie znajduje się już na polu bitwy, walka między nimi nie dochodzi do skutku.",
+      "examplePl": null,
+      "aliases": [
+        "Fight",
+        "Walczyć",
+        "walczyc",
+        "fights",
+        "walka efekt",
+        "walczą",
+        "walcza"
+      ],
+      "relatedTermIds": [
+        "damage",
+        "power"
+      ],
+      "category": "game-action",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "firebend",
+      "englishTerm": "Firebend / Firebending",
+      "polishTerm": "Technika ognia",
+      "shortDefinitionPl": "Gdy stworzenie z firebending atakuje, otrzymujesz wskazaną liczbę czerwonej many do końca walki.",
+      "fullDefinitionPl": "Mana z firebending trwa tylko do końca walki. Najczęściej można ją wykorzystać na instanty albo zdolności aktywowane podczas walki.",
+      "examplePl": null,
+      "aliases": [
+        "Firebend / Firebending",
+        "Technika ognia",
+        "firebending",
+        "ogień",
+        "ogien",
+        "gięcie ognia",
+        "giecie ognia"
+      ],
+      "relatedTermIds": [
+        "attack",
+        "red-mana",
+        "combat"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "first-player",
+      "englishTerm": "First player",
+      "polishTerm": "Pierwszy gracz",
+      "shortDefinitionPl": "Gracz rozpoczynający partię.",
+      "fullDefinitionPl": "W zwykłej grze dwuosobowej pierwszy gracz nie dobiera karty w swoim pierwszym kroku dobierania.",
+      "examplePl": null,
+      "aliases": [
+        "First player",
+        "Pierwszy gracz",
+        "starting player",
+        "gracz zaczynający",
+        "gracz zaczynajacy"
+      ],
+      "relatedTermIds": [
+        "draw-step"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-010"
+      ]
+    },
+    {
+      "id": "first-strike",
+      "englishTerm": "First strike",
+      "polishTerm": "Pierwszy cios",
+      "shortDefinitionPl": "Stworzenie zadaje obrażenia bojowe przed stworzeniami bez pierwszego ciosu.",
+      "fullDefinitionPl": "Jeżeli w walce uczestniczy stworzenie z pierwszym albo podwójnym ciosem, tworzony jest dodatkowy wcześniejszy krok obrażeń bojowych.",
+      "examplePl": null,
+      "aliases": [
+        "First strike",
+        "Pierwszy cios",
+        "pierwszy atak",
+        "firststrike"
+      ],
+      "relatedTermIds": [
+        "double-strike",
+        "combat-damage"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "flash",
+      "englishTerm": "Flash",
+      "polishTerm": "Błysk",
+      "shortDefinitionPl": "Kartę z błyskiem można rzucić w momentach, w których można rzucić instant.",
+      "fullDefinitionPl": "Pozwala to rzucić permanent także w turze przeciwnika albo w odpowiedzi na inne działanie.",
+      "examplePl": null,
+      "aliases": [
+        "Flash",
+        "Błysk",
+        "blysk"
+      ],
+      "relatedTermIds": [
+        "instant",
+        "respond"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "flying",
+      "englishTerm": "Flying",
+      "polishTerm": "Latanie",
+      "shortDefinitionPl": "Stworzenie z lataniem może zostać zablokowane tylko przez stworzenie z lataniem albo zasięgiem.",
+      "fullDefinitionPl": "Latanie ogranicza, które stworzenia mogą blokować atakującego. Nie wpływa na możliwość blokowania stworzeń bez latania.",
+      "examplePl": "Momo ma latanie. Zhao bez latania i zasięgu nie może go zablokować, ale Zuko z zasięgiem może.",
+      "aliases": [
+        "Flying",
+        "Latanie",
+        "flies",
+        "fly",
+        "latający",
+        "latajacy"
+      ],
+      "relatedTermIds": [
+        "reach",
+        "block"
+      ],
+      "category": "keyword",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ],
+      "howItWorksPl": "Stworzenie z lataniem może zostać zablokowane tylko przez stworzenie z lataniem albo zasięgiem. Latanie nie ogranicza tego, co samo stworzenie może blokować — latające stworzenie może blokować także napastnika bez latania.",
+      "tipPl": "Latanie nie chroni przed czarami ani zdolnościami wskazującymi stworzenie."
+    },
+    {
+      "id": "forestcycling",
+      "englishTerm": "Forestcycling",
+      "polishTerm": "Cykling Lasu",
+      "shortDefinitionPl": "Odmiana Landcycling pozwalająca wyszukać kartę typu Forest.",
+      "fullDefinitionPl": "Opłać koszt i odrzuć kartę, wyszukaj Forest, pokaż go, dodaj do ręki i przetasuj bibliotekę.",
+      "examplePl": null,
+      "aliases": [
+        "Forestcycling",
+        "Cykling Lasu",
+        "forest cycling",
+        "cykling forest",
+        "wyszukaj Forest"
+      ],
+      "relatedTermIds": [
+        "landcycling"
+      ],
+      "category": "keyword",
+      "priority": "later",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ]
+    },
+    {
+      "id": "generic-mana",
+      "englishTerm": "Generic mana",
+      "polishTerm": "Mana generyczna",
+      "shortDefinitionPl": "Część kosztu oznaczona liczbą, którą można opłacić maną dowolnego rodzaju.",
+      "fullDefinitionPl": "Symbol {2} nie oznacza dwóch bezkolorowych many. Wymaga dowolnych dwóch punktów many, na przykład dwóch czerwonych.",
+      "examplePl": "Aby zapłacić {2}{R}, możesz użyć trzech czerwonych mana: jedna opłaca {R}, a pozostałe dwie opłacają {2}.",
+      "aliases": [
+        "Generic mana",
+        "Mana generyczna",
+        "generic cost",
+        "szara mana",
+        "koszt generyczny",
+        "mana dowolnego koloru"
+      ],
+      "relatedTermIds": [
+        "mana-cost",
+        "colored-mana"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-002",
+        "rr-sec-018"
+      ],
+      "howItWorksPl": "Mana generyczna jest częścią kosztu oznaczoną liczbą. Nie jest osobnym rodzajem many. Możesz ją opłacić białą, niebieską, czarną, czerwoną, zieloną albo bezkolorową maną.",
+      "tipPl": "Nie myl kosztu generycznego z symbolem bezkolorowej many {C}."
+    },
+    {
+      "id": "golden-rule",
+      "englishTerm": "Golden Rule",
+      "polishTerm": "Złota zasada",
+      "shortDefinitionPl": "Jeżeli tekst karty przeczy zasadom ogólnym, pierwszeństwo ma tekst karty.",
+      "fullDefinitionPl": "Karty mogą zmieniać normalne zasady gry, na przykład pozwalać zagrać dodatkowy ląd albo atakować wcześniej. Należy wykonać instrukcję karty w zakresie, w jakim pozwalają na to zasady.",
+      "examplePl": null,
+      "aliases": [
+        "Golden Rule",
+        "Złota zasada",
+        "card overrides rules",
+        "złota reguła",
+        "zlota zasada"
+      ],
+      "relatedTermIds": [],
+      "category": "other",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-017"
+      ]
+    },
+    {
+      "id": "graveyard",
+      "englishTerm": "Graveyard",
+      "polishTerm": "Cmentarz",
+      "shortDefinitionPl": "Odkryty stos zużytych, odrzuconych albo zniszczonych kart gracza.",
+      "fullDefinitionPl": "Każdy gracz ma własny cmentarz. Trafiają tam między innymi rozpatrzone instanty i rytuały, zniszczone stworzenia oraz odrzucone karty.",
+      "examplePl": null,
+      "aliases": [
+        "Graveyard",
+        "Cmentarz",
+        "discard pile",
+        "cmentarze"
+      ],
+      "relatedTermIds": [
+        "destroy",
+        "discard"
+      ],
+      "category": "zone",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        6
+      ],
+      "sourceSections": [
+        "rr-sec-009"
+      ]
+    },
+    {
+      "id": "hand",
+      "englishTerm": "Hand",
+      "polishTerm": "Ręka",
+      "shortDefinitionPl": "Karty trzymane przez gracza i niewidoczne dla przeciwnika.",
+      "fullDefinitionPl": "Większość kart rzucasz albo zagrywasz z ręki. Liczba kart w ręce jest jawna, ale ich zawartość pozostaje ukryta.",
+      "examplePl": null,
+      "aliases": [
+        "Hand",
+        "Ręka",
+        "reka",
+        "cards in hand",
+        "karty w ręce",
+        "karty w rece"
+      ],
+      "relatedTermIds": [],
+      "category": "zone",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        6
+      ],
+      "sourceSections": [
+        "rr-sec-009"
+      ]
+    },
+    {
+      "id": "haste",
+      "englishTerm": "Haste",
+      "polishTerm": "Pośpiech",
+      "shortDefinitionPl": "Stworzenie może atakować i używać zdolności z symbolem tapnięcia od razu po wejściu pod twoją kontrolę.",
+      "fullDefinitionPl": "Pośpiech omija ograniczenia nazywane chorobą przywołania. Nie sprawia jednak, że stworzenie jest automatycznie odtapowane.",
+      "examplePl": "Fire Nation Soldier może zaatakować natychmiast po rzuceniu dzięki pośpiechowi.",
+      "aliases": [
+        "Haste",
+        "Pośpiech",
+        "pospiech",
+        "hasty"
+      ],
+      "relatedTermIds": [
+        "summoning-sickness",
+        "tap",
+        "attack"
+      ],
+      "category": "keyword",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-022"
+      ],
+      "howItWorksPl": "Pośpiech pozwala stworzeniu ignorować ograniczenie nazywane chorobą przywołania. Może ono atakować oraz używać własnych zdolności z symbolem {T} lub {Q} już w turze, w której znalazło się pod twoją kontrolą.",
+      "tipPl": "Pośpiech nie odtapowuje stworzenia i nie pozwala użyć zdolności, jeśli nie możesz opłacić jej pozostałych kosztów."
+    },
+    {
+      "id": "hexproof",
+      "englishTerm": "Hexproof",
+      "polishTerm": "Odporność na wskazywanie",
+      "shortDefinitionPl": "Permanent nie może być celem czarów ani zdolności kontrolowanych przez przeciwnika.",
+      "fullDefinitionPl": "Kontroler permanentu nadal może wskazywać go własnymi czarami i zdolnościami. Efekty, które nie używają słowa target, mogą nadal na niego działać.",
+      "examplePl": null,
+      "aliases": [
+        "Hexproof",
+        "Odporność na wskazywanie",
+        "odpornosc na wskazywanie",
+        "hex proof",
+        "nie może być celem",
+        "nie moze byc celem"
+      ],
+      "relatedTermIds": [
+        "target"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "hybrid-mana",
+      "englishTerm": "Hybrid mana",
+      "polishTerm": "Mana hybrydowa",
+      "shortDefinitionPl": "Symbol kosztu, który można opłacić jednym z dwóch wskazanych rodzajów many.",
+      "fullDefinitionPl": "Każdy symbol hybrydowy przedstawia dwie możliwości płatności. Wybierasz jedną z nich podczas opłacania kosztu.",
+      "examplePl": null,
+      "aliases": [
+        "Hybrid mana",
+        "Mana hybrydowa",
+        "hybrid",
+        "hybryda",
+        "mana mieszana"
+      ],
+      "relatedTermIds": [
+        "colored-mana",
+        "mana-cost"
+      ],
+      "category": "resource",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        3,
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-002",
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "illegal-target",
+      "englishTerm": "Illegal target",
+      "polishTerm": "Nielegalny cel",
+      "shortDefinitionPl": "Cel, który przestał spełniać wymagania czaru albo zdolności.",
+      "fullDefinitionPl": "Cel może stać się nielegalny, gdy opuści strefę, otrzyma ochronę albo przestanie odpowiadać opisowi. Jeśli wszystkie cele czaru są nielegalne, czar nie wywołuje efektu.",
+      "examplePl": null,
+      "aliases": [
+        "Illegal target",
+        "Nielegalny cel",
+        "invalid target",
+        "nieprawidłowy cel",
+        "nielegalne cele"
+      ],
+      "relatedTermIds": [
+        "target",
+        "resolve"
+      ],
+      "category": "game-action",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-020"
+      ]
+    },
+    {
+      "id": "indestructible",
+      "englishTerm": "Indestructible",
+      "polishTerm": "Niezniszczalność",
+      "shortDefinitionPl": "Permanent nie może zostać zniszczony przez obrażenia ani efekty używające słowa destroy.",
+      "fullDefinitionPl": "Nadal może zostać poświęcony, wygnany, wrócić do ręki albo trafić do cmentarza z powodu obrony równej 0 lub mniejszej.",
+      "examplePl": null,
+      "aliases": [
+        "Indestructible",
+        "Niezniszczalność",
+        "niezniszczalnosc",
+        "indestructible creature",
+        "niezniszczalny",
+        "niezniszczalna"
+      ],
+      "relatedTermIds": [
+        "destroy",
+        "sacrifice",
+        "exile"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "instant",
+      "englishTerm": "Instant",
+      "polishTerm": "Czar natychmiastowy",
+      "shortDefinitionPl": "Jednorazowy czar, który można zwykle rzucić także w turze przeciwnika.",
+      "fullDefinitionPl": "Po rozpatrzeniu instant trafia do cmentarza. Można go rzucić w odpowiedzi na inne czary i zdolności, o ile gracz ma pierwszeństwo.",
+      "examplePl": "Aang’s Defense można rzucić po zadeklarowaniu blokującego, aby wzmocnić go przed obrażeniami.",
+      "aliases": [
+        "Instant",
+        "Czar natychmiastowy",
+        "instants",
+        "instanty"
+      ],
+      "relatedTermIds": [
+        "spell",
+        "respond",
+        "stack"
+      ],
+      "category": "card-type",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        5
+      ],
+      "sourceSections": [
+        "rr-sec-008"
+      ],
+      "howItWorksPl": "Instant możesz zwykle rzucić zawsze, gdy masz pierwszeństwo: podczas swojej tury, podczas tury przeciwnika, w walce albo w odpowiedzi na inny czar lub zdolność. Po rozpatrzeniu karta trafia do cmentarza.",
+      "tipPl": "Samo posiadanie instantu nie pozwala przerwać czynności, podczas których żaden gracz nie otrzymuje pierwszeństwa."
+    },
+    {
+      "id": "islandcycling",
+      "englishTerm": "Islandcycling",
+      "polishTerm": "Cykling Wyspy",
+      "shortDefinitionPl": "Odmiana Landcycling pozwalająca wyszukać kartę typu Island.",
+      "fullDefinitionPl": "Opłać koszt i odrzuć kartę, wyszukaj Island, pokaż ją, dodaj do ręki i przetasuj bibliotekę.",
+      "examplePl": null,
+      "aliases": [
+        "Islandcycling",
+        "Cykling Wyspy",
+        "island cycling",
+        "cykling island",
+        "wyszukaj Island"
+      ],
+      "relatedTermIds": [
+        "landcycling"
+      ],
+      "category": "keyword",
+      "priority": "later",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "keyword",
+      "englishTerm": "Keyword",
+      "polishTerm": "Słowo kluczowe",
+      "shortDefinitionPl": "Krótka nazwa mechaniki mającej określone znaczenie w zasadach.",
+      "fullDefinitionPl": "Słowo kluczowe zastępuje dłuższy opis zasad. W aplikacji jest pogrubione i klikalne, aby można było szybko otworzyć definicję.",
+      "examplePl": "Przykłady to Flying, Vigilance, Menace i Trample.",
+      "aliases": [
+        "Keyword",
+        "Słowo kluczowe",
+        "keyword ability",
+        "mechanika",
+        "slowo kluczowe"
+      ],
+      "relatedTermIds": [],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        2,
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-001",
+        "rr-sec-021"
+      ]
+    },
+    {
+      "id": "land",
+      "englishTerm": "Land",
+      "polishTerm": "Ląd",
+      "shortDefinitionPl": "Karta zagrywana zwykle raz na turę, najczęściej w celu uzyskania many.",
+      "fullDefinitionPl": "Lądu nie rzuca się jako czaru. Podczas swojej fazy głównej możesz zwykle zagrać jeden ląd z ręki na pole bitwy.",
+      "examplePl": "Zagrywasz Mountain z ręki na pole bitwy, a później tapujesz go, aby dodać {R}.",
+      "aliases": [
+        "Land",
+        "Ląd",
+        "lad",
+        "lands",
+        "lądy",
+        "lady",
+        "land card"
+      ],
+      "relatedTermIds": [
+        "mana",
+        "play"
+      ],
+      "category": "card-type",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4
+      ],
+      "sourceSections": [
+        "rr-sec-004"
+      ],
+      "howItWorksPl": "Ląd jest permanentem służącym najczęściej do wytwarzania many. Standardowo możesz zagrać jeden ląd podczas każdej swojej tury, w fazie głównej, gdy stos jest pusty. Zagranie lądu nie jest rzuceniem czaru i nie można go skontrować jak zwykłego czaru.",
+      "tipPl": "Jeśli masz ląd w ręce, zwykle warto zagrać go w swojej turze, aby zwiększać ilość dostępnej many."
+    },
+    {
+      "id": "landcycling",
+      "englishTerm": "Landcycling",
+      "polishTerm": "Cykling lądu",
+      "shortDefinitionPl": "Odrzuć kartę i opłać koszt, aby wyszukać w bibliotece kartę lądu.",
+      "fullDefinitionPl": "Po znalezieniu odpowiedniego lądu pokazujesz go przeciwnikowi, dodajesz do ręki, a następnie tasujesz bibliotekę.",
+      "examplePl": "Masz kartę z Islandcycling {2}. Płacisz dwie mana dowolnego rodzaju i odrzucasz tę kartę. Następnie wyszukujesz w bibliotece kartę Island, pokazujesz ją przeciwnikowi, dodajesz do ręki i tasujesz bibliotekę.",
+      "aliases": [
+        "Landcycling",
+        "Cykling lądu",
+        "cykling ladu",
+        "land cycling",
+        "cykling landu",
+        "wyszukiwanie lądu",
+        "wyszukiwanie ladu"
+      ],
+      "relatedTermIds": [
+        "discard",
+        "library",
+        "shuffle",
+        "land"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ],
+      "howItWorksPl": "Landcycling jest zdolnością aktywowaną karty znajdującej się w ręce. Najpierw płacisz podany koszt landcyclingu i odrzucasz tę kartę z ręki do cmentarza. Następnie przeszukujesz bibliotekę w poszukiwaniu karty lądu spełniającej warunek zdolności, pokazujesz znalezioną kartę przeciwnikowi, dodajesz ją do ręki i tasujesz bibliotekę.",
+      "stepsPl": [
+        "Upewnij się, że karta z landcyclingiem znajduje się w twojej ręce.",
+        "Zapłać koszt zapisany obok zdolności landcycling.",
+        "Odrzuć kartę z landcyclingiem do swojego cmentarza.",
+        "Przeszukaj bibliotekę w poszukiwaniu odpowiedniej karty lądu.",
+        "Pokaż znalezioną kartę przeciwnikowi i dodaj ją do ręki.",
+        "Potasuj bibliotekę."
+      ],
+      "tipPl": "Landcycling jest szczególnie użyteczny, gdy nie masz lądu do zagrania. Zamiast czekać na losowe dobranie lądu, zamieniasz kartę z ręki na pewny ląd."
+    },
+    {
+      "id": "landfall",
+      "englishTerm": "Landfall",
+      "polishTerm": "Wejście lądu",
+      "shortDefinitionPl": "Zdolność wyzwalana, gdy ląd wchodzi na pole bitwy pod twoją kontrolą.",
+      "fullDefinitionPl": "Każde wejście lądu wyzwala zdolność osobno. Dokładny efekt zależy od tekstu konkretnej karty.",
+      "examplePl": null,
+      "aliases": [
+        "Landfall",
+        "Wejście lądu",
+        "wejscie ladu",
+        "land fall",
+        "lądowanie",
+        "ladowanie",
+        "wejście landu",
+        "wejscie landu"
+      ],
+      "relatedTermIds": [
+        "land",
+        "enters",
+        "triggered-ability"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "lesson",
+      "englishTerm": "Lesson",
+      "polishTerm": "Lekcja",
+      "shortDefinitionPl": "Podtyp występujący na niektórych instantach i rytuałach.",
+      "fullDefinitionPl": "Karta jest Lekcją, jeśli słowo Lesson znajduje się w jej linii typu po typie Instant albo Sorcery. Sam podtyp nie zmienia momentu rzucania karty.",
+      "examplePl": null,
+      "aliases": [
+        "Lesson",
+        "Lekcja",
+        "lessons",
+        "lekcje"
+      ],
+      "relatedTermIds": [
+        "instant",
+        "sorcery",
+        "type-line"
+      ],
+      "category": "card-type",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "library",
+      "englishTerm": "Library",
+      "polishTerm": "Biblioteka",
+      "shortDefinitionPl": "Zakryty stos kart, z którego gracz dobiera karty podczas gry.",
+      "fullDefinitionPl": "Każdy gracz ma własną bibliotekę. Kolejność kart jest ukryta, chyba że efekt pozwala je obejrzeć albo zmienić ich ułożenie.",
+      "examplePl": "Podczas kroku dobierania przenosisz wierzchnią kartę biblioteki do ręki.",
+      "aliases": [
+        "Library",
+        "Biblioteka",
+        "talia podczas gry"
+      ],
+      "relatedTermIds": [
+        "deck",
+        "draw",
+        "shuffle"
+      ],
+      "category": "zone",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        6
+      ],
+      "sourceSections": [
+        "rr-sec-009"
+      ],
+      "howItWorksPl": "Biblioteka to zakryty stos kart, z którego dobierasz. Gracze mogą znać liczbę kart w bibliotece, ale nie mogą dowolnie sprawdzać ich kolejności. Efekty wyszukujące bibliotekę zwykle wymagają jej późniejszego przetasowania.",
+      "tipPl": "Gdy masz dobrać kartę z pustej biblioteki, przegrywasz grę przy najbliższym sprawdzaniu zasad."
+    },
+    {
+      "id": "life-total",
+      "englishTerm": "Life total",
+      "polishTerm": "Punkty życia",
+      "shortDefinitionPl": "Liczba określająca, ile życia pozostało graczowi.",
+      "fullDefinitionPl": "Gracz przegrywa, gdy jego punkty życia spadną do 0 lub mniej. Obrażenia zmniejszają życie, a niektóre efekty pozwalają je odzyskać.",
+      "examplePl": "Niezablokowany Warship Scout zadaje 2 obrażenia, więc przeciwnik spada z 10 do 8 życia.",
+      "aliases": [
+        "Life total",
+        "Punkty życia",
+        "punkty zycia",
+        "life",
+        "życie",
+        "zycie",
+        "licznik życia",
+        "licznik zycia"
+      ],
+      "relatedTermIds": [
+        "win-condition",
+        "damage",
+        "lifelink"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        5,
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-010"
+      ],
+      "howItWorksPl": "Punkty życia opisują stan gracza. Obrażenia zwykle je zmniejszają, a efekty zyskiwania życia zwiększają. W standardowej grze dwuosobowej zaczynasz zwykle z 20 życia, natomiast tutorial zaczyna się od 10.",
+      "tipPl": "Gracz z 0 lub mniejszą liczbą punktów życia przegrywa przy najbliższym sprawdzaniu zasad."
+    },
+    {
+      "id": "lifelink",
+      "englishTerm": "Lifelink",
+      "polishTerm": "Więź życia",
+      "shortDefinitionPl": "Obrażenia zadane przez źródło z więzią życia powodują, że jego kontroler zyskuje tyle samo życia.",
+      "fullDefinitionPl": "Zyskiwanie życia następuje jednocześnie z zadawaniem obrażeń, także podczas walki.",
+      "examplePl": "Katara z więzią życia zadaje 2 obrażenia. Jej kontroler natychmiast zyskuje 2 życia.",
+      "aliases": [
+        "Lifelink",
+        "Więź życia",
+        "wiez zycia",
+        "life link"
+      ],
+      "relatedTermIds": [
+        "damage",
+        "life-total"
+      ],
+      "category": "keyword",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ],
+      "howItWorksPl": "Gdy źródło z więzią życia zadaje obrażenia, jego kontroler jednocześnie zyskuje tyle samo życia. Nie jest to osobna zdolność trafiająca na stos.",
+      "tipPl": "Więź życia działa przy obrażeniach bojowych i niebojowych."
+    },
+    {
+      "id": "main-phase",
+      "englishTerm": "Main phase",
+      "polishTerm": "Faza główna",
+      "shortDefinitionPl": "Faza, w której gracz zwykle zagrywa ląd i rzuca większość czarów.",
+      "fullDefinitionPl": "W turze występują dwie fazy główne: przed walką i po walce. Rytuały i większość permanentów można rzucać tylko wtedy, gdy stos jest pusty.",
+      "examplePl": null,
+      "aliases": [
+        "Main phase",
+        "Faza główna",
+        "faza głowna",
+        "first main",
+        "second main",
+        "main",
+        "faza glowna"
+      ],
+      "relatedTermIds": [
+        "play",
+        "sorcery",
+        "combat-phase"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-012",
+        "rr-sec-014"
+      ]
+    },
+    {
+      "id": "mana",
+      "englishTerm": "Mana",
+      "polishTerm": "Mana",
+      "shortDefinitionPl": "Zasób używany głównie do rzucania czarów i aktywowania zdolności.",
+      "fullDefinitionPl": "Manę najczęściej wytwarzają lądy. Niewykorzystana mana zwykle znika, gdy kończy się krok lub faza.",
+      "examplePl": "Tapujesz Mountain, aby dodać {R}. Tą czerwoną maną możesz opłacić czerwony symbol w koszcie Fire Nation Soldier albo część kosztu generycznego.",
+      "aliases": [
+        "Mana",
+        "mana pool",
+        "zasób many",
+        "zasob many"
+      ],
+      "relatedTermIds": [
+        "mana-cost",
+        "colored-mana",
+        "generic-mana"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        9,
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-002",
+        "rr-sec-018",
+        "rr-sec-023"
+      ],
+      "howItWorksPl": "Mana jest zasobem służącym przede wszystkim do rzucania czarów i aktywowania zdolności. Najczęściej otrzymujesz ją przez tapowanie lądów. Mana nie jest kartą ani trwałym znacznikiem — istnieje w puli many tylko przez krótki czas i zwykle znika, gdy kończy się bieżący krok lub faza.",
+      "stepsPl": [
+        "Wybierz ląd albo inną kartę wytwarzającą manę.",
+        "Tapnij ją lub opłać koszt wskazany przez zdolność.",
+        "Dodaj odpowiedni rodzaj i ilość many do swojej puli.",
+        "Wydaj manę na koszt czaru albo zdolności."
+      ],
+      "tipPl": "Kolor many ma znaczenie. Czerwoną maną opłacisz czerwony symbol {R}, ale nie zastąpisz nią niebieskiego symbolu {U}."
+    },
+    {
+      "id": "mana-cost",
+      "englishTerm": "Mana cost",
+      "polishTerm": "Koszt many",
+      "shortDefinitionPl": "Symbole w prawym górnym rogu karty określające, ile many trzeba zapłacić za jej rzucenie.",
+      "fullDefinitionPl": "Kolorowe symbole wymagają many odpowiedniego koloru. Liczba w szarym symbolu oznacza koszt generyczny, który można opłacić maną dowolnego rodzaju.",
+      "examplePl": "Koszt {2}{R} wymaga łącznie trzech mana: jednej czerwonej oraz dwóch dowolnego rodzaju.",
+      "aliases": [
+        "Mana cost",
+        "Koszt many",
+        "casting cost",
+        "koszt rzucenia"
+      ],
+      "relatedTermIds": [
+        "mana",
+        "generic-mana",
+        "colored-mana"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3
+      ],
+      "sourceSections": [
+        "rr-sec-002"
+      ],
+      "howItWorksPl": "Koszt many znajduje się zwykle w prawym górnym rogu karty. Kolorowe symbole wymagają many dokładnie tego koloru. Liczba w szarym symbolu oznacza koszt generyczny, który można opłacić maną dowolnego rodzaju.",
+      "stepsPl": [
+        "Odczytaj wszystkie symbole w koszcie.",
+        "Zapewnij wymaganą liczbę kolorowej many.",
+        "Pozostałą część generyczną opłać dowolną maną.",
+        "Po opłaceniu całego kosztu czar zostaje rzucony."
+      ],
+      "tipPl": "Koszt {2} nie oznacza dwóch bezkolorowych mana. Oznacza dwie mana dowolnego rodzaju."
+    },
+    {
+      "id": "mana-value",
+      "englishTerm": "Mana value",
+      "polishTerm": "Wartość many",
+      "shortDefinitionPl": "Łączna liczba many wynikająca z kosztu many karty.",
+      "fullDefinitionPl": "Wartość many jest liczbą, niezależnie od kolorów symboli w koszcie. Na przykład koszt {2}{W}{W} ma wartość many 4.",
+      "examplePl": null,
+      "aliases": [
+        "Mana value",
+        "Wartość many",
+        "wartosc many",
+        "converted mana cost",
+        "cmc"
+      ],
+      "relatedTermIds": [
+        "mana-cost"
+      ],
+      "category": "resource",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "marked-damage",
+      "englishTerm": "Marked damage",
+      "polishTerm": "Oznaczone obrażenia",
+      "shortDefinitionPl": "Obrażenia pozostające na stworzeniu do kroku porządkowego danej tury.",
+      "fullDefinitionPl": "Obrażenia nie zmniejszają wartości obrony wydrukowanej na karcie. Są pamiętane osobno, a następnie usuwane podczas kroku porządkowego.",
+      "examplePl": null,
+      "aliases": [
+        "Marked damage",
+        "Oznaczone obrażenia",
+        "oznaczone obrazenia",
+        "damage marked",
+        "obrażenia na stworzeniu",
+        "obrazenia na stworzeniu"
+      ],
+      "relatedTermIds": [
+        "damage",
+        "cleanup-step",
+        "toughness"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "menace",
+      "englishTerm": "Menace",
+      "polishTerm": "Groźba",
+      "shortDefinitionPl": "Stworzenie z groźbą nie może zostać zablokowane przez tylko jedno stworzenie.",
+      "fullDefinitionPl": "Aby zablokować atakujące stworzenie z groźbą, broniący się gracz musi przydzielić mu co najmniej dwa blokujące stworzenia.",
+      "examplePl": "Zhao z groźbą może zostać zablokowany jednocześnie przez Sokkę i Katarę, ale nie przez samą Katarę.",
+      "aliases": [
+        "Menace",
+        "Groźba",
+        "grozba",
+        "menace creature"
+      ],
+      "relatedTermIds": [
+        "block",
+        "double-block"
+      ],
+      "category": "keyword",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ],
+      "howItWorksPl": "Groźba sprawia, że atakującego stworzenia nie można zablokować tylko jednym stworzeniem. Broniący się gracz musi przydzielić mu co najmniej dwóch legalnych blokujących.",
+      "tipPl": "Jeśli po deklaracji bloków jeden blokujący zniknie, atakujący nadal pozostaje zablokowany."
+    },
+    {
+      "id": "mill",
+      "englishTerm": "Mill",
+      "polishTerm": "Zmielić",
+      "shortDefinitionPl": "Przenieść wskazaną liczbę kart z wierzchu biblioteki do cmentarza.",
+      "fullDefinitionPl": "Mielenie nie jest dobieraniem ani odrzucaniem, ponieważ karty przechodzą bezpośrednio z biblioteki do cmentarza.",
+      "examplePl": null,
+      "aliases": [
+        "Mill",
+        "Zmielić",
+        "zmielic",
+        "milling",
+        "mill cards",
+        "przemielić",
+        "przemielic",
+        "zmiel"
+      ],
+      "relatedTermIds": [
+        "library",
+        "graveyard"
+      ],
+      "category": "game-action",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "mountaincycling",
+      "englishTerm": "Mountaincycling",
+      "polishTerm": "Cykling Góry",
+      "shortDefinitionPl": "Odmiana Landcycling pozwalająca wyszukać kartę typu Mountain.",
+      "fullDefinitionPl": "Opłać koszt i odrzuć kartę, wyszukaj Mountain, pokaż ją, dodaj do ręki i przetasuj bibliotekę.",
+      "examplePl": null,
+      "aliases": [
+        "Mountaincycling",
+        "Cykling Góry",
+        "cykling gory",
+        "mountain cycling",
+        "cykling mountain",
+        "wyszukaj Mountain"
+      ],
+      "relatedTermIds": [
+        "landcycling"
+      ],
+      "category": "keyword",
+      "priority": "later",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "mulligan",
+      "englishTerm": "Mulligan",
+      "polishTerm": "Mulligan",
+      "shortDefinitionPl": "Wymiana nieodpowiedniej ręki początkowej na nową.",
+      "fullDefinitionPl": "Gracz wtasowuje rękę do biblioteki i dobiera siedem nowych kart. Po zakończeniu mulliganów odkłada na spód biblioteki po jednej karcie za każdy wykonany mulligan.",
+      "examplePl": null,
+      "aliases": [
+        "Mulligan",
+        "take a mulligan",
+        "wymiana ręki",
+        "wymiana reki"
+      ],
+      "relatedTermIds": [
+        "opening-hand",
+        "shuffle"
+      ],
+      "category": "game-action",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-011"
+      ]
+    },
+    {
+      "id": "double-block",
+      "englishTerm": "Multiple blockers / Double block",
+      "polishTerm": "Wielokrotny blok",
+      "shortDefinitionPl": "Zablokowanie jednego atakującego stworzenia co najmniej dwoma stworzeniami.",
+      "fullDefinitionPl": "Atakujący przydziela swoje obrażenia między blokujących. Zwykle musi przydzielić pierwszemu stworzeniu obrażenia śmiertelne, zanim przydzieli je kolejnemu.",
+      "examplePl": null,
+      "aliases": [
+        "Multiple blockers / Double block",
+        "Wielokrotny blok",
+        "double block",
+        "podwójny blok",
+        "podwojny blok",
+        "multiple blockers",
+        "wielu blokujących",
+        "wielu blokujacych"
+      ],
+      "relatedTermIds": [
+        "block",
+        "damage-assignment"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": [
+        "rr-sec-016"
+      ]
+    },
+    {
+      "id": "opening-hand",
+      "englishTerm": "Opening hand",
+      "polishTerm": "Ręka początkowa",
+      "shortDefinitionPl": "Karty dobrane przed rozpoczęciem pierwszej tury.",
+      "fullDefinitionPl": "Każdy gracz zwykle dobiera siedem kart. Jeśli ręka jest nieodpowiednia, może zdecydować się na mulligan.",
+      "examplePl": null,
+      "aliases": [
+        "Opening hand",
+        "Ręka początkowa",
+        "reka poczatkowa",
+        "starting hand",
+        "początkowa ręka",
+        "poczatkowa reka"
+      ],
+      "relatedTermIds": [
+        "hand",
+        "mulligan"
+      ],
+      "category": "zone",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-010",
+        "rr-sec-011"
+      ]
+    },
+    {
+      "id": "owner",
+      "englishTerm": "Owner",
+      "polishTerm": "Właściciel",
+      "shortDefinitionPl": "Osoba, która rozpoczęła grę z daną kartą w swojej talii.",
+      "fullDefinitionPl": "Właściciel karty nie zmienia się podczas gry, nawet jeśli inny gracz przejmie nad nią kontrolę. Karty trafiają do biblioteki, ręki i cmentarza swojego właściciela.",
+      "examplePl": null,
+      "aliases": [
+        "Owner",
+        "Właściciel",
+        "własciciel",
+        "ownership",
+        "właściciel karty",
+        "własciciel karty",
+        "wlasciciel"
+      ],
+      "relatedTermIds": [
+        "control"
+      ],
+      "category": "other",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        10
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "pass-the-turn",
+      "englishTerm": "Pass the turn",
+      "polishTerm": "Przekazać turę",
+      "shortDefinitionPl": "Poinformować przeciwnika, że zakończyło się wykonywanie działań w swojej turze.",
+      "fullDefinitionPl": "W praktyce gracze upewniają się, że obaj skończyli wykonywać działania, a następnie rozpoczyna się tura kolejnego gracza.",
+      "examplePl": null,
+      "aliases": [
+        "Pass the turn",
+        "Przekazać turę",
+        "przekazac ture",
+        "end my turn",
+        "kończę turę",
+        "koncze ture",
+        "przekaż turę",
+        "przekaz ture"
+      ],
+      "relatedTermIds": [
+        "turn"
+      ],
+      "category": "turn-structure",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        6
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "permanent",
+      "englishTerm": "Permanent",
+      "polishTerm": "Permanent",
+      "shortDefinitionPl": "Karta albo żeton znajdujący się na polu bitwy.",
+      "fullDefinitionPl": "Lądy, stworzenia, artefakty i uroki są permanentami. Instanty i rytuały nie są permanentami, ponieważ po rozpatrzeniu trafiają do cmentarza.",
+      "examplePl": null,
+      "aliases": [
+        "Permanent",
+        "permanents",
+        "stały obiekt",
+        "staly obiekt"
+      ],
+      "relatedTermIds": [
+        "battlefield"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4,
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-003",
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "plainscycling",
+      "englishTerm": "Plainscycling",
+      "polishTerm": "Cykling Równiny",
+      "shortDefinitionPl": "Odmiana Landcycling pozwalająca wyszukać kartę typu Plains.",
+      "fullDefinitionPl": "Opłać koszt i odrzuć kartę, wyszukaj Plains, pokaż ją, dodaj do ręki i przetasuj bibliotekę.",
+      "examplePl": null,
+      "aliases": [
+        "Plainscycling",
+        "Cykling Równiny",
+        "cykling rowniny",
+        "plains cycling",
+        "cykling plains",
+        "wyszukaj Plains"
+      ],
+      "relatedTermIds": [
+        "landcycling"
+      ],
+      "category": "keyword",
+      "priority": "later",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "play",
+      "englishTerm": "Play a card",
+      "polishTerm": "Zagrać kartę",
+      "shortDefinitionPl": "W zależności od karty: rzucić ją jako czar albo położyć ląd na polu bitwy.",
+      "fullDefinitionPl": "W języku zasad „zagrać kartę” obejmuje rzucenie czaru i zagranie lądu. Ląd nie jest rzucany i nie trafia na stos.",
+      "examplePl": null,
+      "aliases": [
+        "Play a card",
+        "Zagrać kartę",
+        "zagrac karte",
+        "play",
+        "played",
+        "zagraj",
+        "zagrywać",
+        "zagrywac"
+      ],
+      "relatedTermIds": [
+        "cast",
+        "land"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "power",
+      "englishTerm": "Power",
+      "polishTerm": "Atak",
+      "shortDefinitionPl": "Pierwsza liczba w prawym dolnym rogu stworzenia, określająca zadawane przez nie obrażenia.",
+      "fullDefinitionPl": "Podczas walki stworzenie zadaje obrażenia równe swojemu aktualnemu atakowi. Efekty i znaczniki mogą tę wartość zmieniać.",
+      "examplePl": "Warship Scout ma 2 ataku, dlatego jako niezablokowany napastnik zadaje przeciwnikowi 2 obrażenia.",
+      "aliases": [
+        "Power",
+        "Atak",
+        "siła",
+        "sila",
+        "power stat",
+        "atak stworzenia"
+      ],
+      "relatedTermIds": [
+        "toughness",
+        "combat-damage"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        4
+      ],
+      "sourceSections": [
+        "rr-sec-002",
+        "rr-sec-005"
+      ],
+      "howItWorksPl": "Atak to pierwsza liczba w prawym dolnym rogu stworzenia. Określa, ile obrażeń stworzenie zadaje podczas walki oraz w efektach odwołujących się do jego ataku.",
+      "tipPl": "Premie, znaczniki i inne efekty mogą zmieniać aktualny atak."
+    },
+    {
+      "id": "power-toughness-modifier",
+      "englishTerm": "Power/Toughness modifier",
+      "polishTerm": "Modyfikator ataku i obrony",
+      "shortDefinitionPl": "Tymczasowa albo stała zmiana ataku i obrony zapisana w formie +A/+B lub -A/-B.",
+      "fullDefinitionPl": "Pierwsza wartość zmienia atak, druga obronę. Efekt może trwać do końca tury albo tak długo, jak wskazuje karta.",
+      "examplePl": "+2/+1 zwiększa atak o 2, a obronę o 1.",
+      "aliases": [
+        "Power/Toughness modifier",
+        "Modyfikator ataku i obrony",
+        "+1/+1",
+        "+1/+0",
+        "+2/+2",
+        "premia",
+        "bonus",
+        "modyfikator"
+      ],
+      "relatedTermIds": [
+        "power",
+        "toughness",
+        "until-end-of-turn",
+        "counter-permanent"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "prowess",
+      "englishTerm": "Prowess",
+      "polishTerm": "Biegłość",
+      "shortDefinitionPl": "Gdy rzucasz czar niestworzenia, stworzenie z biegłością dostaje +1/+1 do końca tury.",
+      "fullDefinitionPl": "Każdy rzucony czar niestworzenia wyzwala biegłość osobno. Premia jest tymczasowa i kończy się w kroku porządkowym.",
+      "examplePl": null,
+      "aliases": [
+        "Prowess",
+        "Biegłość",
+        "biegłosc",
+        "bieglosc"
+      ],
+      "relatedTermIds": [
+        "spell",
+        "creature",
+        "until-end-of-turn"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "raid",
+      "englishTerm": "Raid",
+      "polishTerm": "Najazd",
+      "shortDefinitionPl": "Zdolność sprawdzająca, czy w tej turze atakowałeś stworzeniem.",
+      "fullDefinitionPl": "Najazd liczy sam fakt zadeklarowania atakującego. Efekt może zadziałać nawet wtedy, gdy to stworzenie później opuści walkę albo pole bitwy.",
+      "examplePl": null,
+      "aliases": [
+        "Raid",
+        "Najazd",
+        "attacked this turn"
+      ],
+      "relatedTermIds": [
+        "attack"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "reach",
+      "englishTerm": "Reach",
+      "polishTerm": "Zasięg",
+      "shortDefinitionPl": "Stworzenie z zasięgiem może blokować stworzenia z lataniem.",
+      "fullDefinitionPl": "Zasięg nie nadaje latania i nie zmienia sposobu, w jaki stworzenie atakuje. Pozwala jedynie blokować latających napastników.",
+      "examplePl": "Zuko ma zasięg, dlatego może zablokować latającego Aanga.",
+      "aliases": [
+        "Reach",
+        "Zasięg",
+        "zasieg"
+      ],
+      "relatedTermIds": [
+        "flying",
+        "block"
+      ],
+      "category": "keyword",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ],
+      "howItWorksPl": "Zasięg pozwala stworzeniu blokować stworzenia z lataniem. Nie nadaje mu latania i nie pomaga w przechodzeniu ponad blokującymi podczas własnego ataku.",
+      "tipPl": "Stworzenie z zasięgiem może normalnie blokować również stworzenia bez latania."
+    },
+    {
+      "id": "red-mana",
+      "englishTerm": "Red mana",
+      "polishTerm": "Czerwona mana",
+      "shortDefinitionPl": "Czerwona mana oznaczana symbolem {R}.",
+      "fullDefinitionPl": "Mountain zwykle tapuje się, aby wytworzyć jedną czerwoną manę. Czerwoną maną można opłacać czerwone symbole oraz koszty generyczne.",
+      "examplePl": null,
+      "aliases": [
+        "Red mana",
+        "Czerwona mana",
+        "czerwona",
+        "czerwonej many",
+        "r mana",
+        "{r}"
+      ],
+      "relatedTermIds": [
+        "colored-mana",
+        "mana",
+        "land"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        9
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "red-spell",
+      "englishTerm": "Red spell",
+      "polishTerm": "Czerwony czar",
+      "shortDefinitionPl": "Czar, którego kolor obejmuje czerwony.",
+      "fullDefinitionPl": "Kolor czaru wynika zwykle z symboli many w jego koszcie albo z efektu określającego kolor. Nie każdy czar opłacony czerwoną maną jest automatycznie czerwony.",
+      "examplePl": null,
+      "aliases": [
+        "Red spell",
+        "Czerwony czar",
+        "red card",
+        "czerwona karta",
+        "czerwone czary"
+      ],
+      "relatedTermIds": [
+        "spell",
+        "colored-mana"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-018"
+      ]
+    },
+    {
+      "id": "resolve",
+      "englishTerm": "Resolve",
+      "polishTerm": "Rozpatrzyć",
+      "shortDefinitionPl": "Wykonać efekt czaru albo zdolności znajdującej się na wierzchu stosu.",
+      "fullDefinitionPl": "Podczas rozpatrywania postępujesz zgodnie z tekstem w podanej kolejności. Permanent trafia potem na pole bitwy, a instant albo rytuał do cmentarza.",
+      "examplePl": null,
+      "aliases": [
+        "Resolve",
+        "Rozpatrzyć",
+        "rozpatrzyc",
+        "resolves",
+        "resolution",
+        "rozpatrywanie",
+        "rozpatrz"
+      ],
+      "relatedTermIds": [
+        "stack",
+        "spell",
+        "ability"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-018",
+        "rr-sec-019"
+      ]
+    },
+    {
+      "id": "respond",
+      "englishTerm": "Respond",
+      "polishTerm": "Odpowiedzieć",
+      "shortDefinitionPl": "Rzucić instant albo aktywować zdolność przed rozpatrzeniem wcześniejszego obiektu.",
+      "fullDefinitionPl": "Odpowiedź trafia na stos nad wcześniejszym czarem lub zdolnością, dlatego zostanie rozpatrzona jako pierwsza.",
+      "examplePl": null,
+      "aliases": [
+        "Respond",
+        "Odpowiedzieć",
+        "odpowiedziec",
+        "response",
+        "in response",
+        "odpowiedź",
+        "odpowiedz"
+      ],
+      "relatedTermIds": [
+        "stack",
+        "instant",
+        "resolve"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-019"
+      ]
+    },
+    {
+      "id": "sacrifice",
+      "englishTerm": "Sacrifice",
+      "polishTerm": "Poświęcić",
+      "shortDefinitionPl": "Przenieść kontrolowany permanent do cmentarza właściciela.",
+      "fullDefinitionPl": "Możesz poświęcić tylko permanent, który kontrolujesz. Poświęcenie nie jest zniszczeniem, więc niezniszczalność go nie powstrzymuje.",
+      "examplePl": null,
+      "aliases": [
+        "Sacrifice",
+        "Poświęcić",
+        "poswiecic",
+        "sacrificed",
+        "poświęć",
+        "poswiec",
+        "poświęcenie",
+        "poswiecenie"
+      ],
+      "relatedTermIds": [
+        "graveyard",
+        "destroy",
+        "control"
+      ],
+      "category": "game-action",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "scry",
+      "englishTerm": "Scry",
+      "polishTerm": "Wróżenie",
+      "shortDefinitionPl": "Obejrzeć wskazaną liczbę kart z wierzchu biblioteki i odłożyć każdą na wierzch albo spód.",
+      "fullDefinitionPl": "Karty można rozdzielić między wierzch i spód biblioteki, a ich kolejność w obu grupach wybiera gracz wykonujący wróżenie.",
+      "examplePl": null,
+      "aliases": [
+        "Scry",
+        "Wróżenie",
+        "wrozenie",
+        "scrying",
+        "wrozba",
+        "wróż",
+        "wroz"
+      ],
+      "relatedTermIds": [
+        "library"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        12
+      ],
+      "sourceSections": [
+        "rr-sec-023"
+      ]
+    },
+    {
+      "id": "shuffle",
+      "englishTerm": "Shuffle",
+      "polishTerm": "Tasować",
+      "shortDefinitionPl": "Losowo zmienić kolejność kart w bibliotece.",
+      "fullDefinitionPl": "Po tasowaniu żaden gracz nie powinien znać kolejności kart. Talii treningowej z Quick Startu nie tasuje się przed pierwszą grą.",
+      "examplePl": null,
+      "aliases": [
+        "Shuffle",
+        "Tasować",
+        "tasowac",
+        "shuffle your library",
+        "tasowanie",
+        "przetasuj"
+      ],
+      "relatedTermIds": [
+        "library",
+        "deck"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-010"
+      ]
+    },
+    {
+      "id": "sorcery",
+      "englishTerm": "Sorcery",
+      "polishTerm": "Rytuał",
+      "shortDefinitionPl": "Jednorazowy czar rzucany zwykle tylko w swojej fazie głównej.",
+      "fullDefinitionPl": "Rytuał można rzucić, gdy stos jest pusty i masz możliwość wykonania działania w swojej fazie głównej. Po rozpatrzeniu karta trafia do cmentarza.",
+      "examplePl": "Zuko’s Offense rzucasz po walce w swojej fazie głównej, aby zadać Tundra Wall dodatkowe obrażenia.",
+      "aliases": [
+        "Sorcery",
+        "Rytuał",
+        "sorceries",
+        "czar główny",
+        "czar głowny",
+        "czar glowny",
+        "rytuały"
+      ],
+      "relatedTermIds": [
+        "spell",
+        "main-phase",
+        "graveyard"
+      ],
+      "category": "card-type",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        5
+      ],
+      "sourceSections": [
+        "rr-sec-008"
+      ],
+      "howItWorksPl": "Rytuał można zwykle rzucić tylko podczas swojej fazy głównej, gdy stos jest pusty. Po wykonaniu efektu karta trafia do cmentarza.",
+      "tipPl": "Rytuału nie można zwykle rzucić w odpowiedzi na atak albo czar przeciwnika."
+    },
+    {
+      "id": "spell",
+      "englishTerm": "Spell",
+      "polishTerm": "Czar",
+      "shortDefinitionPl": "Każda karta rzucana na stos, która nie jest lądem.",
+      "fullDefinitionPl": "Stworzenia, artefakty, uroki, instanty i rytuały są czarami podczas rzucania. Po rozpatrzeniu permanenty wchodzą na pole bitwy, a instanty i rytuały trafiają do cmentarza.",
+      "examplePl": null,
+      "aliases": [
+        "Spell",
+        "Czar",
+        "spells",
+        "czary"
+      ],
+      "relatedTermIds": [
+        "cast",
+        "stack",
+        "resolve"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-018"
+      ]
+    },
+    {
+      "id": "stack",
+      "englishTerm": "Stack",
+      "polishTerm": "Stos",
+      "shortDefinitionPl": "Strefa, w której czary i większość zdolności czekają na rozpatrzenie.",
+      "fullDefinitionPl": "Obiekty na stosie rozpatrują się od najnowszego do najstarszego. Dzięki temu odpowiedź rzucona później może zadziałać przed wcześniejszym czarem.",
+      "examplePl": "Rzucasz czar zadający obrażenia. Przeciwnik odpowiada instantem wzmacniającym cel. Instant rozpatruje się pierwszy, a dopiero potem twój czar.",
+      "aliases": [
+        "Stack",
+        "Stos",
+        "the stack",
+        "stos czarów",
+        "stos czarow"
+      ],
+      "relatedTermIds": [
+        "respond",
+        "resolve",
+        "cast"
+      ],
+      "category": "zone",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9,
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-019",
+        "rr-sec-020"
+      ],
+      "howItWorksPl": "Stos przechowuje czary i większość zdolności oczekujących na rozpatrzenie. Gdy gracz dodaje nowy obiekt, trafia on na wierzch. Gdy wszyscy gracze rezygnują z odpowiedzi, rozpatrywany jest obiekt znajdujący się najwyżej — dlatego stos działa od ostatniego do pierwszego.",
+      "tipPl": "Lądy oraz większość działań specjalnych nie korzystają ze stosu."
+    },
+    {
+      "id": "summoning-sickness",
+      "englishTerm": "Summoning sickness",
+      "polishTerm": "Choroba przywołania",
+      "shortDefinitionPl": "Stworzenie zwykle nie może atakować ani używać zdolności z symbolem tapnięcia w turze, w której weszło pod twoją kontrolę.",
+      "fullDefinitionPl": "Ograniczenie przestaje działać, gdy kontrolujesz stworzenie nieprzerwanie od początku swojej tury. Pośpiech pozwala je ominąć.",
+      "examplePl": null,
+      "aliases": [
+        "Summoning sickness",
+        "Choroba przywołania",
+        "summoning sick",
+        "nie może atakować od razu",
+        "nie moze atakowac od razu"
+      ],
+      "relatedTermIds": [
+        "haste",
+        "attack",
+        "tap"
+      ],
+      "category": "status",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        4
+      ],
+      "sourceSections": [
+        "rr-sec-005"
+      ]
+    },
+    {
+      "id": "surveil",
+      "englishTerm": "Surveil",
+      "polishTerm": "Obserwacja",
+      "shortDefinitionPl": "Obejrzeć wskazaną liczbę kart z wierzchu biblioteki i odłożyć każdą na wierzch albo do cmentarza.",
+      "fullDefinitionPl": "Obserwacja przypomina wróżenie, ale niechciane karty trafiają do cmentarza zamiast na spód biblioteki.",
+      "examplePl": null,
+      "aliases": [
+        "Surveil",
+        "Obserwacja",
+        "surveillance",
+        "obserwuj",
+        "surveilować",
+        "surveilowac"
+      ],
+      "relatedTermIds": [
+        "library",
+        "graveyard",
+        "scry"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        13
+      ],
+      "sourceSections": [
+        "rr-sec-024"
+      ]
+    },
+    {
+      "id": "swampcycling",
+      "englishTerm": "Swampcycling",
+      "polishTerm": "Cykling Bagna",
+      "shortDefinitionPl": "Odmiana Landcycling pozwalająca wyszukać kartę typu Swamp.",
+      "fullDefinitionPl": "Opłać koszt i odrzuć kartę, wyszukaj Swamp, pokaż go, dodaj do ręki i przetasuj bibliotekę.",
+      "examplePl": null,
+      "aliases": [
+        "Swampcycling",
+        "Cykling Bagna",
+        "swamp cycling",
+        "cykling swamp",
+        "wyszukaj Swamp"
+      ],
+      "relatedTermIds": [
+        "landcycling"
+      ],
+      "category": "keyword",
+      "priority": "later",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        13
+      ],
+      "sourceSections": [
+        "rr-sec-024"
+      ]
+    },
+    {
+      "id": "tap",
+      "englishTerm": "Tap",
+      "polishTerm": "Tapowanie",
+      "shortDefinitionPl": "Obrócić kartę bokiem, aby oznaczyć, że została użyta.",
+      "fullDefinitionPl": "Lądy tapuje się zwykle w celu uzyskania many, a stworzenia tapują się podczas ataku. Tapnięta karta pozostaje bokiem do momentu odtapowania.",
+      "examplePl": "Tapujesz Mountain, aby dodać jedną czerwoną manę. Tapujesz Warship Scout, gdy deklarujesz go jako atakującego.",
+      "aliases": [
+        "Tap",
+        "Tapowanie",
+        "tapped",
+        "tapnij",
+        "tapować",
+        "tapowac",
+        "tapnięcie",
+        "tapniecie",
+        "obróć",
+        "obroc"
+      ],
+      "relatedTermIds": [
+        "untap",
+        "mana",
+        "attack"
+      ],
+      "category": "status",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        5,
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-018"
+      ],
+      "howItWorksPl": "Tapnięcie oznacza wykorzystanie karty. Fizycznie obracasz kartę bokiem. Tapowanie samo w sobie nie oznacza zniszczenia ani zużycia karty na zawsze — karta zwykle odtapuje się na początku twojej następnej tury.",
+      "stepsPl": [
+        "Sprawdź, czy karta jest odtapowana.",
+        "Obróć ją bokiem.",
+        "Wykonaj czynność, dla której została tapnięta, na przykład dodaj manę albo zadeklaruj atak."
+      ],
+      "tipPl": "Tapnięte stworzenie zwykle nie może blokować."
+    },
+    {
+      "id": "target",
+      "englishTerm": "Target",
+      "polishTerm": "Wskazany cel",
+      "shortDefinitionPl": "Obiekt albo gracz wybrany przez czar lub zdolność używającą słowa „target”.",
+      "fullDefinitionPl": "Cel wybiera się podczas rzucania czaru albo aktywowania zdolności. Musi spełniać wszystkie warunki zapisane w tekście.",
+      "examplePl": "„Target tapped creature an opponent controls” może wskazać tylko tapnięte stworzenie kontrolowane przez przeciwnika.",
+      "aliases": [
+        "Target",
+        "Wskazany cel",
+        "targets",
+        "target creature",
+        "cel",
+        "wskazane",
+        "wskazanego"
+      ],
+      "relatedTermIds": [
+        "illegal-target",
+        "hexproof"
+      ],
+      "category": "game-action",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-018"
+      ],
+      "howItWorksPl": "Słowo „target” oznacza, że cel wybierasz podczas rzucania czaru albo aktywowania zdolności. Cel musi spełniać wszystkie warunki tekstu zarówno przy wyborze, jak i podczas rozpatrywania.",
+      "tipPl": "Jeśli wszystkie cele staną się nielegalne, czar lub zdolność nie wywoła efektu."
+    },
+    {
+      "id": "text-box",
+      "englishTerm": "Text box",
+      "polishTerm": "Pole tekstowe",
+      "shortDefinitionPl": "Obszar karty zawierający jej zdolności, przypomnienia zasad i czasem tekst fabularny.",
+      "fullDefinitionPl": "Pole tekstowe znajduje się zwykle w dolnej połowie karty. Najważniejsza dla gry jest część opisująca zasady i zdolności.",
+      "examplePl": null,
+      "aliases": [
+        "Text box",
+        "Pole tekstowe",
+        "pole tekstu",
+        "textbox"
+      ],
+      "relatedTermIds": [
+        "card-text"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3
+      ],
+      "sourceSections": [
+        "rr-sec-002"
+      ]
+    },
+    {
+      "id": "token",
+      "englishTerm": "Token",
+      "polishTerm": "Żeton",
+      "shortDefinitionPl": "Obiekt reprezentujący permanent utworzony przez efekt, ale niebędący kartą.",
+      "fullDefinitionPl": "Żeton działa na polu bitwy jak normalny permanent odpowiedniego typu. Gdy opuści pole bitwy, po krótkiej chwili przestaje istnieć.",
+      "examplePl": "Zuko tworzy czerwony żeton stworzenia 2/2 typu Soldier.",
+      "aliases": [
+        "Token",
+        "Żeton",
+        "zeton",
+        "tokens",
+        "tokeny",
+        "żetony",
+        "zetony"
+      ],
+      "relatedTermIds": [
+        "create-token",
+        "permanent"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        10
+      ],
+      "sourceSections": [
+        "rr-sec-021"
+      ],
+      "howItWorksPl": "Żeton jest permanentem utworzonym przez efekt, ale nie jest kartą. Efekt określa jego nazwę, typ, kolor, atak, obronę i zdolności. Do reprezentowania żetonu możesz użyć oficjalnego kartonika albo innego czytelnego znacznika.",
+      "tipPl": "Gdy żeton opuści pole bitwy, po chwili przestaje istnieć i nie może wrócić."
+    },
+    {
+      "id": "toughness",
+      "englishTerm": "Toughness",
+      "polishTerm": "Obrona",
+      "shortDefinitionPl": "Druga liczba w prawym dolnym rogu stworzenia, określająca, ile obrażeń może ono wytrzymać.",
+      "fullDefinitionPl": "Jeśli w jednej turze stworzenie otrzyma obrażenia równe swojej obronie albo większe, zostaje zniszczone. Obrona może być zmieniana przez efekty i znaczniki.",
+      "examplePl": "Tundra Wall ma 4 obrony. Trzy obrażenia nie wystarczą, ale pięć obrażeń w jednej turze je zniszczy.",
+      "aliases": [
+        "Toughness",
+        "Obrona",
+        "wytrzymałość",
+        "wytrzymałosc",
+        "wytrzymalosc",
+        "toughness stat",
+        "obrona stworzenia"
+      ],
+      "relatedTermIds": [
+        "power",
+        "damage",
+        "destroy"
+      ],
+      "category": "resource",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3,
+        4
+      ],
+      "sourceSections": [
+        "rr-sec-002",
+        "rr-sec-005"
+      ],
+      "howItWorksPl": "Obrona to druga liczba w prawym dolnym rogu stworzenia. Jeśli oznaczone na nim obrażenia są co najmniej równe aktualnej obronie, stworzenie zostaje zniszczone przez zasady gry.",
+      "tipPl": "Obrażenia są usuwane na końcu tury; nie kumulują się między turami."
+    },
+    {
+      "id": "trade",
+      "englishTerm": "Trade",
+      "polishTerm": "Wymiana stworzeń",
+      "shortDefinitionPl": "Sytuacja, w której walczące stworzenia niszczą się wzajemnie.",
+      "fullDefinitionPl": "„Wymiana” jest potocznym określeniem używanym przez graczy, a nie formalnym słowem zasad. Najczęściej oznacza utratę jednego stworzenia przez każdego gracza.",
+      "examplePl": null,
+      "aliases": [
+        "Trade",
+        "Wymiana stworzeń",
+        "wymiana stworzen",
+        "trade creatures",
+        "wymienić stworzenia",
+        "wymienic stworzenia"
+      ],
+      "relatedTermIds": [
+        "combat-damage",
+        "destroy"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        11
+      ],
+      "sourceSections": [
+        "rr-sec-016"
+      ]
+    },
+    {
+      "id": "trample",
+      "englishTerm": "Trample",
+      "polishTerm": "Tratowanie",
+      "shortDefinitionPl": "Atakujące stworzenie może zadać broniącemu się graczowi nadmiarowe obrażenia ponad blokujących.",
+      "fullDefinitionPl": "Najpierw trzeba przydzielić blokującym co najmniej obrażenia śmiertelne. Pozostałe obrażenia można przydzielić graczowi albo innemu atakowanemu obiektowi.",
+      "examplePl": "Komodo Rhino 6/2 zostaje zablokowany przez stworzenie 2/2. Dwa obrażenia wystarczą blokującemu, a pozostałe cztery mogą trafić w przeciwnika.",
+      "aliases": [
+        "Trample",
+        "Tratowanie",
+        "tramples",
+        "tratuje"
+      ],
+      "relatedTermIds": [
+        "excess-damage",
+        "damage-assignment"
+      ],
+      "category": "keyword",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        13
+      ],
+      "sourceSections": [
+        "rr-sec-024"
+      ],
+      "howItWorksPl": "Tratowanie zmienia sposób przydzielania obrażeń przez zablokowane stworzenie. Najpierw przydzielasz blokującym co najmniej obrażenia śmiertelne. Każdą pozostałą część możesz przydzielić atakowanemu graczowi albo innemu atakowanemu obiektowi.",
+      "tipPl": "Jeśli blokujący opuści walkę przed obrażeniami, stworzenie z tratowaniem może przydzielić wszystkie obrażenia atakowanemu graczowi."
+    },
+    {
+      "id": "triggered-ability",
+      "englishTerm": "Triggered ability",
+      "polishTerm": "Zdolność wyzwalana",
+      "shortDefinitionPl": "Zdolność uruchamiana automatycznie, gdy wydarzy się opisane na karcie zdarzenie.",
+      "fullDefinitionPl": "Zdolność wyzwalana zwykle zaczyna się od słów „gdy”, „kiedy” albo „za każdym razem, gdy”. Po wyzwoleniu trafia na stos i może zostać rozpatrzona po odpowiedziach graczy.",
+      "examplePl": "„Gdy Momo wchodzi na pole bitwy...” wyzwala się po wejściu Momo.",
+      "aliases": [
+        "Triggered ability",
+        "Zdolność wyzwalana",
+        "zdolnosc wyzwalana",
+        "trigger",
+        "triggered",
+        "wyzwala",
+        "wyzwalana"
+      ],
+      "relatedTermIds": [
+        "ability",
+        "enters",
+        "stack"
+      ],
+      "category": "ability",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        9
+      ],
+      "sourceSections": [
+        "rr-sec-018"
+      ]
+    },
+    {
+      "id": "turn",
+      "englishTerm": "Turn",
+      "polishTerm": "Tura",
+      "shortDefinitionPl": "Pełna kolej działań jednego gracza.",
+      "fullDefinitionPl": "Tura składa się z fazy początkowej, pierwszej fazy głównej, fazy walki, drugiej fazy głównej i fazy końcowej.",
+      "examplePl": null,
+      "aliases": [
+        "Turn",
+        "Tura",
+        "turns",
+        "kolejka",
+        "tury"
+      ],
+      "relatedTermIds": [
+        "beginning-phase",
+        "main-phase",
+        "combat-phase",
+        "ending-phase"
+      ],
+      "category": "turn-structure",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-012"
+      ]
+    },
+    {
+      "id": "type-line",
+      "englishTerm": "Type line",
+      "polishTerm": "Linia typu",
+      "shortDefinitionPl": "Wiersz określający typy i podtypy karty.",
+      "fullDefinitionPl": "Linia typu znajduje się pod ilustracją. Informuje między innymi, czy karta jest stworzeniem, lądem, artefaktem, instantem albo urokiem.",
+      "examplePl": null,
+      "aliases": [
+        "Type line",
+        "Linia typu",
+        "typ karty",
+        "linia typów",
+        "linia typow",
+        "type"
+      ],
+      "relatedTermIds": [
+        "creature",
+        "land",
+        "artifact",
+        "instant",
+        "sorcery",
+        "enchantment"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        3
+      ],
+      "sourceSections": [
+        "rr-sec-002"
+      ]
+    },
+    {
+      "id": "unblocked",
+      "englishTerm": "Unblocked",
+      "polishTerm": "Niezablokowane",
+      "shortDefinitionPl": "Atakujące stworzenie, któremu nie przypisano żadnego blokującego.",
+      "fullDefinitionPl": "Niezablokowane stworzenie zadaje obrażenia bojowe graczowi albo innemu celowi, który atakuje.",
+      "examplePl": null,
+      "aliases": [
+        "Unblocked",
+        "Niezablokowane",
+        "not blocked",
+        "bez bloku",
+        "niezablokowany"
+      ],
+      "relatedTermIds": [
+        "attack",
+        "combat-damage"
+      ],
+      "category": "combat",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "untap",
+      "englishTerm": "Untap",
+      "polishTerm": "Odtapowanie",
+      "shortDefinitionPl": "Ustawić tapniętą kartę ponownie pionowo.",
+      "fullDefinitionPl": "Na początku swojej tury odtapowujesz swoje permanenty. Odtapowana karta jest ponownie gotowa do użycia.",
+      "examplePl": "Warship Scout zaatakował i został tapnięty. Na początku następnej tury odtapowujesz go, dzięki czemu może ponownie atakować albo blokować.",
+      "aliases": [
+        "Untap",
+        "Odtapowanie",
+        "untapped",
+        "odtapuj",
+        "odtapować",
+        "odtapowac",
+        "odtapnięcie",
+        "odtapniecie"
+      ],
+      "relatedTermIds": [
+        "tap",
+        "untap-step"
+      ],
+      "category": "status",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        5,
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-013"
+      ],
+      "howItWorksPl": "Odtapowanie przywraca kartę do pozycji pionowej. Na początku swojej tury, podczas kroku odtapowania, zwykle odtapowujesz wszystkie kontrolowane permanenty jednocześnie.",
+      "stepsPl": [
+        "Znajdź swoje tapnięte permanenty.",
+        "Ustaw je pionowo.",
+        "Nie aktywujesz przez to ich zdolności — tylko oznaczasz, że są ponownie gotowe."
+      ],
+      "tipPl": "Nie każda karta odtapowuje się automatycznie, jeśli jej tekst mówi inaczej."
+    },
+    {
+      "id": "untap-step",
+      "englishTerm": "Untap step",
+      "polishTerm": "Krok odtapowania",
+      "shortDefinitionPl": "Pierwszy krok tury, w którym aktywny gracz odtapowuje swoje permanenty.",
+      "fullDefinitionPl": "Zwykle żaden gracz nie może wykonywać działań podczas samego kroku odtapowania. Po nim następuje krok utrzymania.",
+      "examplePl": null,
+      "aliases": [
+        "Untap step",
+        "Krok odtapowania",
+        "untap phase",
+        "odtapowanie"
+      ],
+      "relatedTermIds": [
+        "untap",
+        "beginning-phase"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-013"
+      ]
+    },
+    {
+      "id": "until-end-of-turn",
+      "englishTerm": "Until end of turn",
+      "polishTerm": "Do końca tury",
+      "shortDefinitionPl": "Czas trwania efektu, który kończy się podczas kroku porządkowego bieżącej tury.",
+      "fullDefinitionPl": "Efekt obowiązuje także w fazie końcowej, ale przestaje działać w kroku porządkowym. Tymczasowe premie nie pozostają na następne tury.",
+      "examplePl": null,
+      "aliases": [
+        "Until end of turn",
+        "Do końca tury",
+        "do konca tury",
+        "this turn",
+        "do końca tej tury",
+        "do konca tej tury",
+        "until eot"
+      ],
+      "relatedTermIds": [
+        "cleanup-step"
+      ],
+      "category": "turn-structure",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        8
+      ],
+      "sourceSections": []
+    },
+    {
+      "id": "upkeep-step",
+      "englishTerm": "Upkeep step",
+      "polishTerm": "Krok utrzymania",
+      "shortDefinitionPl": "Krok po odtapowaniu, w którym wyzwalają się zdolności „na początku utrzymania”.",
+      "fullDefinitionPl": "W wielu turach nic dodatkowego się tu nie dzieje, ale niektóre karty nakazują wykonać efekt albo opłacić koszt podczas utrzymania.",
+      "examplePl": null,
+      "aliases": [
+        "Upkeep step",
+        "Krok utrzymania",
+        "upkeep",
+        "utrzymanie",
+        "krok upkeep"
+      ],
+      "relatedTermIds": [
+        "beginning-phase",
+        "triggered-ability"
+      ],
+      "category": "turn-structure",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-013"
+      ]
+    },
+    {
+      "id": "vigilance",
+      "englishTerm": "Vigilance",
+      "polishTerm": "Czujność",
+      "shortDefinitionPl": "Atakowanie tym stworzeniem nie powoduje jego tapnięcia.",
+      "fullDefinitionPl": "Stworzenie z czujnością pozostaje odtapowane po zadeklarowaniu ataku, dzięki czemu może później blokować albo używać zdolności wymagającej tapnięcia.",
+      "examplePl": "Sokka atakuje z czujnością i pozostaje pionowo, więc w następnej turze może blokować.",
+      "aliases": [
+        "Vigilance",
+        "Czujność",
+        "czujnosc",
+        "vigilant",
+        "czujny"
+      ],
+      "relatedTermIds": [
+        "attack",
+        "tap"
+      ],
+      "category": "keyword",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        13
+      ],
+      "sourceSections": [
+        "rr-sec-024"
+      ],
+      "howItWorksPl": "Czujność sprawia, że zadeklarowanie stworzenia jako atakującego nie powoduje jego tapnięcia. Stworzenie nadal atakuje normalnie, ale pozostaje odtapowane i może później blokować.",
+      "tipPl": "Czujność nie daje dodatkowego ataku i nie odtapowuje stworzenia, które było już tapnięte."
+    },
+    {
+      "id": "waterbend",
+      "englishTerm": "Waterbend",
+      "polishTerm": "Technika wody",
+      "shortDefinitionPl": "Specjalny koszt, który można opłacić, tapując odtapowane artefakty i stworzenia.",
+      "fullDefinitionPl": "Każdy tapnięty w ten sposób artefakt albo stworzenie pokrywa {1} kosztu waterbend. Pozostałą część można opłacić maną.",
+      "examplePl": null,
+      "aliases": [
+        "Waterbend",
+        "Technika wody",
+        "waterbending",
+        "woda",
+        "gięcie wody",
+        "giecie wody"
+      ],
+      "relatedTermIds": [
+        "tap",
+        "artifact",
+        "creature",
+        "cost"
+      ],
+      "category": "keyword",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        13
+      ],
+      "sourceSections": [
+        "rr-sec-024"
+      ]
+    },
+    {
+      "id": "win-condition",
+      "englishTerm": "Win condition",
+      "polishTerm": "Warunek zwycięstwa",
+      "shortDefinitionPl": "Sposób zakończenia gry zwycięstwem.",
+      "fullDefinitionPl": "Podstawowo wygrywasz, gdy przeciwnik ma 0 lub mniej punktów życia. Inne zasady i karty mogą wprowadzać dodatkowe warunki przegranej albo zwycięstwa.",
+      "examplePl": null,
+      "aliases": [
+        "Win condition",
+        "Warunek zwycięstwa",
+        "warunek zwyciestwa",
+        "winning",
+        "jak wygrać",
+        "jak wygrac",
+        "zwycięstwo",
+        "zwyciestwo"
+      ],
+      "relatedTermIds": [
+        "life-total"
+      ],
+      "category": "other",
+      "priority": "must",
+      "usedInQuickStart": true,
+      "sourcePages": [
+        5,
+        7
+      ],
+      "sourceSections": [
+        "rr-sec-010"
+      ]
+    },
+    {
+      "id": "x-cost",
+      "englishTerm": "X",
+      "polishTerm": "Wartość X",
+      "shortDefinitionPl": "Zmienna wartość w koszcie albo efekcie karty.",
+      "fullDefinitionPl": "Podczas rzucania czaru lub aktywowania zdolności wybierasz wartość X, a następnie płacisz wynikający z niej koszt. Wybrana wartość określa siłę efektu.",
+      "examplePl": null,
+      "aliases": [
+        "X",
+        "Wartość X",
+        "wartosc x",
+        "x spell",
+        "koszt x"
+      ],
+      "relatedTermIds": [
+        "mana-cost",
+        "cost"
+      ],
+      "category": "resource",
+      "priority": "should",
+      "usedInQuickStart": false,
+      "sourcePages": [
+        13
+      ],
+      "sourceSections": [
+        "rr-sec-024"
+      ]
+    }
+  ]
+}

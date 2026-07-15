@@ -1,0 +1,29 @@
+{
+  "sourceRecordCount": 524,
+  "appRecordCount": 524,
+  "setCounts": {
+    "TLE": 238,
+    "TLA": 286
+  },
+  "layoutCounts": {
+    "normal": 513,
+    "transform": 8,
+    "saga": 3
+  },
+  "multiFaceCards": 8,
+  "cardsWithoutRulesText": 3,
+  "translationQueueRows": 529,
+  "duplicatePrintKeys": [],
+  "duplicateCardIds": [],
+  "duplicateOracleIds": [],
+  "collectorNumbersSharedAcrossSets": 225,
+  "allPrintKeysUnique": true,
+  "allCardIdsUnique": true,
+  "allRecordsHaveName": true,
+  "allRecordsHaveSetCode": true,
+  "allRecordsHaveCollectorNumber": true,
+  "allRecordsHaveAtLeastOneFace": true,
+  "allTypeLinesTranslated": true,
+  "unknownTypeWords": {},
+  "unknownSubtypes": {}
+}

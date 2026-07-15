@@ -1,0 +1,41 @@
+﻿asset_id,source_page,asset_type,description,used_in_steps,crop_required,quality,status,notes
+qsg-asset-001,1,illustration,Okładka Zuko Deck Quick Start Guide,,yes,good,not-required,Dekoracyjna; nie musi pojawiać się w tutorialu.
+qsg-asset-002,2,background,Czerwony wzór Fire Nation,,yes,good,identified,Może posłużyć jako subtelne tło lub separator.
+qsg-asset-003,3,diagram,Lista zawartości i kolejność 20 kart treningowych,zuko-step-001|zuko-step-002,yes,good,identified,Można podzielić na osobne kadry: zawartość oraz decklist.
+qsg-asset-004,4,board-layout,"Ułożenie maty, Library i Life Total",zuko-step-003,yes,good,identified,Schemat przygotowania stołu.
+qsg-asset-005,4,illustration,Wachlarz siedmiu kart początkowej ręki,zuko-step-004,yes,good,identified,"Karty są małe, ale układ ręki jest czytelny."
+qsg-asset-006,4,card-layout,Schemat budowy karty,zuko-step-005,yes,good,identified,Najlepszy kandydat do zachowania jako grafika instruktażowa.
+qsg-asset-007,5,diagram,Tapowanie i odtapowanie karty,zuko-step-006,yes,good,identified,Wymaga dwóch kadrów lub jednego szerokiego.
+qsg-asset-008,5,icon,Schemat życia i celu gry,zuko-step-007,yes,good,identified,Można zastąpić prostym własnym diagramem.
+qsg-asset-009,6,card-layout,"Mountain, Warship Scout i wskazanie kosztu many",zuko-step-008|zuko-step-009,yes,good,identified,Przyciąć bez całej strony.
+qsg-asset-010,6,illustration,Zuko i przypomnienie o summoning sickness / pass turn,zuko-step-010|zuko-step-011,yes,good,identified,Portret dekoracyjny opcjonalny.
+qsg-asset-011,7,board-layout,Game Recap: koniec pierwszej tury Zuko,zuko-step-012|zuko-step-013,yes,good,identified,Pełny stan planszy.
+qsg-asset-012,8,card-layout,Druga tura: Mountain i Capital Guard,zuko-step-014|zuko-step-015,yes,good,identified,Treść może być wsparta kadrem karty.
+qsg-asset-013,8,diagram,Deklaracja ataku Warship Scout,zuko-step-016,yes,good,identified,Można zastąpić prostą strzałką.
+qsg-asset-014,9,diagram,"Warship Scout zadaje 2 obrażenia, 10 → 8",zuko-step-017|zuko-step-018,yes,good,identified,Czytelny diagram obrażeń.
+qsg-asset-015,10,board-layout,Game Recap: koniec drugiej tury oraz atak Wolf Cove Villager,zuko-step-019|zuko-step-020,yes,good,identified,Strona łączy recap i początek tury Aanga.
+qsg-asset-016,11,diagram,Capital Guard blokuje Wolf Cove Villager; wymiana stworów,zuko-step-021|zuko-step-022,yes,good,identified,Czytelny przykład bloku i wymiany.
+qsg-asset-017,12,card-layout,"Trzecia tura: Fire Nation Soldier, koszt i haste",zuko-step-023|zuko-step-024|zuko-step-025,yes,good,identified,Można podzielić na koszt many i opis haste.
+qsg-asset-018,12,diagram,"Atak Soldier + Scout, blok Tundra Wall i obrażenia",zuko-step-026|zuko-step-027|zuko-step-028|zuko-step-029,yes,good,identified,Szeroki diagram walki.
+qsg-asset-019,13,board-layout,Game Recap: koniec trzeciej tury,zuko-step-030,yes,good,identified,Stan stołu i ręki.
+qsg-asset-020,13,card-layout,Czwarta tura: Iroh i atak Fire Nation Soldier,zuko-step-031|zuko-step-032,yes,good,identified,Wymaga rozdzielenia górnej i dolnej części.
+qsg-asset-021,14,diagram,Zuko's Offense niszczy Tundra Wall,zuko-step-033|zuko-step-034,yes,good,identified,"Pokazuje sorcery, cel i sumowanie obrażeń."
+qsg-asset-022,14,board-layout,Game Recap: koniec czwartej tury,zuko-step-035,yes,good,identified,Stan stołu.
+qsg-asset-023,15,diagram,Momo niszczy Fire Nation Soldier i atak Sokka,zuko-step-036|zuko-step-037,yes,good,identified,Dwa osobne kadry.
+qsg-asset-024,15,card-layout,"Piąta tura: Zhao, Iroh trigger i atak",zuko-step-038|zuko-step-039,yes,good,identified,Zawiera strategię i zmianę statystyk.
+qsg-asset-025,16,diagram,Aang's Defense jako instant podczas walki,zuko-step-040,yes,good,identified,Dobry przykład odpowiedzi na czar i efektu tymczasowego.
+qsg-asset-026,16,diagram,"Rozpatrzenie walki: Scout, Iroh, Sokka",zuko-step-041,yes,good,identified,Pokazuje obrażenia i zniszczenie Iroha.
+qsg-asset-027,17,board-layout,Game Recap: koniec piątej tury,zuko-step-042,yes,good,identified,Stan stołu.
+qsg-asset-028,17,diagram,Katara dodaje znaczniki i Momo atakuje z flying,zuko-step-043|zuko-step-044,yes,good,identified,Dwa powiązane przykłady.
+qsg-asset-029,18,card-layout,"Szósta tura: Zuko, Zhao, menace i atak",zuko-step-045|zuko-step-046,yes,good,identified,Górna/lewa część strony.
+qsg-asset-030,18,diagram,"Podwójny blok Zhao, podział obrażeń i lifelink",zuko-step-047,yes,good,identified,Złożony diagram; wskazane użycie w całości.
+qsg-asset-031,19,board-layout,Game Recap: koniec szóstej tury,zuko-step-048,yes,good,identified,Stan stołu.
+qsg-asset-032,19,card-layout,"Aang, Air Nomad oraz siódma tura z Komodo Rhino",zuko-step-049|zuko-step-050,yes,good,identified,Dwa osobne kadry.
+qsg-asset-033,19,diagram,Zuko tworzy token Soldier 2/2,zuko-step-051,yes,good,identified,Można użyć tokenu i krótkiego diagramu triggera.
+qsg-asset-034,20,board-layout,Game Recap: koniec siódmej tury i decyzja o braku ataku,zuko-step-052,yes,good,identified,Stan defensywny Zuko.
+qsg-asset-035,20,diagram,Aktywacja Sledding Otter-Penguin i deklaracja bloków,zuko-step-053|zuko-step-054,yes,good,identified,Wymaga dwóch kadrów.
+qsg-asset-036,21,diagram,"Walka: Aang–Zuko, Katara–Scout+token, Momo bez bloku",zuko-step-055,yes,good,identified,Najbardziej złożony diagram walki.
+qsg-asset-037,21,card-layout,Fire Nation's Conquest i wzrost statystyk,zuko-step-056|zuko-step-057,yes,good,identified,Kadr czaru i efektu ciągłego.
+qsg-asset-038,21,diagram,"Komodo Rhino, trample i dwa warianty bloku",zuko-step-058|zuko-step-059|zuko-step-060,yes,good,identified,Kluczowy diagram końcowy.
+qsg-asset-039,22,board-layout,Game Recap: koniec ósmej tury,zuko-step-061,yes,good,identified,Stan końcowy tutorialu.
+qsg-asset-040,22,illustration,"A Few Pointers: pomoc, lądy, wybór czaru i atak",zuko-step-062|zuko-step-063|zuko-step-064,yes,good,identified,Głównie tekst; grafika nie jest konieczna.

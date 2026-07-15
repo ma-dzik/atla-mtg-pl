@@ -1,0 +1,113 @@
+{
+  "tle:244": {
+    "code": "C0285",
+    "setCode": "TLE",
+    "collector": "285",
+    "positions": [
+      1
+    ]
+  },
+  "tle:234": {
+    "code": "C0277",
+    "setCode": "TLE",
+    "collector": "277",
+    "positions": [
+      2
+    ]
+  },
+  "tla:285": {
+    "code": "C0289",
+    "setCode": "TLE",
+    "collector": "289",
+    "positions": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      16,
+      17,
+      20
+    ]
+  },
+  "tle:238": {
+    "code": "C0280",
+    "setCode": "TLE",
+    "collector": "280",
+    "positions": [
+      8
+    ]
+  },
+  "tle:247": {
+    "code": "C0288",
+    "setCode": "TLE",
+    "collector": "288",
+    "positions": [
+      9
+    ]
+  },
+  "tle:240": {
+    "code": "U0282",
+    "setCode": "TLE",
+    "collector": "282",
+    "positions": [
+      10
+    ]
+  },
+  "tle:245": {
+    "code": "U0286",
+    "setCode": "TLE",
+    "collector": "286",
+    "positions": [
+      11
+    ]
+  },
+  "tle:246": {
+    "code": "R0287",
+    "setCode": "TLE",
+    "collector": "287",
+    "positions": [
+      12
+    ]
+  },
+  "tle:241": {
+    "code": "C0283",
+    "setCode": "TLE",
+    "collector": "283",
+    "positions": [
+      13
+    ]
+  },
+  "tle:239": {
+    "code": "U0281",
+    "setCode": "TLE",
+    "collector": "281",
+    "positions": [
+      14
+    ]
+  },
+  "tle:258": {
+    "code": "C0284",
+    "setCode": "TLE",
+    "collector": "284",
+    "positions": [
+      15
+    ]
+  },
+  "tle:236": {
+    "code": "C0279",
+    "setCode": "TLE",
+    "collector": "279",
+    "positions": [
+      18
+    ]
+  },
+  "tle:235": {
+    "code": "C0278",
+    "setCode": "TLE",
+    "collector": "278",
+    "positions": [
+      19
+    ]
+  }
+}
