@@ -1,0 +1,28 @@
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: transparent;
+  border: 2px solid var(--color-brown);
+  color: var(--color-brown);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.back-button:active {
+  background-color: var(--color-brown);
+  color: var(--color-beige);
+}
+
+@media (hover: hover) {
+  .back-button:hover {
+    background-color: var(--color-brown);
+    color: var(--color-beige);
+  }
+}
